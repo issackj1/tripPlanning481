@@ -1,0 +1,21 @@
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.exe.config
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.exe
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.pdb
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csprojAssemblyReference.cache
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\MainWindow.g.cs
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\App.g.cs
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity_MarkupCompile.cache
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity_MarkupCompile.lref
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\MainWindow.baml
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.g.resources
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.Properties.Resources.resources
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csproj.GenerateResource.cache
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csproj.CoreCompileInputs.cache
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.exe
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.pdb
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Welcome Page.g.cs
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Welcome Page.baml
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\SignUp.g.cs
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\SignUp.baml
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\HomePage.g.cs
+D:\Users\Fernando Bagtas\Documents\Rannie\CPSC 481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\HomePage.baml

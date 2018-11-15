@@ -1,0 +1,25 @@
+﻿<Page x:Class="ExploreYYCHighFidelity.SignUp"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ExploreYYCHighFidelity"
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="600">
+
+    <Grid>
+        <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="0,30,0,0" FontSize="25" Height="39" Click="BackButton_Click"/>
+        <TextBlock x:Name="createBlock" HorizontalAlignment="Center" Margin="0,70,0,0" TextWrapping="Wrap" Text="Create Account" VerticalAlignment="Top" FontSize="65" Foreground="#ffffff"/>
+        <Button x:Name="signUpButton" Content="Sign Up" HorizontalAlignment="Center" VerticalAlignment="Top" Width="130" Margin="0,650,0,0" FontSize="25" Height="39" Click="SignUpButton_Click"/>
+        <TextBlock x:Name="failBlock" HorizontalAlignment="Center" Margin="0,160,0,0" TextWrapping="Wrap" Text="Error! Passwords do not match" VerticalAlignment="Top" FontSize="35" Foreground="#ffffff" Visibility="Hidden"/>
+        <TextBox x:Name="emailBox" HorizontalAlignment="Center" Height="50" Margin="0,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="440" BorderThickness="2" BorderBrush="#000000" Background="#990000" FontSize="35" Foreground="#ffffff"/>
+        <TextBlock x:Name="emailBlock" HorizontalAlignment="Center" Margin="-350,210,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top" FontSize="35" Foreground="#ffffff"/>
+        <TextBox x:Name="userBox" HorizontalAlignment="Center" Height="50" Margin="0,350,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="440" BorderThickness="2" BorderBrush="#000000" Background="#990000" FontSize="35" Foreground="#ffffff"/>
+        <TextBlock x:Name="userBlock" HorizontalAlignment="Center" Margin="-275,310,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" FontSize="35" Foreground="#ffffff"/>
+        <TextBox x:Name="passBox" HorizontalAlignment="Center" Height="50" Margin="0,450,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="440" BorderThickness="2" BorderBrush="#000000" Background="#990000" FontSize="35" Foreground="#ffffff"/>
+        <TextBlock x:Name="passBlock" HorizontalAlignment="Center" Margin="-285,410,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" FontSize="35" Foreground="#ffffff"/>
+        <TextBox x:Name="confirmPassBox" HorizontalAlignment="Center" Height="50" Margin="0,550,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="440" BorderThickness="2" BorderBrush="#000000" Background="#990000" FontSize="35" Foreground="#ffffff"/>
+        <TextBlock x:Name="confirmPassBlock" HorizontalAlignment="Center" Margin="-150,510,0,0" TextWrapping="Wrap" Text="Confirm Password:" VerticalAlignment="Top" FontSize="35" Foreground="#ffffff"/>
+        
+    </Grid>
+</Page>
