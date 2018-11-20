@@ -72,6 +72,7 @@ namespace ExploreYYCHighFidelity
                     Switcher.Switch(signIn);
                     break;
                 case "Homepage":
+                    this.Background = new SolidColorBrush(Colors.White);
                     Switcher.Switch(home);
                     break;
 
