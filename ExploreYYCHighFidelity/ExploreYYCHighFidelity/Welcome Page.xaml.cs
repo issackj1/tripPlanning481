@@ -32,9 +32,6 @@ namespace ExploreYYCHighFidelity
         {
             InitializeComponent();
             MainWindow pz = this.Parent as MainWindow;
-            //pz = this.Parent as MainWindow;
-            //pz.logIncredentials = logIns;
-            //pz.passWordcredentials = passwords;
 
         }
         //What happens when log In button is clicked

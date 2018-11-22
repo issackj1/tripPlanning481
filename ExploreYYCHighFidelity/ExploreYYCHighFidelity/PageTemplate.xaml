@@ -1,4 +1,4 @@
-﻿<Page x:Class="ExploreYYCHighFidelity.HomePage"
+﻿<Page x:Class="ExploreYYCHighFidelity.PageTemplate"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,11 +6,10 @@
       xmlns:local="clr-namespace:ExploreYYCHighFidelity"
       mc:Ignorable="d" 
       d:DesignHeight="731" d:DesignWidth="411"
-      Title="HomePage">
+      Title="PageTemplate">
 
     <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="HomePage" VerticalAlignment="Top" Height="130" Width="400" FontSize="80"/>
-        <Image x:Name="image" HorizontalAlignment="Center" Height="195" Margin="0,300,0,0" VerticalAlignment="Top" Width="181" Source="img/sehaj.jpg"/>
+        <!--Put everything from here up until and not inluding to </Grid> onto the pages where the 4 main buttons -->
         <Button x:Name="calendarButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="-308.25,0,0,0">
             <StackPanel HorizontalAlignment="Center">
                 <Image Source="img/calendar_2.png" Height="75" Width="75" HorizontalAlignment="Center"/>
@@ -35,6 +34,5 @@
                 <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
             </StackPanel>
         </Button>
-
     </Grid>
 </Page>
