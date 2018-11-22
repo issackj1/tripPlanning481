@@ -11,6 +11,30 @@
     <Grid>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="HomePage" VerticalAlignment="Top" Height="130" Width="400" FontSize="80"/>
         <Image x:Name="image" HorizontalAlignment="Center" Height="195" Margin="0,300,0,0" VerticalAlignment="Top" Width="181" Source="img/sehaj.jpg"/>
+        <Button x:Name="calendarButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="-308.25,0,0,0">
+            <StackPanel HorizontalAlignment="Center">
+                <Image Source="img/calendar_2.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="homeButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="-102.75,0,0,0">
+            <StackPanel HorizontalAlignment="Center">
+                <Image Source="img/house.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="eventsButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="102.75,0,0,0">
+            <StackPanel HorizontalAlignment="Center">
+                <Image Source="img/event.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="routesButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="308.25,0,0,0">
+            <StackPanel HorizontalAlignment="Center">
+                <Image Source="img/Map.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+            </StackPanel>
+        </Button>
 
     </Grid>
 </Page>
