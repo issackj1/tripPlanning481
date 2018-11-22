@@ -5,11 +5,11 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ExploreYYCHighFidelity"
       mc:Ignorable="d" 
-      d:DesignHeight="1080" d:DesignWidth="640"
+      d:DesignHeight="731" d:DesignWidth="411"
       Title="HomePage">
 
     <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="HomePage" VerticalAlignment="Top" Height="130" Width="452" FontSize="90"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="HomePage" VerticalAlignment="Top" Height="130" Width="400" FontSize="80"/>
         <Image x:Name="image" HorizontalAlignment="Center" Height="195" Margin="0,300,0,0" VerticalAlignment="Top" Width="181" Source="img/sehaj.jpg"/>
 
     </Grid>

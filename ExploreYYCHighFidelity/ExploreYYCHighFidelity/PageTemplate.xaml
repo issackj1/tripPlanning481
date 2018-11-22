@@ -5,33 +5,33 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ExploreYYCHighFidelity"
       mc:Ignorable="d" 
-      d:DesignHeight="1080" d:DesignWidth="640"
+      d:DesignHeight="731" d:DesignWidth="411"
       Title="PageTemplate">
 
     <Grid>
         <!--Put everything from here up until and not inluding to </Grid> onto the pages where the 4 main buttons -->
-        <Button x:Name="calendarButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="160" Height="150" Margin="-480,0,0,0">
+        <Button x:Name="calendarButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="-309.25,0,0,0">
             <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/calendar_2.png" Height="97" Width="125" HorizontalAlignment="Center"/>
-                <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="20" FontStyle="Italic"/>
+                <Image Source="img/calendar_2.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
             </StackPanel>
         </Button>
-        <Button x:Name="homeButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="160" Height="150" Margin="-160,0,0,0">
+        <Button x:Name="homeButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="-103.75,0,0,0">
             <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/house.png" Height="97" Width="125" HorizontalAlignment="Center"/>
-                <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="20" FontStyle="Italic"/>
+                <Image Source="img/house.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
             </StackPanel>
         </Button>
-        <Button x:Name="eventsButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="160" Height="150" Margin="160,0,0,0">
+        <Button x:Name="eventsButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="103.75,0,0,0">
             <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/event.png" Height="97" Width="125" HorizontalAlignment="Center"/>
-                <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="20" FontStyle="Italic"/>
+                <Image Source="img/event.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
             </StackPanel>
         </Button>
-        <Button x:Name="routesButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="160" Height="150" Margin="480,0,0,0">
+        <Button x:Name="routesButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="309.25,0,0,0">
             <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/Map.png" Height="97" Width="125" HorizontalAlignment="Center"/>
-                <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="20" FontStyle="Italic"/>
+                <Image Source="img/Map.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
             </StackPanel>
         </Button>
     </Grid>

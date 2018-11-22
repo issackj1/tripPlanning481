@@ -5,18 +5,18 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ExploreYYCHighFidelity"
       mc:Ignorable="d" 
-      d:DesignHeight="1080" d:DesignWidth="640">
+      d:DesignHeight="731" d:DesignWidth="411">
 
     <Grid>
-        <Image x:Name="image" HorizontalAlignment="Center" Height="340" VerticalAlignment="Top" Width="340" Margin="0,150,0,0" Source="/img/logo2.png" Visibility="Visible"/>
-        <Button x:Name="logInButton" Content="Log In" HorizontalAlignment="Center" VerticalAlignment="Top" Width="127" Margin="0,880,0,0" FontSize="25" Height="39" Click="LogInButton_Click"/>
-        <TextBox x:Name="userBox" HorizontalAlignment="Left" Height="50" Margin="100,720,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="440" BorderThickness="2" BorderBrush="#000000" Background="#990000" FontSize="35" Foreground="#ffffff"/>
-        <TextBox x:Name="passBox" HorizontalAlignment="Left" Height="50" Margin="100,820,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="440" BorderThickness="2" BorderBrush="#000000" Background="#990000" FontSize="35" Foreground="#ffffff"/>
-        <TextBlock x:Name="userBlock" HorizontalAlignment="Left" Margin="100,680,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" FontSize="35" Foreground="#ffffff"/>
-        <TextBlock x:Name="passBlock" HorizontalAlignment="Left" Margin="100,780,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" FontSize="35" Foreground="#ffffff"/>
-        <TextBlock x:Name="titleBlock" HorizontalAlignment="Center" Margin="0,500,0,0" TextWrapping="Wrap" Text="ExploreYYC" VerticalAlignment="Top" FontSize="80" Foreground="#ffffff"/>
-        <Button x:Name="signUpButton" Content="Sign Up" HorizontalAlignment="Center" VerticalAlignment="Top" Width="128" Margin="0,930,0,0" FontSize="25" Height="39" Click="SignUpButton_Click"/>
-        <TextBlock x:Name="failBlock" HorizontalAlignment="Center" Margin="0,630,0,0" TextWrapping="Wrap" Text="Incorrect Username or password." VerticalAlignment="Top" FontSize="35" Foreground="#ffffff" Visibility="Hidden"/>
+        <Image x:Name="image" HorizontalAlignment="Center" Height="150" VerticalAlignment="Top" Width="150" Margin="0,70,0,0" Source="/img/logo2.png" Visibility="Visible"/>
+        <Button x:Name="logInButton" Content="Log In" HorizontalAlignment="Center" VerticalAlignment="Top" Width="127" Margin="0,600,0,0" FontSize="25" Height="39" Click="LogInButton_Click"/>
+        <TextBox x:Name="userBox" HorizontalAlignment="Center" Height="50" Margin="0,420,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340" BorderThickness="2" BorderBrush="#000000" Background="#990000" FontSize="35" Foreground="#ffffff"/>
+        <TextBox x:Name="passBox" HorizontalAlignment="Center" Height="50" Margin="0,520,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340" BorderThickness="2" BorderBrush="#000000" Background="#990000" FontSize="35" Foreground="#ffffff"/>
+        <TextBlock x:Name="userBlock" HorizontalAlignment="Center" Margin="-175,380,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" FontSize="35" Foreground="#ffffff"/>
+        <TextBlock x:Name="passBlock" HorizontalAlignment="Center" Margin="-190,480,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" FontSize="35" Foreground="#ffffff"/>
+        <TextBlock x:Name="titleBlock" HorizontalAlignment="Center" Margin="0,210,0,0" TextWrapping="Wrap" Text="ExploreYYC" VerticalAlignment="Top" FontSize="70" Foreground="#ffffff"/>
+        <Button x:Name="signUpButton" Content="Sign Up" HorizontalAlignment="Center" VerticalAlignment="Top" Width="127" Margin="0,650,0,0" FontSize="25" Height="39" Click="SignUpButton_Click"/>
+        <TextBlock x:Name="failBlock" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="Incorrect Username or password." VerticalAlignment="Center" FontSize="25" Width="370" Foreground="#ffffff" Visibility="Visible"/>
 
     </Grid>
 </Page>
