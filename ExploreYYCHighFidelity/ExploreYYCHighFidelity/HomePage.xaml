@@ -9,32 +9,61 @@
       Title="HomePage">
 
     <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="HomePage" VerticalAlignment="Top" Height="130" Width="400" FontSize="80"/>
-        <Image x:Name="image" HorizontalAlignment="Center" Height="195" Margin="0,300,0,0" VerticalAlignment="Top" Width="181" Source="img/sehaj.jpg"/>
-        <Button x:Name="calendarButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="-308.25,0,0,0">
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="731" VerticalAlignment="Top" Width="411" Margin="1.5,-30.5,-1.5,0"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="77.5" RadiusY="46" RadiusX="46" VerticalAlignment="Top" Width="411"/>
+        <TextBlock HorizontalAlignment="Left" Height="67.5" Margin="109.5,10,0,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" Width="145.5" FontSize="48" FontWeight="Bold"/>
+        <Ellipse Fill="Black" HorizontalAlignment="Left" Height="23" Margin="351.5,48.5,0,0" VerticalAlignment="Top" Width="31" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="1.188"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse Fill="Black" HorizontalAlignment="Left" Height="14.5" Margin="356.5,38.5,0,0" VerticalAlignment="Top" Width="20.5" Stroke="White"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="94" Margin="40.5,88,0,0" RadiusY="46" RadiusX="46" VerticalAlignment="Top" Width="338" Stroke="#FF0E0E0E"/>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="171.5,112,0,0" TextWrapping="Wrap" Text="Add Event" VerticalAlignment="Top" Width="207" FontSize="36" FontWeight="Bold"/>
+        <Ellipse Fill="#FFDDDDDD" HorizontalAlignment="Left" Height="57" Margin="61.5,112,0,0" Stroke="#FF0E0E0E" VerticalAlignment="Top" Width="75"/>
+        <TextBlock Height="86.5" Margin="76.5,82.5,0,0" TextWrapping="Wrap" Text="+" Width="50.5" FontSize="72" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="10,212.5,0,0" TextWrapping="Wrap" Text="Your events" VerticalAlignment="Top" Width="187.5" FontSize="24" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="25.5,247.5,0,0" TextWrapping="Wrap" Text="Today" VerticalAlignment="Top" Width="187.5" FontSize="20"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="94" Margin="39,277.5,0,0" RadiusY="46" RadiusX="46" VerticalAlignment="Top" Width="338" Stroke="#FF0E0E0E"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="25.5,371.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187.5" FontSize="20"><Run Text="This Week"/><LineBreak/><Run/></TextBlock>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="94" Margin="39,401.5,0,0" RadiusY="46" RadiusX="46" VerticalAlignment="Top" Width="338" Stroke="#FF0E0E0E"/>
+        <TextBlock HorizontalAlignment="Left" Height="94" Margin="76.5,277.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256.5" TextAlignment="Center" FontSize="14"><Run FontWeight="Bold" Text="Event Name"/><LineBreak/><LineBreak/><Run Text="Event Type"/><LineBreak/><Run Text="123 Address St. NW"/><LineBreak/><Run Text="Oct-30     6 P.M - 9 P.M."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="94" Margin="76.5,401.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256.5" TextAlignment="Center" FontSize="14"><Run FontWeight="Bold" Text="Event Name"/><LineBreak/><Run Text=""/><LineBreak/><Run Text="Event Type"/><LineBreak/><Run Text="123 Address St. NW"/><LineBreak/><Run Text="Oct-30     6 P.M - 9 P.M."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="25.5,495.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187.5" FontSize="20"><Run Text="Future events"/><LineBreak/><Run/></TextBlock>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="94" Margin="39,525.5,0,0" RadiusY="46" RadiusX="46" VerticalAlignment="Top" Width="338" Stroke="#FF0E0E0E"/>
+        <TextBlock HorizontalAlignment="Left" Height="94" Margin="76.5,525.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256.5" TextAlignment="Center" FontSize="14"><Run FontWeight="Bold" Text="Event Name"/><LineBreak/><Run Text=""/><LineBreak/><Run Text="Event Type"/><LineBreak/><Run Text="123 Address St. NW"/><LineBreak/><Run Text="Oct-30     6 P.M - 9 P.M."/></TextBlock>
+
+        <Button x:Name="Calendar" Width="102.75" Height="102.75" Margin="0,628.25,308.25,0" HorizontalAlignment="Left" VerticalAlignment="Top">
             <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/calendar_2.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <Image Source="img/calendar_2.png" Height="75" Width="75" HorizontalAlignment="Left" VerticalAlignment="Top"/>
                 <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
             </StackPanel>
         </Button>
-        <Button x:Name="homeButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="-102.75,0,0,0">
-            <StackPanel HorizontalAlignment="Center">
+        <Button x:Name="homeButton" Width="102.75" Height="102.75" Margin="102.75,628.25,205.5,0" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+            <StackPanel HorizontalAlignment="Center" Width="92.75" VerticalAlignment="Bottom">
                 <Image Source="img/house.png" Height="75" Width="75" HorizontalAlignment="Center"/>
                 <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
             </StackPanel>
         </Button>
-        <Button x:Name="eventsButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="102.75,0,0,0">
-            <StackPanel HorizontalAlignment="Center">
+        <Button x:Name="eventsButton" Width="107.75" Height="102.75" Margin="205.5,628.25,97.75,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom">
                 <Image Source="img/event.png" Height="75" Width="75" HorizontalAlignment="Center"/>
                 <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
             </StackPanel>
         </Button>
-        <Button x:Name="routesButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="308.25,0,0,0">
-            <StackPanel HorizontalAlignment="Center">
+        <Button x:Name="routesButton" Width="97.75" Height="102.75" Margin="313.25,628.25,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <StackPanel HorizontalAlignment="Center" Width="78.695">
                 <Image Source="img/Map.png" Height="75" Width="75" HorizontalAlignment="Center"/>
                 <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
             </StackPanel>
         </Button>
+        <Rectangle Fill="#FFDDDDDD" HorizontalAlignment="Left" Height="23.053" Margin="4.5,0,0,0" VerticalAlignment="Top" Width="406.5"/>
 
     </Grid>
 </Page>
+
