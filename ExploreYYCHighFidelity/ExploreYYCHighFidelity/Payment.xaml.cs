@@ -10,19 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace ExploreYYCHighFidelity
 {
     /// <summary>
-    /// Interaction logic for PageTemplate.xaml
+    /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class PageTemplate : Page
+    public partial class Window1 : Window
     {
-        public PageTemplate()
+        public Window1()
         {
-            //InitializeComponent();
+            InitializeComponent();
         }
     }
 }

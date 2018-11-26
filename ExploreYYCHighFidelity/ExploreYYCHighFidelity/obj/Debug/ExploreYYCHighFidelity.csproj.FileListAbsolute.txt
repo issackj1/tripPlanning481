@@ -87,3 +87,30 @@ D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity
 \\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csproj.CoreCompileInputs.cache
 \\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.exe
 \\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.pdb
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.exe.config
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.exe
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.pdb
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csprojResolveAssemblyReference.cache
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\HomePage.g.cs
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\PageTemplate.g.cs
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\SignUp.g.cs
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\MainWindow.g.cs
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Welcome Page.g.cs
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\App.g.cs
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity_MarkupCompile.cache
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity_MarkupCompile.lref
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\HomePage.baml
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\PageTemplate.baml
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\SignUp.baml
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\MainWindow.baml
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Welcome Page.baml
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.g.resources
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.Properties.Resources.resources
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csproj.GenerateResource.Cache
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csproj.CoreCompileInputs.cache
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.exe
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.pdb
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Overview.g.cs
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Payment.g.cs
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Overview.baml
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Payment.baml

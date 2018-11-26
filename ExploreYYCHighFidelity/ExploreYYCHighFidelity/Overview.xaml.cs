@@ -18,11 +18,8 @@ namespace ExploreYYCHighFidelity
     /// <summary>
     /// Interaction logic for PageTemplate.xaml
     /// </summary>
-    public partial class PageTemplate : Page
+    public partial class Overview : Page
     {
-        public PageTemplate()
-        {
-            //InitializeComponent();
-        }
+
     }
 }
