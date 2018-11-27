@@ -17,6 +17,8 @@
         <TextBlock x:Name="titleBlock" HorizontalAlignment="Center" Margin="0,190,0,0" TextWrapping="Wrap" Text="ExploreYYC" VerticalAlignment="Top" FontSize="70" Foreground="#ffffff"/>
         <Button x:Name="signUpButton" Content="Sign Up" HorizontalAlignment="Center" VerticalAlignment="Top" Width="127" Margin="0,610,0,0" FontSize="25" Height="39" Click="SignUpButton_Click"/>
         <TextBlock x:Name="failBlock" HorizontalAlignment="Center" Margin="0,330,0,0" TextWrapping="Wrap" Text="Incorrect Username or password." VerticalAlignment="Top" FontSize="25" Width="380" Foreground="#ffffff" Visibility="Hidden"/>
-
+        <Button x:Name="forgotButton"  Height="39" Width="200" Margin="0,660,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Transparent" Click="forgotButton_Click" >
+            <TextBlock x:Name="forgotBlock" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="Forgot password?" VerticalAlignment="Top" FontSize="25" Width="200" Foreground="#008fb3" TextDecorations="Underline"/>
+        </Button>
     </Grid>
 </Page>
