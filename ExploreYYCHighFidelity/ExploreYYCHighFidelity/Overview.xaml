@@ -14,30 +14,6 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <!--Put everything from here up until and not inluding to </Grid> onto the pages where the 4 main buttons -->
-        <Button x:Name="calendarButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="0,0,308.25,0" Grid.Row="1">
-            <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/calendar_2.png" Height="75" Width="75" HorizontalAlignment="Center"/>
-                <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
-            </StackPanel>
-        </Button>
-        <Button x:Name="homeButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="102.75,0,205.5,0" Grid.Row="1">
-            <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/house.png" Height="75" Width="75" HorizontalAlignment="Center"/>
-                <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
-            </StackPanel>
-        </Button>
-        <Button x:Name="eventsButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="205.5,0,102.75,0" Grid.Row="1">
-            <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/event.png" Height="75" Width="75" HorizontalAlignment="Center"/>
-                <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
-            </StackPanel>
-        </Button>
-        <Button x:Name="routesButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="308.25,0,0,0" Grid.Row="1">
-            <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/Map.png" Height="75" Width="75" HorizontalAlignment="Center"/>
-                <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
-            </StackPanel>
-        </Button>
         <Grid HorizontalAlignment="Left" Height="628.25" VerticalAlignment="Top" Width="411" Background="White" OpacityMask="Black" Margin="0,-3.346,0,0" Grid.RowSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="452*"/>
@@ -50,12 +26,12 @@
             <TextBlock HorizontalAlignment="Left" Height="36.8" Margin="280.997,212.131,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="66.937" FontSize="20" FontWeight="Bold"/>
             <TextBlock HorizontalAlignment="Left" Height="23.419" Margin="20.082,259.275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83.624"><Run FontSize="16" Text="Location "/><Run Text=":"/></TextBlock>
             <TextBlock HorizontalAlignment="Left" Height="23.419" Margin="20.082,301.078,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83.624"><Run FontSize="16" Text="Duration :"/></TextBlock>
-            <Path Data="M107.05721,362.99085 C116.32594,360.11434 159.16752,321.03816 167.27689,334.55378 168.65152,336.84482 170.08286,371.62447 173.96796,369.68192 190.13095,361.60043 196.17493,343.59598 207.42334,329.53547 214.02928,338.34338 215.91672,367.94439 235.86041,357.97254 269.11247,341.34651 241.36105,343.68319 270.98856,349.6087 297.61296,354.93358 321.28527,350.57319 347.93593,344.59039" Fill="White" HorizontalAlignment="Left" Height="12.692" Margin="108.706,301.078,0,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="3" VerticalAlignment="Top" Width="243.879"/>
-            <Path Data="M107.05721,362.99085 C116.32594,360.11434 159.16752,321.03816 167.27689,334.55378 168.65152,336.84482 170.08286,371.62447 173.96796,369.68192 190.13095,361.60043 196.17493,343.59598 207.42334,329.53547 214.02928,338.34338 215.91672,367.94439 235.86041,357.97254 269.11247,341.34651 241.36105,343.68319 270.98856,349.6087 297.61296,354.93358 321.28527,350.57319 347.93593,344.59039" Fill="White" HorizontalAlignment="Left" Height="12.692" Margin="108.706,264.272,0,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="3" VerticalAlignment="Top" Width="243.879"/>
             <Image Source="img/event.png" Width="28.163" HorizontalAlignment="Center" Margin="349.419,259.275,33.418,168.954"/>
             <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2,347.63,-3,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
             <TextBlock HorizontalAlignment="Left" Height="46.838" Margin="60,362.991,0,0" TextWrapping="Wrap" Text="Ticket Information" VerticalAlignment="Top" Width="300.624" FontSize="36"/>
-            <Button Content="NEXT &gt;" HorizontalAlignment="Left" Height="67.904" Margin="-1.5,108.885,-1.5,0" Grid.Row="1" VerticalAlignment="Top" Width="414" FontSize="36" FontWeight="Bold" BorderBrush="Black" Background="#FFF9F9F9" BorderThickness="1,3"/>
+            <Button Content="NEXT &gt;" HorizontalAlignment="Left" Height="121.904" Margin="-1.5,108.885,0,-54" Grid.Row="1" VerticalAlignment="Top" Width="412.5" FontSize="36" FontWeight="Bold" BorderBrush="Black" Background="#FFF9F9F9" BorderThickness="1,3"/>
+            <TextBlock HorizontalAlignment="Left" Height="28.848" Margin="96,262.846,0,0" TextWrapping="Wrap" Text="100 PleaseAplus Road, NW, Calgary" VerticalAlignment="Top" Width="248.419" FontSize="14"/>
+            <TextBlock HorizontalAlignment="Left" Height="22.651" Margin="103.5,303.346,0,0" TextWrapping="Wrap" Text="3 Hours 45 Minutes" VerticalAlignment="Top" Width="160.5" FontSize="14"/>
         </Grid>
         <Grid x:Name="upperNavBar" HorizontalAlignment="Left" Height="108.73" Margin="0,60.17,-27.266,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="438.266">
             <Button Content="Review" HorizontalAlignment="Left" Height="56.874" Margin="309.433,21.732,0,0" VerticalAlignment="Top" Width="94.913" FontSize="24" Background="White" BorderBrush="White"/>

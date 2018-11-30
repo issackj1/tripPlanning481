@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace ExploreYYCHighFidelity
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for PageTemplate.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Payment : Page
     {
-        public Window1()
+        public Payment()
         {
             InitializeComponent();
         }

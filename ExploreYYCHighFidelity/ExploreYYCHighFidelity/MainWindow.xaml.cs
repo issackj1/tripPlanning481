@@ -26,6 +26,8 @@ namespace ExploreYYCHighFidelity
         SignUp signIn = new SignUp();
         Welcome_Page welcome = new Welcome_Page();
         HomePage home = new HomePage();
+        Payment paymentPage = new Payment();
+        Overview overviewPage = new Overview();
 
         public ArrayList logIncredentials = new ArrayList();
         public ArrayList passWordcredentials = new ArrayList();
@@ -43,7 +45,7 @@ namespace ExploreYYCHighFidelity
 
             //connects switcher to this window
             Switcher.pageSwitcher = this;
-            Switcher.Switch(welcome);
+            Switcher.Switch(overviewPage);
 
             welcome.logIns = logIncredentials;
             welcome.passwords = passWordcredentials;

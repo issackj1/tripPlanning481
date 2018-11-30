@@ -20,6 +20,9 @@ namespace ExploreYYCHighFidelity
     /// </summary>
     public partial class Overview : Page
     {
-
+        public Overview()
+        {
+            InitializeComponent();
+        }
     }
 }
