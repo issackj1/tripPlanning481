@@ -44,7 +44,7 @@ namespace ExploreYYCHighFidelity
 
             //connects switcher to this window
             Switcher.pageSwitcher = this;
-            Switcher.Switch(home);
+            Switcher.Switch(eventPage);
 
             welcome.logIns = logIncredentials;
             welcome.passwords = passWordcredentials;

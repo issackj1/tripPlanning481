@@ -18,17 +18,17 @@
 
             <Grid Grid.Row="0">
                 <StackPanel Background="White">
-                <Rectangle Height="20" Fill="#FFDDDDDD"/>
-                <Button Content="&lt; Back" Margin="10,0,343,5" Click="Button_Click" />
-                <TextBlock Text="Event Name" Margin="10,5,0,5" FontSize="20" Foreground="Black" FontWeight="Bold"/>
-                <TextBlock Text="Event type - Open" Margin="10,0,0,10" FontSize="14"/>
-                    <ScrollViewer CanContentScroll="True" Height="463">
+                    <Rectangle Height="20" Fill="#FFE4F4F9"/>
+                    <Button Content="&lt; Back" Margin="10,0,343,5" Click="Button_Click" Background="#FF85AAB6" />
+                    <TextBlock Text="Event Name" Margin="10,5,0,5" FontSize="20" Foreground="Black" FontWeight="Bold"/>
+                    <TextBlock Text="Event type - Open" Margin="10,0,0,10" FontSize="14"/>
+                    <ScrollViewer CanContentScroll="True" Height="463" VerticalScrollBarVisibility="Disabled">
                         <StackPanel>
-                            <Rectangle HorizontalAlignment="Center" Width="322" Height="135" Margin="0,0,0,10" Stroke="Black"/>
+                            <Rectangle HorizontalAlignment="Center" Width="322" Height="135" Margin="0,0,0,10" Stroke="Black" />
                             <TextBlock Text="Date: Oct 30 - Nov 1" FontSize="20" Margin="10,0,0,0"/>
                             <TextBlock Text="Time: 8 A.M - 10 P.M." FontSize="16" Margin="10,0,0,10"/>
                             <TextBlock Text="Description:" FontSize="20" Margin="10,0,0,10" FontWeight="Bold"/>
-                            <Rectangle HorizontalAlignment="Center" Width="322" Height="93" Margin="0,0,0,0" Stroke="#FF040404"/>
+                            <Rectangle HorizontalAlignment="Center" Width="322" Height="93" Margin="0,0,0,0" Stroke="#FF040404" RadiusY="4" RadiusX="4"/>
                             <TextBlock FontSize="20" Margin="10,0,0,0"><Run FontWeight="Bold" Text="Pricing"/><Run Text=":"/></TextBlock>
                             <Grid Margin="34,5,55,10" Background="#FFDDDDDD" OpacityMask="Black">
                                 <Grid.ColumnDefinitions>
@@ -41,19 +41,19 @@
                                     <RowDefinition/>
                                 </Grid.RowDefinitions>
 
-                                <TextBlock Text="Ticket Type" Grid.Column="0" Background="#FF787777"/>
-                                <TextBlock Text="Price" Grid.Column="1" Background="#FF787777"/>
+                                <TextBlock Text="Ticket Type" Grid.Column="0" Background="#FF85AAB6" FontWeight="Bold"/>
+                                <TextBlock Text="Price" Grid.Column="1" Background="#FF85AAB6" FontWeight="Bold"/>
                                 <StackPanel Grid.Column="0" Grid.Row="1">
-                                    <TextBlock Text="Basic"/>
-                                    <TextBlock Text="Floor"/>
+                                    <TextBlock Text="Basic" Background="#FFE4F4F9"/>
+                                    <TextBlock Text="Floor" Background="#FFE4F4F9"/>
                                 </StackPanel>
                                 <StackPanel Grid.Column="1" Grid.Row="1">
-                                    <TextBlock Text="$10"/>
-                                    <TextBlock Text="$30"/>
+                                    <TextBlock Text="$10" Background="#FFE4F4F9"/>
+                                    <TextBlock Text="$30" Background="#FFE4F4F9"/>
                                 </StackPanel>
                             </Grid>
                             <TextBlock Text="Reviews:" FontSize="20" FontWeight="Bold" Margin="10,0,0,0"/>
-                            <ScrollViewer CanContentScroll="True">
+                            <ScrollViewer CanContentScroll="True" VerticalScrollBarVisibility="Disabled">
                                 <StackPanel>
                                     <TextBlock Text="5 stars"/>
                                     <TextBlock Text="5 stars"/>
@@ -65,38 +65,38 @@
 
                         </StackPanel>
                     </ScrollViewer>
-                    <Button Content="Book" HorizontalAlignment="Center" Height="40" Margin="164,0,163,0" Width="84"/>
+                    <Button Content="Book" HorizontalAlignment="Center" Height="40" Margin="164,0,163,0" Width="84" Background="#FFE4F4F9" Click="Button_Click_1"/>
                 </StackPanel>
-        </Grid>
+            </Grid>
 
-        <Grid Grid.Row="1">
+            <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
-                <Button Grid.Column="0" x:Name="Calendar" Width="102.75" Height="103" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Margin="1,2,-1,0">
+                <Button Grid.Column="0" x:Name="calendarButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75">
                     <StackPanel HorizontalAlignment="Center">
-                        <Image Source="img/calendar_2.png" Height="75" Width="75" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                        <Image Source="img/calendar_2.png" Height="75" Width="75" HorizontalAlignment="Center"/>
                         <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
-                <Button Grid.Column="1" x:Name="homeButton" Width="102.75" Height="103" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Row="1">
-                    <StackPanel HorizontalAlignment="Center" Width="92.75" VerticalAlignment="Bottom">
+                <Button Grid.Column="1" x:Name="homeButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75">
+                    <StackPanel HorizontalAlignment="Center">
                         <Image Source="img/house.png" Height="75" Width="75" HorizontalAlignment="Center"/>
                         <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
-                <Button Grid.Column="2" x:Name="eventsButton" Width="102" Height="103" Margin="0,2,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1">
-                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                <Button Grid.Column="2" x:Name="eventsButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75">
+                    <StackPanel HorizontalAlignment="Center">
                         <Image Source="img/event.png" Height="75" Width="75" HorizontalAlignment="Center"/>
                         <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
-                <Button Grid.Column="3" x:Name="routesButton" Width="102.75" Height="103" Margin="0,2.25,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1">
-                    <StackPanel HorizontalAlignment="Center" Width="78.695">
+                <Button Grid.Column="3" x:Name="routesButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75">
+                    <StackPanel HorizontalAlignment="Center">
                         <Image Source="img/Map.png" Height="75" Width="75" HorizontalAlignment="Center"/>
                         <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
