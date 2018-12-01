@@ -49,7 +49,7 @@ namespace ExploreYYCHighFidelity
                 pz.AddCredentials(userBox.Text, passBox.Text, emailBox.Text);
 
                 SwitchEventArgs switchArgs = new SwitchEventArgs();
-                switchArgs.Page = "Homepage";
+                switchArgs.Page = "EventPage";
 
                 if (this.pageSwitchHandler != null)
                     this.pageSwitchHandler(this, switchArgs);
