@@ -8,7 +8,7 @@
       d:DesignHeight="731" d:DesignWidth="411"
       Title="EventPage">
 
-    <StackPanel x:Name="Eventpage" Height="731" Width="411">
+    <StackPanel x:Name="Eventpage" Height="731" Width="411" Background="White">
 
         <Grid Height="731" Width="411">
             <Grid.RowDefinitions>
@@ -17,18 +17,25 @@
             </Grid.RowDefinitions>
 
             <Grid Grid.Row="0">
-                <StackPanel Background="White">
+                <StackPanel>
                     <Rectangle Height="20" Fill="#FFE4F4F9"/>
-                    <Button Content="&lt; Back" Margin="10,0,343,5" Click="Button_Click" Background="#FF85AAB6" />
+                    <Button Content="&lt; Back" Margin="10,0,331,5" Click="Button_Click" Background="#FF85AAB6" Height="22.96" />
                     <TextBlock Text="Event Name" Margin="10,5,0,5" FontSize="20" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock Text="Event type - Open" Margin="10,0,0,10" FontSize="14"/>
-                    <ScrollViewer CanContentScroll="True" Height="463" VerticalScrollBarVisibility="Disabled">
+                    <TextBlock Text="Ratings" FontSize="10" Foreground="Black" Margin="10,0,0,0"/>
+                    <TextBlock Text="Event type - Paid" Margin="10,0,0,10" FontSize="14"/>
+                    <ScrollViewer CanContentScroll="True" Height="444" VerticalScrollBarVisibility="Disabled">
                         <StackPanel>
-                            <Rectangle HorizontalAlignment="Center" Width="322" Height="135" Margin="0,0,0,10" Stroke="Black" />
+                            <Image Width="300">
+                                <Image.Source>
+                                    <ImageSource>this.jpeg</ImageSource>
+                                </Image.Source>
+                            </Image>
                             <TextBlock Text="Date: Oct 30 - Nov 1" FontSize="20" Margin="10,0,0,0"/>
-                            <TextBlock Text="Time: 8 A.M - 10 P.M." FontSize="16" Margin="10,0,0,10"/>
+                            <TextBlock Text="Time: 8 A.M - 10 P.M." FontSize="16" Margin="10,0,0,10" Width="378"/>
                             <TextBlock Text="Description:" FontSize="20" Margin="10,0,0,10" FontWeight="Bold"/>
-                            <Rectangle HorizontalAlignment="Center" Width="322" Height="93" Margin="0,0,0,0" Stroke="#FF040404" RadiusY="4" RadiusX="4"/>
+                            <Border BorderBrush="Black" CornerRadius="5" Height="106" Margin="38,0,66,10" BorderThickness="1">
+                                <TextBlock TextWrapping="Wrap" Width="294" Margin="5,5,5,-1" Text="Canadian director and actor Rebecca Northan directs Alberta Theatre Projects' latest adventure. In Zorro: Family Code, the masked crusader heads to a Spanish town in pursuit of Captán Juan Ramon, who has recently broken out of prison. But along the way, Zorro comes across something unexpected: another &quot;Zorro.&quot;"/>
+                            </Border>
                             <TextBlock FontSize="20" Margin="10,0,0,0"><Run FontWeight="Bold" Text="Pricing"/><Run Text=":"/></TextBlock>
                             <Grid Margin="34,5,55,10" Background="#FFDDDDDD" OpacityMask="Black">
                                 <Grid.ColumnDefinitions>
@@ -45,11 +52,11 @@
                                 <TextBlock Text="Price" Grid.Column="1" Background="#FF85AAB6" FontWeight="Bold"/>
                                 <StackPanel Grid.Column="0" Grid.Row="1">
                                     <TextBlock Text="Basic" Background="#FFE4F4F9"/>
-                                    <TextBlock Text="Floor" Background="#FFE4F4F9"/>
+                                    <TextBlock Text="Front row" Background="#FFE4F4F9"/>
                                 </StackPanel>
                                 <StackPanel Grid.Column="1" Grid.Row="1">
-                                    <TextBlock Text="$10" Background="#FFE4F4F9"/>
                                     <TextBlock Text="$30" Background="#FFE4F4F9"/>
+                                    <TextBlock Text="$50" Background="#FFE4F4F9"/>
                                 </StackPanel>
                             </Grid>
                             <TextBlock Text="Reviews:" FontSize="20" FontWeight="Bold" Margin="10,0,0,0"/>
@@ -65,7 +72,7 @@
 
                         </StackPanel>
                     </ScrollViewer>
-                    <Button Content="Book" HorizontalAlignment="Center" Height="40" Margin="164,0,163,0" Width="84" Background="#FFE4F4F9" Click="Button_Click_1"/>
+                    <Button Content="Book" HorizontalAlignment="Center" Height="40" Margin="146,10,160,0" Width="105" Background="#FFE4F4F9" Click="Button_Click_1"/>
                 </StackPanel>
             </Grid>
 
