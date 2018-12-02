@@ -13,3 +13,20 @@ C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\Final\Calendar\Calendar\obj\Debug\Cal
 C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\Final\Calendar\Calendar\obj\Debug\Calendar.csproj.CoreCompileInputs.cache
 C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\Final\Calendar\Calendar\obj\Debug\Calendar.exe
 C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\Final\Calendar\Calendar\obj\Debug\Calendar.pdb
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\bin\Debug\Calendar.exe.config
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\bin\Debug\Calendar.exe
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\bin\Debug\Calendar.pdb
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\Calendar.csprojAssemblyReference.cache
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\MainWindow.g.cs
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\App.g.cs
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\Calendar_MarkupCompile.cache
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\Calendar_MarkupCompile.lref
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\MainWindow.baml
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\Calendar.g.resources
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\Calendar.Properties.Resources.resources
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\Calendar.csproj.GenerateResource.cache
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\Calendar.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\Calendar.exe
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\Calendar.pdb
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\Simple Styles.baml
+C:\Users\kevin\Documents\Y3T1\CPSC 481\Ass\P2\git\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Calendar\Calendar\obj\Debug\App.baml
