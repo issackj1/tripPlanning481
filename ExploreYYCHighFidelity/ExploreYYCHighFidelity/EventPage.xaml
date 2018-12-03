@@ -73,17 +73,17 @@
         </Style>
     </Page.Resources>
 
-    <StackPanel x:Name="Eventpage" Height="731" Width="411" Background="White">
+    <StackPanel x:Name="Eventpage" Width="411" Background="White">
 
-        <Grid Height="731" Width="411">
+        <Grid Height="731">
             <Grid.RowDefinitions>
-                <RowDefinition Height="6*"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="628*"/>
+                <RowDefinition Height="100*"/>
             </Grid.RowDefinitions>
 
-            <Grid Grid.Row="0">
+            <Grid Grid.Row="0" Margin="0,0,0,5">
                 <StackPanel>
-                    <Rectangle Height="20" Fill="#FFE4F4F9"/>
+                    <Rectangle Height="20" Fill="#FFE4F4F9" VerticalAlignment="Top"/>
                     <Button Content="&lt; Back" Margin="0,0,348,5" Click="Button_Click" Background="{x:Null}" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" />
                     <TextBlock Text="Event Name" Margin="10,5,0,5" FontSize="20" Foreground="Black" FontWeight="Bold"/>
                     <TextBlock Text="4.5/5 stars" FontSize="10" Foreground="Black" Margin="10,0,0,0"/>
@@ -103,11 +103,11 @@
                                     </Image.Source>
                                 </Image>
                             </Border>
-                            <TextBlock Text="Date: Oct 30 - Nov 1" FontSize="20" Margin="10,0,0,0"/>
-                            <TextBlock Text="Time: 8 A.M - 10 P.M." FontSize="16" Margin="10,0,0,10" Width="378"/>
+                            <TextBlock FontSize="20" Margin="10,0,0,0"><Run FontWeight="Bold" Text="Date"/><Run Text=": Oct 30 - Nov 1"/></TextBlock>
+                            <TextBlock FontSize="16" Margin="10,0,0,10" Width="378"><Run FontWeight="Bold" Text="Time"/><Run Text=": 8 A.M - 10 P.M."/></TextBlock>
                             <TextBlock Text="Description:" FontSize="20" Margin="10,0,0,5" FontWeight="Bold"/>
-                            <Border BorderBrush="Black" CornerRadius="5" Height="110" Margin="31,0,66,5" BorderThickness="0">
-                                <TextBlock TextWrapping="Wrap" Width="312" Margin="2,0,5,-1" Text="Canadian director and actor Rebecca Northan directs Alberta Theatre Projects' latest adventure. In Zorro: Family Code, the masked crusader heads to a Spanish town in pursuit of Captán Juan Ramon, who has recently broken out of prison. But along the way, Zorro comes across something unexpected: another &quot;Zorro.&quot;"/>
+                            <Border BorderBrush="Black" CornerRadius="5" Height="110" Margin="31,0,50,5" BorderThickness="0" Width="339">
+                                <TextBlock TextWrapping="Wrap" Width="336" Margin="2,0,5,-1" Text="Canadian director and actor Rebecca Northan directs Alberta Theatre Projects' latest adventure. In Zorro: Family Code, the masked crusader heads to a Spanish town in pursuit of Captán Juan Ramon, who has recently broken out of prison. But along the way, Zorro comes across something unexpected: another &quot;Zorro.&quot;"/>
                             </Border>
                             <TextBlock FontSize="20" Margin="10,0,0,0"><Run FontWeight="Bold" Text="Pricing"/><Run Text=":"/></TextBlock>
                             <Grid Margin="34,5,55,10" Background="#FFDDDDDD" OpacityMask="Black" RenderTransformOrigin="0.5,0.5">
@@ -142,7 +142,11 @@
                             </Grid>
                             <TextBlock Text="Reviews:" FontSize="20" FontWeight="Bold" Margin="10,0,0,0"/>
                             <ScrollViewer CanContentScroll="True" VerticalScrollBarVisibility="Disabled">
-                                <StackPanel>
+                                <StackPanel HorizontalAlignment="Left">
+                                    <TextBlock Text="Issack John" Margin="10,0,0,0" FontWeight="Bold"/>
+                                    <TextBlock Text="Jan 2017 5 stars" Margin="15,0,0,0" FontWeight="Bold"/>
+                                    <TextBlock TextWrapping="Wrap" Width="200" Text="A wonderful show, went with my wife and we all enjoyed it!" Margin="15,2,0,0" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                                    <TextBlock Text="5 stars"/>
                                     <TextBlock Text="5 stars"/>
                                     <TextBlock Text="5 stars"/>
                                     <TextBlock Text="5 stars"/>
@@ -153,39 +157,39 @@
 
                         </StackPanel>
                     </ScrollViewer>
-                    <Button Content="Book" HorizontalAlignment="Center" Height="40" Width="105" Background="#FFE4F4F9" Click="Button_Click_1" FontSize="20" Margin="0,5,0,0" Style="{DynamicResource ButtonStyle1}"/>
+                    <Button FontStyle="Italic" Content="Book" HorizontalAlignment="Center" Height="40" Width="105" Background="#FFE4F4F9" Click="Button_Click_1" FontSize="20" Margin="0,5,0,0" Style="{DynamicResource ButtonStyle1}"/>
                 </StackPanel>
             </Grid>
 
-            <Grid Grid.Row="1">
+            <Grid Grid.Row="1" Width="411">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Button Grid.Column="0" x:Name="calendarButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75">
+                <Button Grid.Column="0" x:Name="calendarButton">
                     <StackPanel HorizontalAlignment="Center">
-                        <Image Source="img/calendar_2.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                        <Image Source="img/calendar_2.png" Height="60" Width="60" HorizontalAlignment="Center"/>
                         <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
-                <Button Grid.Column="1" x:Name="homeButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75">
-                    <StackPanel HorizontalAlignment="Center">
-                        <Image Source="img/house.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <Button Grid.Column="1" x:Name="homeButton">
+                    <StackPanel>
+                        <Image Source="img/house.png" Height="60" Width="60" HorizontalAlignment="Center"/>
                         <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
-                <Button Grid.Column="2" x:Name="eventsButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75">
+                <Button Grid.Column="2" x:Name="eventsButton" >
                     <StackPanel HorizontalAlignment="Center">
-                        <Image Source="img/event.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                        <Image Source="img/event.png" Height="60" Width="60" HorizontalAlignment="Center"/>
                         <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
-                <Button Grid.Column="3" x:Name="routesButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75">
+                <Button Grid.Column="3" x:Name="routesButton">
                     <StackPanel HorizontalAlignment="Center">
-                        <Image Source="img/Map.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                        <Image Source="img/Map.png" Height="60" Width="60" HorizontalAlignment="Center"/>
                         <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
