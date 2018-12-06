@@ -91,3 +91,28 @@ D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity
 D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Forgot Page.baml
 \\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Forgot Page.g.cs
 \\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Forgot Page.baml
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.exe.config
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.exe
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.pdb
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csprojResolveAssemblyReference.cache
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Forgot Page.g.cs
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\HomePage.g.cs
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\PageTemplate.g.cs
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\SignUp.g.cs
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\MainWindow.g.cs
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Welcome Page.g.cs
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\App.g.cs
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity_MarkupCompile.cache
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity_MarkupCompile.lref
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Forgot Page.baml
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\HomePage.baml
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\PageTemplate.baml
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\SignUp.baml
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\MainWindow.baml
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Welcome Page.baml
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.g.resources
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.Properties.Resources.resources
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csproj.GenerateResource.Cache
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csproj.CoreCompileInputs.cache
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.exe
+C:\Users\fernando.bagtas\source\repos\tripPlanning481-fernando2\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.pdb
