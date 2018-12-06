@@ -103,7 +103,7 @@
                                     </Image.Source>
                                 </Image>
                             </Border>
-                            <TextBlock FontSize="20" Margin="10,0,0,0"><Run FontWeight="Bold" Text="Date"/><Run Text=": Oct 30 - Nov 1"/></TextBlock>
+                            <TextBlock FontSize="20" Margin="10,0,0,0"><Run FontWeight="Bold" Text="Datee"/><Run Text=": Oct 30 - Nov 1"/></TextBlock>
                             <TextBlock FontSize="16" Margin="10,0,0,10" Width="378"><Run FontWeight="Bold" Text="Time"/><Run Text=": 8 A.M - 10 P.M."/></TextBlock>
                             <TextBlock Text="Description:" FontSize="20" Margin="10,0,0,5" FontWeight="Bold"/>
                             <Border BorderBrush="Black" CornerRadius="5" Height="110" Margin="31,0,50,5" BorderThickness="0" Width="339">
