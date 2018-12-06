@@ -16,15 +16,23 @@ using System.Windows.Shapes;
 namespace ExploreYYCHighFidelity
 {
     /// <summary>
-    /// Interaction logic for HomePage.xaml
+    /// Interaction logic for Page1.xaml
     /// </summary>
-    public partial class HomePage : Page
+    public partial class EventPage : Page
     {
-        public event EventHandler pageSwitchHandler;
-
-        public HomePage()
+        public EventPage()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

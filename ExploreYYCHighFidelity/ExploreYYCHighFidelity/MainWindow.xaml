@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ExploreYYCHighFidelity"
         mc:Ignorable="d"
-        Title="MainWindow" Height="731" Width="411" Background="#cc0000" WindowStyle="None">
+        Title="MainWindow" Height="731" Width="411" Background="#cc0000" WindowStyle="None" ResizeMode="NoResize">
     <Grid>
         
     </Grid>

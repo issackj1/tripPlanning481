@@ -61,6 +61,9 @@
     <Compile Include="HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EventPage.xaml.cs">
+      <DependentUpon>EventPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PageTemplate.xaml.cs">
       <DependentUpon>PageTemplate.xaml</DependentUpon>
     </Compile>
@@ -77,6 +80,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="HomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EventPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -150,6 +157,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img\event.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\profile_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
