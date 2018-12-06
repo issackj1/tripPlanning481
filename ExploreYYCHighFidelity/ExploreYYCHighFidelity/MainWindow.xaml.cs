@@ -26,6 +26,7 @@ namespace ExploreYYCHighFidelity
         SignUp signIn = new SignUp();
         Welcome_Page welcome = new Welcome_Page();
         HomePage home = new HomePage();
+        Forgot_Page forgot = new Forgot_Page();
 
         public ArrayList logIncredentials = new ArrayList();
         public ArrayList passWordcredentials = new ArrayList();
@@ -39,6 +40,7 @@ namespace ExploreYYCHighFidelity
             welcome.pageSwitchHandler += Page_ButtonClick;
             signIn.pageSwitchHandler += Page_ButtonClick;
             home.pageSwitchHandler += Page_ButtonClick;
+            forgot.pageSwitchHandler += Page_ButtonClick;
 
 
             //connects switcher to this window
@@ -47,6 +49,7 @@ namespace ExploreYYCHighFidelity
 
             welcome.logIns = logIncredentials;
             welcome.passwords = passWordcredentials;
+            forgot.emails = emailCredentials;
 
             SignUp.pz = this;
 
@@ -74,6 +77,11 @@ namespace ExploreYYCHighFidelity
                 case "Homepage":
                     this.Background = new SolidColorBrush(Colors.White);
                     Switcher.Switch(home);
+                    break;
+                case "Forgot":
+                    forgot.confirmBlock.Visibility = Visibility.Hidden;
+                    forgot.emailBox.Text = "";
+                    Switcher.Switch(forgot);
                     break;
 
             }
