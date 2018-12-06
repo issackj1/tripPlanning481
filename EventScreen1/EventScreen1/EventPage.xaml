@@ -1,0 +1,97 @@
+﻿<Page x:Class="EventScreen1.EventPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EventScreen1"
+      mc:Ignorable="d" 
+      d:DesignHeight="731" d:DesignWidth="411"
+      Title="EventPage">
+
+    <Border Padding="20">
+        <StackPanel>
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+
+                <TextBox Margin="0 0 10 20" Grid.Column="0" Height="23" TextWrapping="Wrap" Text="Search" TextSearch.Text="Search"/>
+                <Button Margin="10 0 0 20" Grid.Column="1" Content="Filter"/>
+            </Grid>
+
+            <Menu Height="50" HorizontalAlignment="Center" Margin="2,0,2.8,0" Width="360">
+                <MenuItem Height="50" Width="90">
+                    <MenuItem.Header>
+                        <TextBlock Text="Popular" TextDecorations="Underline" VerticalAlignment="Center"  />
+                    </MenuItem.Header>
+                </MenuItem>
+
+                <MenuItem Height="50" Width="90">
+                    <MenuItem.Header>
+                        <TextBlock Text="Upcoming" VerticalAlignment="Center" />
+                    </MenuItem.Header>
+                </MenuItem>
+
+                <MenuItem Height="50" Width="90">
+                    <MenuItem.Header>
+                        <TextBlock Text="Nearby" VerticalAlignment="Center" />
+                    </MenuItem.Header>
+                </MenuItem>
+
+                <MenuItem Height="50" Width="90">
+                    <MenuItem.Header>
+                        <TextBlock Text="Bookmarked"  VerticalAlignment="Center" />
+                    </MenuItem.Header>
+                </MenuItem>
+
+
+
+
+            </Menu>
+            <StackPanel>
+                <Button Margin="10,10,10,10" Width="320">
+                    <Button.Background>
+                        <ImageBrush ImageSource="concert.jpg" Stretch="UniformToFill"/>
+                    </Button.Background>
+                    <TextBlock Foreground="White" ><Run Text="Event Name"/><LineBreak/><Run Text="★★★☆☆(2) - event type"/><LineBreak/><Run Text="Oct 30 to Nov 15"/><LineBreak/><Run Text="123 Address St."/></TextBlock>
+                </Button>
+
+                <Button Margin="10,10,10,10" Width="320">
+                    <Button.Background>
+                        <ImageBrush Stretch="UniformToFill" ImageSource="parade.jpeg"/>
+                    </Button.Background>
+                    <TextBlock Foreground="White" ><Run Text="Event Name"/><LineBreak/><Run Text="★★★☆☆(2) - event type"/><LineBreak/><Run Text="Oct 30 to Nov 15"/><LineBreak/><Run Text="123 Address St."/></TextBlock>
+                </Button>
+
+                <Button Margin="10,10,10,10" Width="320">
+                    <Button.Background>
+                        <ImageBrush Stretch="UniformToFill" ImageSource="rodeo.jpg"/>
+                    </Button.Background>
+                    <TextBlock Foreground="White" ><Run Text="Event Name"/><LineBreak/><Run Text="★★★☆☆(2) - event type"/><LineBreak/><Run Text="Oct 30 to Nov 15"/><LineBreak/><Run Text="123 Address St."/></TextBlock>
+                </Button>
+
+                <Button Margin="10,10,10,10" Width="320">
+                    <Button.Background>
+                        <ImageBrush Stretch="UniformToFill" ImageSource="tower.jpg"/>
+                    </Button.Background>
+                    <TextBlock ><Run Foreground="#FFFCFCFC" Text="Event Name"/><LineBreak/><Run Foreground="#FFFCFCFC" Text="★★★☆☆(2) - event type"/><LineBreak/><Run Foreground="#FFFCFCFC" Text="Oct 30 to Nov 15"/><LineBreak/><Run Foreground="#FFFCFCFC" Text="123 Address "/><Run Text="St."/></TextBlock>
+                </Button>
+
+                <Button Margin="10,10,10,10" Width="320">
+                    <Button.Background>
+                        <ImageBrush Stretch="UniformToFill" ImageSource="zoolights.jpg"/>
+                    </Button.Background>
+                    <TextBlock Foreground="#FFFCFCFC" ><Run Text="Event Name"/><LineBreak/><Run Text="★★★☆☆(2) - event type"/><LineBreak/><Run Text="Oct 30 to Nov 15"/><LineBreak/><Run Text="123 "/><Run Text="Address "/><Run Text="St."/></TextBlock>
+                </Button>
+
+                <Button Content="More" Width="100" Margin="10,10,10,10"/>
+            </StackPanel>
+
+
+        </StackPanel>
+
+    </Border>
+</Page>
