@@ -11,39 +11,37 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="0*"/>
-            <RowDefinition Height="558*"/>
-            <RowDefinition Height="173*"/>
+            <RowDefinition Height="588*"/>
+            <RowDefinition Height="143*"/>
         </Grid.RowDefinitions>
         <!--Put everything from here up until and not inluding to </Grid> onto the pages where the 4 main buttons -->
-        <Grid x:Name="whiteBackground" HorizontalAlignment="Left" Height="628.25" VerticalAlignment="Top" Width="411" Background="White" OpacityMask="Black" Margin="0,-3.346,0,0" Grid.RowSpan="3">
+        <Grid x:Name="whiteBackground" HorizontalAlignment="Left" Height="628.25" VerticalAlignment="Top" Width="411" Background="White" OpacityMask="Black" Margin="0,-1.846,0,0" Grid.RowSpan="3">
             <Grid.RowDefinitions>
                 <RowDefinition Height="491*"/>
                 <RowDefinition Height="137*"/>
             </Grid.RowDefinitions>
             <Button Content="Back" HorizontalAlignment="Left" Height="33.456" Margin="38.468,46.836,0,0" VerticalAlignment="Top" Width="58.546" BorderBrush="White" Background="White" FontSize="18"/>
             <Button Content="&lt;" HorizontalAlignment="Left" Height="33.456" Margin="15.067,45.163,0,0" VerticalAlignment="Top" Width="23.418" BorderBrush="White" Background="White" FontSize="20" FontWeight="Bold"/>
-            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2,347.63,-3,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
-            <TextBlock HorizontalAlignment="Left" Height="46.838" Margin="19,362.991,0,0" TextWrapping="Wrap" Text="Current Billing Address" VerticalAlignment="Top" Width="374" FontSize="36"/>
-            <Button Content="NEXT &gt;" HorizontalAlignment="Left" Height="135.404" Margin="-1.5,71.218,-3,-69.567" VerticalAlignment="Top" Width="415.5" FontSize="36" FontWeight="Bold" BorderBrush="Black" Background="#FFF9F9F9" BorderThickness="1,3" Grid.Row="1"/>
-            <TextBlock HorizontalAlignment="Left" Height="61.285" Margin="63.968,145.846,0,0" TextWrapping="Wrap" Text="Payment Information" VerticalAlignment="Top" Width="284.117" FontSize="30"/>
-            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2,205.13,-3,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
-            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2,263.63,-3,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
-            <Path Data="M163.5,205.846 L163.5,263.63" Fill="#FF040405" HorizontalAlignment="Left" Height="62.784" Margin="203.5,203.846,0,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="5"/>
-            <Path Data="M163.5,205.846 L163.5,263.63" Fill="#FF040405" HorizontalAlignment="Left" Height="62.784" Margin="313,203.846,0,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="5"/>
-            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="0,208.846,0,0" TextWrapping="Wrap" Text="Credit Card Number:" VerticalAlignment="Top" Width="148.5"/>
-            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="210,208.846,0,0" TextWrapping="Wrap" Text="Expiration:" VerticalAlignment="Top" Width="61.5"/>
-            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="322.5,208.846,0,0" TextWrapping="Wrap" Text="CVV:" VerticalAlignment="Top" Width="61.5"/>
-            <TextBlock HorizontalAlignment="Left" Height="30.335" Margin="10,424.846,0,0" TextWrapping="Wrap" Text="John Smith" VerticalAlignment="Top" Width="183.5" FontSize="20" FontWeight="Bold"/>
-            <Button Content="Change" HorizontalAlignment="Left" Height="30.335" Margin="255,424.846,0,0" VerticalAlignment="Top" Width="106.5" FontSize="16"/>
-            <TextBlock HorizontalAlignment="Left" Height="64.5" Margin="10,466.846,0,0" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="237.5" FontSize="14"><Run Text="123 4th Street SW, Calgary, AB"/><LineBreak/><Run Text="A1B 2C3"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="56.855" Margin="17.5,317.991,0,0" TextWrapping="Wrap" Text="Current Billing Address" VerticalAlignment="Top" Width="374" FontSize="37"/>
+            <Button Content="NEXT &gt;" HorizontalAlignment="Left" Height="106.904" Margin="-1.5,99.718,-3,-69.567" VerticalAlignment="Top" Width="415.5" FontSize="36" FontWeight="Bold" BorderBrush="Black" Background="#FFF9F9F9" BorderThickness="1,3" Grid.Row="1"/>
+            <TextBlock HorizontalAlignment="Left" Height="61.285" Margin="29.468,147.346,0,0" TextWrapping="Wrap" Text="Payment Information" VerticalAlignment="Top" Width="354.532" FontSize="37"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2,229.13,-3,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2,287.63,-3,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
+            <Path Data="M163.5,205.846 L163.5,263.63" Fill="#FF040405" HorizontalAlignment="Left" Height="62.784" Margin="203.5,227.846,0,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="5"/>
+            <Path Data="M163.5,205.846 L163.5,263.63" Fill="#FF040405" HorizontalAlignment="Left" Height="62.784" Margin="313,227.846,0,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="5"/>
+            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="0,232.846,0,0" TextWrapping="Wrap" Text="Credit Card Number:" VerticalAlignment="Top" Width="148.5"/>
+            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="210,232.846,0,0" TextWrapping="Wrap" Text="Expiration:" VerticalAlignment="Top" Width="61.5"/>
+            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="322.5,232.846,0,0" TextWrapping="Wrap" Text="CVV:" VerticalAlignment="Top" Width="61.5"/>
+            <TextBlock HorizontalAlignment="Left" Height="30.335" Margin="10,418.846,0,0" TextWrapping="Wrap" Text="John Smith" VerticalAlignment="Top" Width="183.5" FontSize="24" FontWeight="Bold"/>
+            <Button Content="Change" HorizontalAlignment="Left" Height="30.335" Margin="277.5,424.387,0,0" VerticalAlignment="Top" Width="106.5" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="79.5" Margin="10,460.181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262.5" FontSize="18" Grid.RowSpan="2"><Run Text="123 4th Street SW, Calgary, AB"/><LineBreak/><Run Text="A1B 2C3"/></TextBlock>
         </Grid>
         <Grid x:Name="upperNavBar" HorizontalAlignment="Left" Height="108.73" Margin="0,60.17,-27.266,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="438.266">
-            <Button Content="Review" HorizontalAlignment="Left" Height="56.874" Margin="309.433,21.732,0,0" VerticalAlignment="Top" Width="94.913" FontSize="24" Background="White" BorderBrush="White"/>
-            <Button Content="Payment" HorizontalAlignment="Left" Height="56.874" Margin="162.25,21.732,0,0" VerticalAlignment="Top" Width="110.402" FontSize="24" Background="White" BorderBrush="White" FontWeight="Bold"/>
-            <Path Data="M46.837529,232.51487 L194.04119,232.51487" Fill="Red" HorizontalAlignment="Left" Height="2" Margin="167.394,66.888,0,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="100" StrokeThickness="5"/>
-            <Button Content="Overview  " HorizontalAlignment="Left" Height="35.138" Margin="11.707,31.769,0,0" VerticalAlignment="Top" Width="110.402" FontSize="24" Background="White" BorderBrush="White"/>
-            <TextBlock HorizontalAlignment="Left" Height="80" Margin="128.796,16.713,0,0" TextWrapping="Wrap" Text="&gt;" VerticalAlignment="Top" Width="38.473" FontSize="48" FontStretch="UltraExpanded" FontWeight="Bold"/>
-            <TextBlock HorizontalAlignment="Left" Height="80" Margin="276.02,16.713,0,0" TextWrapping="Wrap" Text="&gt;" VerticalAlignment="Top" Width="38.473" FontSize="48" FontStretch="UltraExpanded" FontWeight="Bold"/>
+            <Button Content="Review" HorizontalAlignment="Left" Height="56.874" Margin="309.433,26.232,0,0" VerticalAlignment="Top" Width="94.913" FontSize="22" Background="{x:Null}" BorderBrush="White"/>
+            <Button Content="Payment" HorizontalAlignment="Left" Height="56.874" Margin="160.75,24.732,0,0" VerticalAlignment="Top" Width="110.402" FontSize="26" Background="{x:Null}" BorderBrush="White" FontWeight="Bold" Foreground="#FF00C912"/>
+            <Button Content="Overview&#xD;&#xA;" HorizontalAlignment="Left" Height="35.138" Margin="8.707,37.769,0,0" VerticalAlignment="Top" Width="110.402" FontSize="22" Background="{x:Null}" BorderBrush="White"/>
+            <TextBlock HorizontalAlignment="Left" Height="80" Margin="118.296,19.713,0,0" TextWrapping="Wrap" Text="&gt;" VerticalAlignment="Top" Width="38.473" FontSize="48" FontStretch="UltraExpanded" FontWeight="Bold"/>
+            <TextBlock HorizontalAlignment="Left" Height="80" Margin="282.02,19.713,0,0" TextWrapping="Wrap" Text="&gt;" VerticalAlignment="Top" Width="38.473" FontSize="48" FontStretch="UltraExpanded" FontWeight="Bold"/>
         </Grid>
     </Grid>
 </Page>
