@@ -99,7 +99,7 @@
                                 </Border.Background>
                                 <Image Width="300" Margin="0,1">
                                     <Image.Source>
-                                        <ImageSource>this.jpeg</ImageSource>
+                                        <ImageSource>img/zorophoto.jpg</ImageSource>
                                     </Image.Source>
                                 </Image>
                             </Border>
