@@ -30,40 +30,46 @@
                 <StackPanel Height="432" Width="401" Margin="10 0 0 0">
                     <TextBlock x:Name="YourEvents" HorizontalAlignment="Left" Height="30" Margin="0,0,0,5" TextWrapping="Wrap" Text="Your Events" VerticalAlignment="Top" Width="188" FontSize="24" FontWeight="Bold"/>
                     <TextBlock x:Name="Today" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" Text="Today" VerticalAlignment="Top" Width="178" FontSize="20"/>
-                    <StackPanel>
-                        <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" Margin="38,0,66,0" BorderThickness="1">
-                            <StackPanel HorizontalAlignment="Center">
-                                <TextBlock Text="Zorro: Family Code" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
-                                <TextBlock Text="rating goes here" FontSize="10" HorizontalAlignment="Center"/>
-                                <TextBlock Text="Martha Cohen Theatre, Arts Commons" HorizontalAlignment="Center" FontSize="10"/>
-                                <TextBlock Text="205 8 Ave. S.E. Calgary, AB" HorizontalAlignment="Center"/>
-                                <TextBlock Text="Dec 11       6:30 P.M. - 8:30 P.M." HorizontalAlignment="Center" FontSize="10"/>
-                            </StackPanel>
-                        </Border>
-                    </StackPanel>
+                    <Button BorderBrush="{x:Null}" Background="{x:Null}" Margin="33,0,61,0" Click="Button_Click">
+                        <StackPanel>
+                            <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" BorderThickness="1" Width="297">
+                                <StackPanel HorizontalAlignment="Center">
+                                    <TextBlock Text="Zorro: Family Code" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+                                    <TextBlock Text="rating goes here" FontSize="10" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Martha Cohen Theatre, Arts Commons" HorizontalAlignment="Center" FontSize="10"/>
+                                    <TextBlock Text="205 8 Ave. S.E. Calgary, AB" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Dec 11       6:30 P.M. - 8:30 P.M." HorizontalAlignment="Center" FontSize="10"/>
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+                    </Button>
                     <TextBlock x:Name="ThisWeek" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="20" Grid.ColumnSpan="3"><Run Text="This Week"/><LineBreak/><Run/></TextBlock>
-                    <StackPanel>
-                        <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" Margin="38,0,66,0" BorderThickness="1">
-                            <StackPanel HorizontalAlignment="Center">
-                                <TextBlock Text="A Christmas Carol" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
-                                <TextBlock Text="rating goes here" FontSize="10" HorizontalAlignment="Center"/>
-                                <TextBlock Text="Max Bell Theatre, Arts Commons" HorizontalAlignment="Center" FontSize="10"/>
-                                <TextBlock Text="220 9 Ave. S.E. Calgary, AB" HorizontalAlignment="Center"/>
-                                <TextBlock Text="Dec 12       7:30 P.M. - 8:30 P.M." HorizontalAlignment="Center" FontSize="10"/>
-                            </StackPanel>
-                        </Border>
-                    </StackPanel>
+                    <Button BorderBrush="{x:Null}" Background="{x:Null}" Margin="33,0,61,0">
+                        <StackPanel>
+                            <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" BorderThickness="1" Width="297">
+                                <StackPanel HorizontalAlignment="Center">
+                                    <TextBlock Text="A Christmas Carol" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+                                    <TextBlock Text="rating goes here" FontSize="10" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Max Bell Theatre, Arts Commons" HorizontalAlignment="Center" FontSize="10"/>
+                                    <TextBlock Text="220 9 Ave. S.E. Calgary, AB" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Dec 12       7:30 P.M. - 8:30 P.M." HorizontalAlignment="Center" FontSize="10"/>
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+                    </Button>
                     <TextBlock x:Name="FutureEvents" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="20" Grid.ColumnSpan="3"><Run Text="Future events"/><LineBreak/><Run/></TextBlock>
                     <StackPanel>
-                        <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" Margin="38,0,66,10" BorderThickness="1">
-                            <StackPanel HorizontalAlignment="Center">
-                                <TextBlock Text="The Nutcracker" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
-                                <TextBlock Text="rating goes here" FontSize="10" HorizontalAlignment="Center"/>
-                                <TextBlock Text="Southern Alberta Jubilee Auditorium" HorizontalAlignment="Center" FontSize="10"/>
-                                <TextBlock Text="1415 14 Ave N.W. Calgary, AB" HorizontalAlignment="Center"/>
-                                <TextBlock Text="Dec 17       4:30 P.M. - 6:30 P.M." HorizontalAlignment="Center" FontSize="10"/>
-                            </StackPanel>
-                        </Border>
+                        <Button BorderBrush="{x:Null}" Background="{x:Null}" Margin="33,0,61,5">
+                            <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" BorderThickness="1" Width="297" Margin="0">
+                                <StackPanel HorizontalAlignment="Center">
+                                    <TextBlock Text="The Nutcracker" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+                                    <TextBlock Text="rating goes here" FontSize="10" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Southern Alberta Jubilee Auditorium" HorizontalAlignment="Center" FontSize="10"/>
+                                    <TextBlock Text="1415 14 Ave N.W. Calgary, AB" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Dec 17       4:30 P.M. - 6:30 P.M." HorizontalAlignment="Center" FontSize="10"/>
+                                </StackPanel>
+                            </Border>
+                        </Button>
                         <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" Margin="38,0,66,0" BorderThickness="1">
                             <StackPanel HorizontalAlignment="Center">
                                 <TextBlock Text="Spirit in the Mountain" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>

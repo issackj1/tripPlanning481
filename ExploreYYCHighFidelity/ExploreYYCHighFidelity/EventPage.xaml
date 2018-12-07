@@ -85,7 +85,7 @@
                 <StackPanel>
                     <Rectangle Height="20" Fill="#FFE4F4F9" VerticalAlignment="Top"/>
                     <Button Content="&lt; Back" Margin="0,0,348,5" Click="Button_Click" Background="{x:Null}" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" />
-                    <TextBlock Text="Event Name" Margin="10,5,0,5" FontSize="20" Foreground="Black" FontWeight="Bold"/>
+                    <TextBlock Text="Zorro" Margin="10,5,0,5" FontSize="20" Foreground="Black" FontWeight="Bold"/>
                     <TextBlock Text="4.5/5 stars" FontSize="10" Foreground="Black" Margin="10,0,0,0"/>
                     <TextBlock Margin="10,0,0,10" FontSize="14" TextDecorations="{x:Null}" Text="Event type - Paid"/>
                     <ScrollViewer CanContentScroll="True" Height="444" VerticalScrollBarVisibility="Disabled">

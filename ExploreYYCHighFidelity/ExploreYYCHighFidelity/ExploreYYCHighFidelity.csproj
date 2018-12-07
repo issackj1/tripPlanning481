@@ -178,5 +178,11 @@
   <ItemGroup>
     <Resource Include="img\zorophoto.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="tower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="tower2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

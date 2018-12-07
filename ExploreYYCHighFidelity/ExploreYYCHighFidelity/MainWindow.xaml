@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="731" Width="411" Background="#cc0000" WindowStyle="None" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.Effect>
+            <BlurEffect/>
+        </Grid.Effect>
+        <Grid.Background>
+            <ImageBrush x:Name ="background" ImageSource="tower2.png" Stretch="Uniform">
+                <ImageBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="2" ScaleY="2"/>
+                        <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                        <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ImageBrush.RelativeTransform>
+            </ImageBrush>
+        </Grid.Background>
     </Grid>
 </Window>
