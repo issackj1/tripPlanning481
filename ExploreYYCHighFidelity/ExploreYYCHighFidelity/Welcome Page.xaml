@@ -11,7 +11,7 @@
         <Image x:Name="image" HorizontalAlignment="Center" Height="150" VerticalAlignment="Top" Width="150" Margin="0,50,0,0" Source="/img/logo2.png" Visibility="Visible"/>
         <Button x:Name="logInButton" Content="Log In" HorizontalAlignment="Center" VerticalAlignment="Top" Width="127" Margin="0,560,0,0" FontSize="25" Height="39" Click="LogInButton_Click"/>
         <TextBox x:Name="userBox" HorizontalAlignment="Center" Height="50" Margin="0,400,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340" BorderThickness="2" BorderBrush="#000000" Background="#990000" FontSize="35" Foreground="#ffffff"/>
-        <TextBox x:Name="passBox" HorizontalAlignment="Center" Height="50" Margin="0,500,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340" BorderThickness="2" BorderBrush="#000000" Background="#990000" FontSize="35" Foreground="#ffffff"/>
+        <PasswordBox x:Name="passBox" HorizontalAlignment="Center" Height="50" Margin="0,500,0,0" PasswordChar="*" VerticalAlignment="Top" Width="340" BorderThickness="2" BorderBrush="#000000" Background="#990000" FontSize="35" Foreground="#ffffff"/>
         <TextBlock x:Name="userBlock" HorizontalAlignment="Center" Margin="-175,360,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" FontSize="35" Foreground="#ffffff"/>
         <TextBlock x:Name="passBlock" HorizontalAlignment="Center" Margin="-190,460,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" FontSize="35" Foreground="#ffffff"/>
         <TextBlock x:Name="titleBlock" HorizontalAlignment="Center" Margin="0,190,0,0" TextWrapping="Wrap" Text="ExploreYYC" VerticalAlignment="Top" FontSize="70" Foreground="#ffffff"/>
@@ -20,5 +20,17 @@
         <Button x:Name="forgotButton"  Height="39" Width="200" Margin="0,660,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Transparent" Click="forgotButton_Click" >
             <TextBlock x:Name="forgotBlock" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="Forgot password?" VerticalAlignment="Top" FontSize="25" Width="200" Foreground="#008fb3" TextDecorations="Underline"/>
         </Button>
+        <Grid.Background>
+            <ImageBrush x:Name ="background" ImageSource="tower2.png" Stretch="Uniform">
+                <ImageBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="2" ScaleY="2"/>
+                        <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                        <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ImageBrush.RelativeTransform>
+            </ImageBrush>
+        </Grid.Background>
     </Grid>
 </Page>

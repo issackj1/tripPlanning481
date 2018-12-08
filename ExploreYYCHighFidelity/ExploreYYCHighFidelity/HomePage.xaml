@@ -9,32 +9,117 @@
       Title="HomePage">
 
     <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="HomePage" VerticalAlignment="Top" Height="130" Width="400" FontSize="80"/>
-        <Image x:Name="image" HorizontalAlignment="Center" Height="195" Margin="0,300,0,0" VerticalAlignment="Top" Width="181" Source="img/sehaj.jpg"/>
-        <Button x:Name="calendarButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="-308.25,0,0,0">
-            <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/calendar_2.png" Height="75" Width="75" HorizontalAlignment="Center"/>
-                <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
-            </StackPanel>
-        </Button>
-        <Button x:Name="homeButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="-102.75,0,0,0">
-            <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/house.png" Height="75" Width="75" HorizontalAlignment="Center"/>
-                <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
-            </StackPanel>
-        </Button>
-        <Button x:Name="eventsButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="102.75,0,0,0">
-            <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/event.png" Height="75" Width="75" HorizontalAlignment="Center"/>
-                <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
-            </StackPanel>
-        </Button>
-        <Button x:Name="routesButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="308.25,0,0,0">
-            <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/Map.png" Height="75" Width="75" HorizontalAlignment="Center"/>
-                <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
-            </StackPanel>
-        </Button>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="101*"/>
+            <RowDefinition Height="527*"/>
+            <RowDefinition Height="104*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Grid.RowSpan="2">
+            <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="731" VerticalAlignment="Top" Width="410" Margin="2,0,-1,0" Grid.ColumnSpan="4" Grid.RowSpan="2"/>
+            <Rectangle Margin="2,-3,0,609" Fill="#FFE4F4F9" />
+            <Rectangle x:Name="Header" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="409" Margin="2,23,0,0"/>
+            <TextBlock x:Name="HomeTitle" HorizontalAlignment="Left" Height="68" Margin="130,10,130,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" Width="146" FontSize="48" FontWeight="Bold"/>
+            <Image Margin="364,18,10,563" RenderTransformOrigin="0.5,0.5" Source="img/profile_icon.png"/>
+            <Rectangle x:Name="AddEventBox" Fill="#FFE4F4F9" HorizontalAlignment="Left" Height="85" Margin="40,97,0,0" RadiusY="46" RadiusX="46" VerticalAlignment="Top" Width="330" Stroke="#FF0E0E0E"/>
+            <TextBlock x:Name="AddEvent" HorizontalAlignment="Left" Height="70" Margin="156,112,0,0" TextWrapping="Wrap" Text="Add Event" VerticalAlignment="Top" Width="207" FontSize="36" FontWeight="Bold"/>
+            <Ellipse x:Name="PlusCircle" Fill="#FFDDDDDD" HorizontalAlignment="Left" Height="57" Margin="64,112,0,0" Stroke="#FF0E0E0E" VerticalAlignment="Top" Width="72"/>
+            <TextBlock x:Name="PlusSymbol" Height="88" Margin="76,82,0,0" TextWrapping="Wrap" Text="+" Width="51" FontSize="72" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+            <ScrollViewer Margin="0,187,0,0" CanContentScroll="True" VerticalScrollBarVisibility="Disabled">
+                <StackPanel Height="432" Width="401" Margin="10 0 0 0">
+                    <TextBlock x:Name="YourEvents" HorizontalAlignment="Left" Height="30" Margin="0,0,0,5" TextWrapping="Wrap" Text="Your Events" VerticalAlignment="Top" Width="188" FontSize="24" FontWeight="Bold"/>
+                    <TextBlock x:Name="Today" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" Text="Today" VerticalAlignment="Top" Width="178" FontSize="20"/>
+                    <Button BorderBrush="{x:Null}" Background="{x:Null}" Margin="33,0,61,0" Click="Button_Click">
+                        <StackPanel>
+                            <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" BorderThickness="1" Width="297">
+                                <StackPanel HorizontalAlignment="Center">
+                                    <TextBlock Text="Zorro: Family Code" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+                                    <TextBlock Text="rating goes here" FontSize="10" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Martha Cohen Theatre, Arts Commons" HorizontalAlignment="Center" FontSize="10"/>
+                                    <TextBlock Text="205 8 Ave. S.E. Calgary, AB" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Dec 11       6:30 P.M. - 8:30 P.M." HorizontalAlignment="Center" FontSize="10"/>
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+                    </Button>
+                    <TextBlock x:Name="ThisWeek" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="20" Grid.ColumnSpan="3"><Run Text="This Week"/><LineBreak/><Run/></TextBlock>
+                    <Button BorderBrush="{x:Null}" Background="{x:Null}" Margin="33,0,61,0">
+                        <StackPanel>
+                            <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" BorderThickness="1" Width="297">
+                                <StackPanel HorizontalAlignment="Center">
+                                    <TextBlock Text="A Christmas Carol" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+                                    <TextBlock Text="rating goes here" FontSize="10" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Max Bell Theatre, Arts Commons" HorizontalAlignment="Center" FontSize="10"/>
+                                    <TextBlock Text="220 9 Ave. S.E. Calgary, AB" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Dec 12       7:30 P.M. - 8:30 P.M." HorizontalAlignment="Center" FontSize="10"/>
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+                    </Button>
+                    <TextBlock x:Name="FutureEvents" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="20" Grid.ColumnSpan="3"><Run Text="Future events"/><LineBreak/><Run/></TextBlock>
+                    <StackPanel>
+                        <Button BorderBrush="{x:Null}" Background="{x:Null}" Margin="33,0,61,5">
+                            <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" BorderThickness="1" Width="297" Margin="0">
+                                <StackPanel HorizontalAlignment="Center">
+                                    <TextBlock Text="The Nutcracker" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+                                    <TextBlock Text="rating goes here" FontSize="10" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Southern Alberta Jubilee Auditorium" HorizontalAlignment="Center" FontSize="10"/>
+                                    <TextBlock Text="1415 14 Ave N.W. Calgary, AB" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Dec 17       4:30 P.M. - 6:30 P.M." HorizontalAlignment="Center" FontSize="10"/>
+                                </StackPanel>
+                            </Border>
+                        </Button>
+                        <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" Margin="38,0,66,0" BorderThickness="1">
+                            <StackPanel HorizontalAlignment="Center">
+                                <TextBlock Text="Spirit in the Mountain" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+                                <TextBlock Text="rating goes here" FontSize="10" HorizontalAlignment="Center"/>
+                                <TextBlock Text="Canmore Cave Tours" HorizontalAlignment="Center" FontSize="10"/>
+                                <TextBlock Text="202, 129 Bow Meadows Cres. Canmore, AB" HorizontalAlignment="Center"/>
+                                <TextBlock Text="Dec 17       8:30 P.M. - 9:30 P.M." HorizontalAlignment="Center" FontSize="10"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <!--Put everything from here up until and not inluding to </Grid> onto the pages where the 4 main buttons -->
+            <Button Grid.Column="0" x:Name="calendarButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75">
+                <StackPanel HorizontalAlignment="Center">
+                    <Image Source="img/calendar_2.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Column="1" x:Name="homeButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75">
+                <StackPanel HorizontalAlignment="Center">
+                    <Image Source="img/house.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Column="2" x:Name="eventsButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75">
+                <StackPanel HorizontalAlignment="Center">
+                    <Image Source="img/event.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Column="3" x:Name="routesButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75">
+                <StackPanel HorizontalAlignment="Center">
+                    <Image Source="img/Map.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+                </StackPanel>
+            </Button>
+
+        </Grid>
 
     </Grid>
 </Page>

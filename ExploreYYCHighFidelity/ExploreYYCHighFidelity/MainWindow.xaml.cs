@@ -27,6 +27,10 @@ namespace ExploreYYCHighFidelity
         Welcome_Page welcome = new Welcome_Page();
         HomePage home = new HomePage();
         Forgot_Page forgot = new Forgot_Page();
+        EventPage eventPage = new EventPage();
+        Payment payment = new Payment();
+        Overview overview = new Overview();
+
 
         public ArrayList logIncredentials = new ArrayList();
         public ArrayList passWordcredentials = new ArrayList();
@@ -41,6 +45,7 @@ namespace ExploreYYCHighFidelity
             signIn.pageSwitchHandler += Page_ButtonClick;
             home.pageSwitchHandler += Page_ButtonClick;
             forgot.pageSwitchHandler += Page_ButtonClick;
+            home.pageSwitchHandler += Page_ButtonClick;
 
 
             //connects switcher to this window
@@ -75,6 +80,7 @@ namespace ExploreYYCHighFidelity
                     Switcher.Switch(signIn);
                     break;
                 case "Homepage":
+                    this.background.Opacity = 0;
                     this.Background = new SolidColorBrush(Colors.White);
                     Switcher.Switch(home);
                     break;
@@ -83,7 +89,9 @@ namespace ExploreYYCHighFidelity
                     forgot.emailBox.Text = "";
                     Switcher.Switch(forgot);
                     break;
-
+                case "Zorro":
+                    Switcher.Switch(eventPage);
+                    break;
             }
         }
 
@@ -101,3 +109,4 @@ namespace ExploreYYCHighFidelity
         }
     }
 }
+//site code (got from TA slides)

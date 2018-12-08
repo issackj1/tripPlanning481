@@ -38,7 +38,7 @@ namespace ExploreYYCHighFidelity
         private void LogInButton_Click(object sender, RoutedEventArgs e)
         {
             String logIn = userBox.Text;
-            String pw = passBox.Text;
+            String pw = passBox.Password.ToString();
             bool valid = false;
             for(int i = 0; i < logIns.Count; i++)
             {
