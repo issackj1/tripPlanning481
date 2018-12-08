@@ -80,8 +80,8 @@ namespace ExploreYYCHighFidelity
                     Switcher.Switch(signIn);
                     break;
                 case "Homepage":
-                    this.background.Opacity = 0;
-                    this.Background = new SolidColorBrush(Colors.White);
+                    //this.background.Opacity = 0;
+                    //this.Background = new SolidColorBrush(Colors.White);
                     Switcher.Switch(home);
                     break;
                 case "Forgot":
