@@ -26,6 +26,7 @@ namespace ExploreYYCHighFidelity
         SignUp signIn = new SignUp();
         Welcome_Page welcome = new Welcome_Page();
         HomePage home = new HomePage();
+        EmptyHomePage EmptyHome = new EmptyHomePage();
         Forgot_Page forgot = new Forgot_Page();
         EventPage eventPage = new EventPage();
         Payment payment = new Payment();
@@ -82,7 +83,7 @@ namespace ExploreYYCHighFidelity
                 case "Homepage":
                     this.background.Opacity = 0;
                     this.Background = new SolidColorBrush(Colors.White);
-                    Switcher.Switch(home);
+                    Switcher.Switch(EmptyHome);
                     break;
                 case "Forgot":
                     forgot.confirmBlock.Visibility = Visibility.Hidden;

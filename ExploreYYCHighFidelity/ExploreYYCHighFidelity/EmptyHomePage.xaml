@@ -10,30 +10,34 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="101*"/>
-            <RowDefinition Height="527*"/>
+            <RowDefinition Height="192*"/>
+            <RowDefinition Height="435*"/>
             <RowDefinition Height="104*"/>
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="0" Grid.RowSpan="2">
-            <Rectangle HorizontalAlignment="Left" Height="731" VerticalAlignment="Top" Width="410" Margin="2,0,-1,0" Grid.ColumnSpan="4" Grid.RowSpan="2" Fill="White"/>
-            <Rectangle Margin="2,-3,0,609" Fill="#FFE4F4F9" />
-            <Rectangle x:Name="Header" Fill="White" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="409" Margin="2,23,0,0"/>
-            <TextBlock x:Name="HomeTitle" HorizontalAlignment="Left" Height="68" Margin="130,10,130,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" Width="146" FontSize="48" FontWeight="Bold"/>
-            <Image Margin="364,18,10,563" RenderTransformOrigin="0.5,0.5" Source="img/profile_icon.png"/>
+        <Grid Grid.Row="0" Background="White">
+            <StackPanel>
+                <Rectangle Margin="0,0,0,0" Fill="#FFE4F4F9" Height="21" />
+                <TextBlock x:Name="HomeTitle" HorizontalAlignment="Left" Height="68" Margin="130,0,130,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" Width="146" FontSize="48" FontWeight="Bold"/>
+            </StackPanel>
+            <Image Margin="364,18,10,118" RenderTransformOrigin="0.5,0.5" Source="img/profile_icon.png"/>
+            <Button BorderBrush="{x:Null}" Background="{x:Null}" Margin="53,103,60,16">
+            </Button>
             <Rectangle x:Name="AddEventBox" Fill="#FFE4F4F9" HorizontalAlignment="Left" Height="85" Margin="40,97,0,0" RadiusY="46" RadiusX="46" VerticalAlignment="Top" Width="330" Stroke="#FF0E0E0E"/>
             <TextBlock x:Name="AddEvent" HorizontalAlignment="Left" Height="70" Margin="156,112,0,0" TextWrapping="Wrap" Text="Add Event" VerticalAlignment="Top" Width="207" FontSize="36" FontWeight="Bold"/>
             <Ellipse x:Name="PlusCircle" Fill="#FFDDDDDD" HorizontalAlignment="Left" Height="57" Margin="64,112,0,0" Stroke="#FF0E0E0E" VerticalAlignment="Top" Width="72"/>
             <TextBlock x:Name="PlusSymbol" Height="88" Margin="76,82,0,0" TextWrapping="Wrap" Text="+" Width="51" FontSize="72" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </Grid>
 
-            <ScrollViewer Margin="0,187,0,0" CanContentScroll="True" VerticalScrollBarVisibility="Disabled" Background="White">
+        <Grid Grid.Row="1">
+            <ScrollViewer Margin="0,0,0,0" CanContentScroll="True" VerticalScrollBarVisibility="Disabled" Background="White">
                 <StackPanel Height="432" Width="401" Margin="10 0 0 0">
                     <TextBlock x:Name="YourEvents" HorizontalAlignment="Left" Height="30" Margin="0,0,0,80" TextWrapping="Wrap" Text="Your Events" VerticalAlignment="Top" Width="188" FontSize="24" FontWeight="Bold"/>
-                    <TextBlock Text="no events currently" Margin="0,0,0,25" FontSize="44" FontWeight="Bold"/>
+                    <TextBlock Text="No events currently" Margin="0,0,0,0" FontSize="43" FontWeight="Bold"/>
+                    <TextBlock Text="added" Margin="0,0,0,20" FontSize="43" FontWeight="Bold" HorizontalAlignment="Center"/>
                     <TextBlock Text="Please add an Event!" Margin="0 25 0 0" FontSize="40" FontWeight="Bold"/>
                 </StackPanel>
             </ScrollViewer>
-
         </Grid>
 
         <Grid Grid.Row="2">
