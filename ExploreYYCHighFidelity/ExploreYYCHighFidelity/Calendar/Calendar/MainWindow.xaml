@@ -3574,6 +3574,127 @@
                             </TransformGroup>
                         </Rectangle.RenderTransform>
                     </Rectangle>
+                    <Rectangle x:Name="blue2" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.041666666666667"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="54.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="blue3" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.041666666666667"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="109"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="blue4" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.041666666666667"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="163.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="blue5" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.041666666666667"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="218"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="blue6" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.041666666666667"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="272.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="blue7" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.041666666666667"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="327"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="blue8" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.041666666666667"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="381.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="blue9" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.041666666666667"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="436"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="blue10" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.041666666666667"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="490.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="blue11" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.041666666666667"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="545"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="blue12" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.041666666666667"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="599.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="Time" Fill="#FFFFB054" Stroke="Black" StrokeThickness="0" Opacity="0.2" HorizontalAlignment="Left" Width="71"/>
+                    <Rectangle x:Name="AvailableTime" Fill="#FFC0F988" Opacity="0.5" RenderTransformOrigin="0,0" StrokeThickness="2">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.041666666666667"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="2.39583"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
                     <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="12:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
@@ -3594,16 +3715,6 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <Rectangle x:Name="blue2" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
-                        <Rectangle.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform ScaleY="0.041666666666667"/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform Y="54.5"/>
-                            </TransformGroup>
-                        </Rectangle.RenderTransform>
-                    </Rectangle>
                     <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="2:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
@@ -3624,16 +3735,6 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <Rectangle x:Name="blue3" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
-                        <Rectangle.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform ScaleY="0.041666666666667"/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform Y="109"/>
-                            </TransformGroup>
-                        </Rectangle.RenderTransform>
-                    </Rectangle>
                     <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="4:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
@@ -3654,16 +3755,6 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <Rectangle x:Name="blue4" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
-                        <Rectangle.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform ScaleY="0.041666666666667"/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform Y="163.5"/>
-                            </TransformGroup>
-                        </Rectangle.RenderTransform>
-                    </Rectangle>
                     <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="6:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
@@ -3684,16 +3775,6 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <Rectangle x:Name="blue5" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
-                        <Rectangle.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform ScaleY="0.041666666666667"/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform Y="218"/>
-                            </TransformGroup>
-                        </Rectangle.RenderTransform>
-                    </Rectangle>
                     <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="8:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
@@ -3714,16 +3795,6 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <Rectangle x:Name="blue6" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
-                        <Rectangle.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform ScaleY="0.041666666666667"/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform Y="272.5"/>
-                            </TransformGroup>
-                        </Rectangle.RenderTransform>
-                    </Rectangle>
                     <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="10:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
@@ -3744,16 +3815,6 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <Rectangle x:Name="blue7" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
-                        <Rectangle.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform ScaleY="0.041666666666667"/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform Y="327"/>
-                            </TransformGroup>
-                        </Rectangle.RenderTransform>
-                    </Rectangle>
                     <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="12:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
@@ -3774,16 +3835,6 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <Rectangle x:Name="blue8" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
-                        <Rectangle.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform ScaleY="0.041666666666667"/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform Y="381.5"/>
-                            </TransformGroup>
-                        </Rectangle.RenderTransform>
-                    </Rectangle>
                     <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="2:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
@@ -3804,16 +3855,6 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <Rectangle x:Name="blue9" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
-                        <Rectangle.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform ScaleY="0.041666666666667"/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform Y="436"/>
-                            </TransformGroup>
-                        </Rectangle.RenderTransform>
-                    </Rectangle>
                     <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="4:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
@@ -3834,16 +3875,6 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <Rectangle x:Name="blue10" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
-                        <Rectangle.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform ScaleY="0.041666666666667"/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform Y="490.5"/>
-                            </TransformGroup>
-                        </Rectangle.RenderTransform>
-                    </Rectangle>
                     <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="6:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
@@ -3864,16 +3895,6 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <Rectangle x:Name="blue11" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
-                        <Rectangle.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform ScaleY="0.041666666666667"/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform Y="545"/>
-                            </TransformGroup>
-                        </Rectangle.RenderTransform>
-                    </Rectangle>
                     <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="8:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
@@ -3894,16 +3915,6 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <Rectangle x:Name="blue12" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
-                        <Rectangle.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform ScaleY="0.041666666666667"/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform Y="599.5"/>
-                            </TransformGroup>
-                        </Rectangle.RenderTransform>
-                    </Rectangle>
                     <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="10:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
@@ -3924,7 +3935,6 @@
                             </TransformGroup>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <Rectangle x:Name="Time" Fill="#FFFFB054" Stroke="Black" StrokeThickness="0" Opacity="0.2" HorizontalAlignment="Left" Width="71"/>
                 </Grid>
             </ScrollViewer>
             <Grid x:Name="NovScrollGrid" d:IsHidden="True">
@@ -4323,6 +4333,16 @@
                                     <GradientStop Color="White" Offset="0.605"/>
                                 </LinearGradientBrush>
                             </Rectangle.Fill>
+                        </Rectangle>
+                        <Rectangle x:Name="CurrentDay" HorizontalAlignment="Left" Width="40" Opacity="0.8" RenderTransformOrigin="0.5,0.5" Stroke="#FF5EB122" StrokeThickness="5" Fill="#FFC0F988">
+                            <Rectangle.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform X="400"/>
+                                </TransformGroup>
+                            </Rectangle.RenderTransform>
                         </Rectangle>
                         <Grid x:Name="Day1" Width="40" HorizontalAlignment="Left">
                             <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Sa"/>
