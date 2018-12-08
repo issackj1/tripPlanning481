@@ -153,3 +153,9 @@ U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelit
 U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csproj.CoreCompileInputs.cache
 U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.exe
 U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.pdb
+U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event2Page.g.cs
+U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event3Page.g.cs
+U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event2Page.baml
+U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event3Page.baml
+U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyHomePage.g.cs
+U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyHomePage.baml
