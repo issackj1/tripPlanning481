@@ -1,0 +1,34 @@
+﻿<Page x:Class="EventScreen1.EventPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EventScreen1"
+      mc:Ignorable="d" 
+      d:DesignHeight="731" d:DesignWidth="411"
+      Title="EventPage" Background="White">
+
+
+    <StackPanel Background="">
+        <Canvas Height="610.4" Background="Blue">
+            <Label Content="Label" Background="White" Canvas.Left="84.025" Canvas.Top="30.573" Width="233.222"/>
+            <Label Content="Label" Background="White" Canvas.Left="84.025" Canvas.Top="90.68" Width="233.222"/>
+            <Button Content="" Width="43.941" Canvas.Left="343.748" Canvas.Top="30.573" Height="22.96"/>
+            <StackPanel Background="White" Height="419.2" Canvas.Left="23.2" Canvas.Top="153.3" Width="364.489">
+                <TextBlock TextWrapping="Wrap" AcceptsReturn="True" Text="TexmnntBlock" Height="66.36"></TextBlock>
+                <TextBlock TextWrapping="Wrap" Text="TextBlock" Height="66.36"></TextBlock>
+                <TextBlock TextWrapping="Wrap" Text="TextBlock" Height="66.36"></TextBlock>
+                <TextBlock TextWrapping="Wrap" Text="TextBlock" Height="66.36"></TextBlock>
+                
+
+            </StackPanel>
+        </Canvas>
+
+
+
+
+
+    </StackPanel>
+
+
+</Page>
