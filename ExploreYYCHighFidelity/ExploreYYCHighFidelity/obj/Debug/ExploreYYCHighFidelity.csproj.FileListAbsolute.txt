@@ -196,3 +196,11 @@ C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYY
 C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyHomePage.baml
 C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event2Page.baml
 C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event3Page.baml
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyHomePage.g.cs
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event2Page.g.cs
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event3Page.g.cs
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyHomePage.baml
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event2Page.baml
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event3Page.baml
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Calendar.g.cs
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Calendar.baml
