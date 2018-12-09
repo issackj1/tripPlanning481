@@ -114,3 +114,5 @@ D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity
 \\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Payment.g.cs
 \\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Overview.baml
 \\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Payment.baml
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Review.g.cs
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Review.baml
