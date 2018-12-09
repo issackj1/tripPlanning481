@@ -1,0 +1,1388 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Calendar"
+      xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="Calendar.CalendarPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="CalendarPage" Width="411" Height="731">
+
+    <Page.Resources>
+        <System:Double x:Key="WIDTH">411</System:Double>
+    </Page.Resources>
+
+    <Grid x:Name="DecemberGrid">
+        <Grid x:Name="DecDatesGrid" Width="{StaticResource WIDTH}" VerticalAlignment="Center" ShowGridLines="True" RenderTransformOrigin="0.5,0.5" Margin="0" Height="{StaticResource WIDTH}" HorizontalAlignment="Left">
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="69"/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+            <Rectangle x:Name="Nov25" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FFD1D1D1">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Nov26" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FFD1D1D1">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="58.7142857142857"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Nov27" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FFD1D1D1">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="117.428571428571"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Nov28" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FFD1D1D1">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="176.142857142857"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Nov29" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FFD1D1D1">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="234.857142857143"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Nov30" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FFD1D1D1">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="293.571428571429"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec1" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="352.285714285714"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec2" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="68.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec3" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="58.7142857142857" Y="68.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec4" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="117.428571428571" Y="68.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec5" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="176.142857142857" Y="68.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec6" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="234.857142857143" Y="68.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec7" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="293.571428571429" Y="68.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec8" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="352.285714285714" Y="68.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec9" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="137"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec10" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="58.7142857142857" Y="137"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec11" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="117.428571428571" Y="137"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec12" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="176.142857142857" Y="137"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec13" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="234.857142857143" Y="137"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec14" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="293.571428571429" Y="137"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec15" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="352.285714285714" Y="137"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec16" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="205.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec17" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="58.7142857142857" Y="205.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec18" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="117.428571428571" Y="205.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec19" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="176.142857142857" Y="205.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec20" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="234.857142857143" Y="205.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec21" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="293.571428571429" Y="205.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec22" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="352.285714285714" Y="205.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec23" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="274"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec24" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="58.7142857142857" Y="274"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec25" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="117.428571428571" Y="274"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec26" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="176.142857142857" Y="274"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec27" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="234.857142857143" Y="274"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec28" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="293.571428571429" Y="274"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec29" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="352.285714285714" Y="274"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec30" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="342.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Dec31" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="White">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="58.7142857142857" Y="342.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Jan1" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FFD1D1D1">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="117.428571428571" Y="342.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Jan2" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FFD1D1D1">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="176.142857142857" Y="342.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Jan3" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FFD1D1D1">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="234.857142857143" Y="342.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Jan4" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FFD1D1D1">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="293.571428571429" Y="342.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle x:Name="Jan5" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FFD1D1D1">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="352.285714285714" Y="342.5"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Grid x:Name="DecEventsGrid">
+                <Grid x:Name="DecZorroGrid" d:IsHidden="True">
+                    <Rectangle x:Name="DecZorro14" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="293.571428571429" Y="137"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="DecZorro15" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="352.285714285714" Y="137"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="DecZorro16" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="DecZorro20" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="234.857142857143" Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="DecZorro21" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="293.571428571429" Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="DecZorro22" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="352.285714285714" Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="DecZorro23" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="274"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="DecZorro26" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="176.142857142857" Y="274"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="DecZorro27" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="234.857142857143" Y="274"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="DecZorro28" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="293.571428571429" Y="274"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="DecZorro29" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="352.285714285714" Y="274"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="DecZorro30" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="342.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                </Grid>
+                <Grid x:Name="AXmasCarolGrid" d:IsHidden="True">
+                    <Rectangle x:Name="AXmasCarol11" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="117.428571428571" Y="137"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="AXmasCarol13" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="234.857142857143" Y="137"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="AXmasCarol14" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="293.571428571429" Y="137"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="AXmasCarol15" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="352.285714285714" Y="137"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="AXmasCarol16" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="AXmasCarol18" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="117.428571428571" Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="AXmasCarol19" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="176.142857142857" Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="AXmasCarol20" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="234.857142857143" Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="AXmasCarol21" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="293.571428571429" Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="AXmasCarol22" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="352.285714285714" Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="AXmasCarol23" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="274"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                </Grid>
+                <Grid x:Name="NutcrackerGrid" d:IsHidden="True">
+                    <Rectangle x:Name="Nutcracker14" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="293.571428571429" Y="137"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="Nutcracker15" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="352.285714285714" Y="137"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="Nutcracker16" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="Nutcracker20" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="234.857142857143" Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="Nutcracker21" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="293.571428571429" Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="Nutcracker22" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="352.285714285714" Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="Nutcracker23" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="274"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="Nutcracker24" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="58.7142857142857" Y="274"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                </Grid>
+                <Grid x:Name="CaveToursGrid" d:IsHidden="True">
+                    <Rectangle x:Name="CaveTours14" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="293.571428571429" Y="137"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="CaveTours15" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="352.285714285714" Y="137"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="CaveTours16" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle x:Name="CaveTours17" StrokeThickness="5" Stroke="Black" RenderTransformOrigin="0,0" Fill="#FF2CD700">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.166666666666667" ScaleX="0.142857142857143"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="58.7142857142857" Y="205.5"/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                </Grid>
+            </Grid>
+            <Ellipse Width="16" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="19" HorizontalAlignment="Left" Fill="#FF37DFFF">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="118.5" Y="138"/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="1"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="25"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="59.7142857142857"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="26"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="118.428571428571"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="27"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="177.142857142857"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="28"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="235.857142857143"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="29"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="294.571428571429"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="30"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="353.285714285714"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="1"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="1" Y="68.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="2"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="59.714" Y="68.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="3"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="118.429" Y="68.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="4"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="177.143" Y="68.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="5"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="235.857" Y="68.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="6"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="294.571" Y="68.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="7"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="353.286" Y="68.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="8"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="1" Y="137"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="9"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="59.714" Y="137"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="10"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="117.428571428571" Y="137"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="11"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="177.143" Y="137"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="12"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="235.857" Y="137"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="13"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="294.571" Y="137"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="14"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="353.286" Y="137"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="15"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="1" Y="205.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="16"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="59.714" Y="205.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="17"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="118.428571428571" Y="205.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="18"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="177.142857142857" Y="205.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="19"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="235.857142857143" Y="205.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="20"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="294.571428571429" Y="205.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="21"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="353.285714285714" Y="205.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="22"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="1" Y="274"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="23"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="59.7142857142857" Y="274"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="24"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="118.428571428571" Y="274"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="25"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="177.142857142857" Y="274"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="26"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="235.857142857143" Y="274"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="27"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="294.571428571429" Y="274"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="28"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="353.285714285714" Y="274"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="29"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="1" Y="342.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="30"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="59.7142857142857" Y="342.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="31"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="118.428571428571" Y="342.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="1"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="177.143" Y="342.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="2"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="235.857142857143" Y="342.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="3"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="294.571428571429" Y="342.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="4"/></TextBlock>
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="353.285714285714" Y="342.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run FontSize="14" Text="5"/></TextBlock>
+        </Grid>
+        <Grid x:Name="DecMonthGrid" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Margin="0" Height="73" Background="#FF44B0F1">
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="86"/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+            <TextBlock VerticalAlignment="Center" Text="December" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" Margin="42.463,0,42.463,-22.667" HorizontalAlignment="Center" FontSize="72" Foreground="White">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-16.5"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <Button x:Name="button" VerticalContentAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,-15.833" HorizontalContentAlignment="Center" HorizontalAlignment="Left" FontSize="72" FontWeight="Bold" Foreground="White" Content="&lt;" Background="{x:Null}" BorderBrush="{x:Null}">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-10" Y="-20"/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+            <Button x:Name="button1" VerticalContentAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,-15.833" HorizontalContentAlignment="Center" HorizontalAlignment="Right" FontSize="72" FontWeight="Bold" Foreground="White" Content="&lt;" Background="{x:Null}" BorderBrush="{x:Null}">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                        <SkewTransform AngleY="0" AngleX="0"/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform X="10" Y="-20"/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+        </Grid>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Text="Calendar" Margin="0" FontWeight="Bold"/>
+        <Grid x:Name="DaysOfWeekGrid" Height="71" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="159"/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+            <TextBlock TextWrapping="Wrap" Text="Su" FontWeight="Bold" FontSize="48" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="1.38380952714286"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Text="M" FontWeight="Bold" FontSize="48" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="65.1031095238429"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Text="Tu" FontWeight="Bold" FontSize="48" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="119.856142857143"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Text="W" FontWeight="Bold" FontSize="48" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="181.383476190493"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Text="Th" FontWeight="Bold" FontSize="48" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="235.700809524143"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Text="F" FontWeight="Bold" FontSize="48" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="310.448142857143"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Text="Sa" FontWeight="Bold" FontSize="48" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="355.276476192143"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <Rectangle Stroke="Black" StrokeThickness="4" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-176.142857142857"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle Stroke="Black" StrokeThickness="4" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-117.428571428571"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle Stroke="Black" StrokeThickness="4" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-58.7142857142857"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle Stroke="Black" StrokeThickness="4" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle Stroke="Black" StrokeThickness="4" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="58.7142857142857"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle Stroke="Black" StrokeThickness="4" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="117.428571428571"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle Stroke="Black" StrokeThickness="4" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="0.142857142857143"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="176.142857142857"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </Grid>
+
+    </Grid>
+</Page>
