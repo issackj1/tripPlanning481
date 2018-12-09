@@ -22,19 +22,25 @@ namespace ExploreYYCHighFidelity
     /// </summary>
     public partial class MainWindow : Window
     {
+        private event EventHandler backbutton;
         //Instantiate the pages
         SignUp signIn = new SignUp();
         Welcome_Page welcome = new Welcome_Page();
         HomePage home = new HomePage();
         Forgot_Page forgot = new Forgot_Page();
-        EventPage eventPage = new EventPage();
-        Payment payment = new Payment();
+        EventPage eventPage = new EventPage(); //zorro
+        Event2Page event2Page = new Event2Page(); //christmas carol
+        Event3Page event3page = new Event3Page(); //nutcracker
+
+        //zorro payment pages
         Overview overview = new Overview();
+        Payment payment = new Payment();
 
 
         public ArrayList logIncredentials = new ArrayList();
         public ArrayList passWordcredentials = new ArrayList();
         public ArrayList emailCredentials = new ArrayList();
+        public List<String> backLog = new List<String>();
 
         public MainWindow()
         {
@@ -45,7 +51,16 @@ namespace ExploreYYCHighFidelity
             signIn.pageSwitchHandler += Page_ButtonClick;
             home.pageSwitchHandler += Page_ButtonClick;
             forgot.pageSwitchHandler += Page_ButtonClick;
-            home.pageSwitchHandler += Page_ButtonClick;
+
+            //zorro
+            eventPage.pageSwitchHandler += Page_ButtonClick;
+            overview.pageSwitchHandler += Page_ButtonClick;
+            payment.pageSwitchHandler += Page_ButtonClick;
+
+            event2Page.pageSwitchHandler += Page_ButtonClick;
+            event3page.pageSwitchHandler += Page_ButtonClick;
+
+            this.backbutton += Page_ButtonClick;
 
 
             //connects switcher to this window
@@ -58,7 +73,7 @@ namespace ExploreYYCHighFidelity
 
             SignUp.pz = this;
 
-            logIncredentials.Add("John Doe");
+            logIncredentials.Add("JohnDoe");
             passWordcredentials.Add("12345");
             emailCredentials.Add("johndoe@gmail.com");
         }
@@ -89,10 +104,56 @@ namespace ExploreYYCHighFidelity
                     forgot.emailBox.Text = "";
                     Switcher.Switch(forgot);
                     break;
+
                 case "Zorro":
                     Switcher.Switch(eventPage);
                     break;
+                case "zorroOverview":
+                    Switcher.Switch(overview);
+                    break;
+                case "zorroPayment":
+                    Switcher.Switch(payment);
+                    break;
+
+
+                case "Christmas":
+                    Switcher.Switch(event2Page);
+                    break;
+
+                case "Nutcracker":
+                    Switcher.Switch(event3page);
+                    break;
+
+                case "Back":
+                    //MessageBox.Show(backLog[backLog.Count - 1] + ","+ backLog[backLog.Count - 2] + "," + backLog[backLog.Count - 3]);
+                    SwitchEventArgs back = new SwitchEventArgs();
+                    if(backLog[backLog.Count - 2] != "Back")
+                    {
+                        back.Page = backLog[backLog.Count - 2];
+                        this.backbutton(this, back);
+                        backLog.RemoveRange((backLog.Count - 2), 2);
+                    }/* else if((backLog[backLog.Count - 2] != "Back"))
+                    {
+                        back.Page = backLog[backLog.Count - 3];
+                        this.backbutton(this, back);
+                        backLog.RemoveRange((backLog.Count - 3), 3);
+                    }
+                    else
+                    {
+                        for(int i = backLog.Count - 1; i < 0; i--)
+                        {
+                            if(backLog[i] != "Back")
+                            {
+                                back.Page = backLog[backLog.Count - 2];
+                                this.backbutton(this, back);
+                                backLog.RemoveRange((backLog.Count - 2), 2);
+                            }
+                        }
+                    }*/
+                    break;
+                    
             }
+            if(page != "Back") backLog.Add(page);
         }
 
         //changes the pages in the window

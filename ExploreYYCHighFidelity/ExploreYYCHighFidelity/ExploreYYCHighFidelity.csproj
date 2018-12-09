@@ -55,6 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="EmptyHomePage.xaml.cs">
+      <DependentUpon>EmptyHomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Event2Page.xaml.cs">
+      <DependentUpon>Event2Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Event3Page.xaml.cs">
+      <DependentUpon>Event3Page.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Forgot Page.xaml.cs">
       <DependentUpon>Forgot Page.xaml</DependentUpon>
     </Compile>
@@ -81,6 +90,18 @@
     <Compile Include="Welcome Page.xaml.cs">
       <DependentUpon>Welcome Page.xaml</DependentUpon>
     </Compile>
+    <Page Include="EmptyHomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Event2Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Event3Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Forgot Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -185,6 +206,10 @@
     <Resource Include="img\tower.png" />
     <Resource Include="img\tower2.png" />
     <Resource Include="img\tower3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\AChristmasCarol.jpg" />
+    <Resource Include="img\Nutcracker.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -16,25 +16,14 @@ using System.Windows.Shapes;
 namespace ExploreYYCHighFidelity
 {
     /// <summary>
-    /// Interaction logic for PageTemplate.xaml
+    /// Interaction logic for Event2Page.xaml
     /// </summary>
-    public partial class Overview : Page
+    public partial class Event2Page : Page
     {
         public event EventHandler pageSwitchHandler;
-        public Overview()
+        public Event2Page()
         {
             InitializeComponent();
-        }
-
-        private void nextButton_Click(object sender, RoutedEventArgs e)
-        {
-            //Makes a new SwitchEventArgs (class in solution) 
-            SwitchEventArgs switchArgs = new SwitchEventArgs();
-            switchArgs.Page = "zorroPayment";
-
-            //if pageSwitchHandler exists, it sends a signal to Page_ButtonClick in MainWindow.xaml.cs that a button is clicked and it needs to switch the page
-            if (this.pageSwitchHandler != null)
-                this.pageSwitchHandler(this, switchArgs);
         }
 
         private void backButton_Click(object sender, RoutedEventArgs e)
@@ -46,6 +35,37 @@ namespace ExploreYYCHighFidelity
             //if pageSwitchHandler exists, it sends a signal to Page_ButtonClick in MainWindow.xaml.cs that a button is clicked and it needs to switch the page
             if (this.pageSwitchHandler != null)
                 this.pageSwitchHandler(this, switchArgs);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void calendarButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void homeButton_Click(object sender, RoutedEventArgs e)
+        {
+            //Makes a new SwitchEventArgs (class in solution) 
+            SwitchEventArgs switchArgs = new SwitchEventArgs();
+            switchArgs.Page = "Homepage";
+
+            //if pageSwitchHandler exists, it sends a signal to Page_ButtonClick in MainWindow.xaml.cs that a button is clicked and it needs to switch the page
+            if (this.pageSwitchHandler != null)
+                this.pageSwitchHandler(this, switchArgs);
+        }
+
+        private void eventsButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void routesButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

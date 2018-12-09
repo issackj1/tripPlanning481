@@ -1,4 +1,4 @@
-﻿<Page x:Class="ExploreYYCHighFidelity.EventPage"
+﻿<Page x:Class="ExploreYYCHighFidelity.Event2Page"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:ExploreYYCHighFidelity"
       mc:Ignorable="d" 
       d:DesignHeight="731" d:DesignWidth="411"
-      Title="EventPage">
+      Title="Event2Page">
     <Page.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -84,9 +84,9 @@
             <Grid Grid.Row="0" Margin="0,0,0,5">
                 <StackPanel>
                     <Rectangle Height="20" Fill="#FFE4F4F9" VerticalAlignment="Top"/>
-                    <Button Content="&lt; Back" Margin="0,0,348,5" Click="Button_Click" Background="{x:Null}" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" />
-                    <TextBlock Text="Zorro" Margin="10,5,0,5" FontSize="20" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock Text="4.5/5 stars" FontSize="10" Foreground="Black" Margin="10,0,0,0"/>
+                    <Button x:Name="backButton" Content="&lt; Back" Margin="0,0,348,5" Click="backButton_Click" Background="{x:Null}" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" />
+                    <TextBlock Text="A Christmas Carol" Margin="10,5,0,5" FontSize="20" Foreground="Black" FontWeight="Bold"/>
+                    <TextBlock Text="★★★★✰" FontSize="10" Foreground="Black" Margin="10,0,0,0"/>
                     <TextBlock Margin="10,0,0,10" FontSize="14" TextDecorations="{x:Null}" Text="Event type - Paid"/>
                     <ScrollViewer CanContentScroll="True" Height="444" VerticalScrollBarVisibility="Disabled">
                         <StackPanel>
@@ -99,15 +99,16 @@
                                 </Border.Background>
                                 <Image Width="300" Margin="0,1">
                                     <Image.Source>
-                                        <ImageSource>img/zorophoto.jpg</ImageSource>
+                                        <ImageSource>img/AChristmasCarol.jpg</ImageSource>
                                     </Image.Source>
                                 </Image>
                             </Border>
-                            <TextBlock FontSize="20" Margin="10,0,0,0"><Run FontWeight="Bold" Text="Datee"/><Run Text=": Oct 30 - Nov 1"/></TextBlock>
-                            <TextBlock FontSize="16" Margin="10,0,0,10" Width="378"><Run FontWeight="Bold" Text="Time"/><Run Text=": 8 A.M - 10 P.M."/></TextBlock>
+                            <TextBlock FontSize="20" Margin="10,0,0,0"><Run FontWeight="Bold" Text="Date"/><Run Text=": Dec 12"/></TextBlock>
+                            <TextBlock FontSize="16" Margin="10,0,0,0" Width="378"><Run FontWeight="Bold" Text="Time"/><Run Text=": 7:30 P.M. - 8:30 P.M."/></TextBlock>
+                            <TextBlock FontSize="16" Margin="10,0,0,10" Width="378"><Run FontWeight="Bold" Text="Location"/><Run Text=": 220 9 Ave. S.E. Calgary, AB"/></TextBlock>
                             <TextBlock Text="Description:" FontSize="20" Margin="10,0,0,5" FontWeight="Bold"/>
                             <Border BorderBrush="Black" CornerRadius="5" Height="110" Margin="31,0,50,5" BorderThickness="0" Width="339">
-                                <TextBlock TextWrapping="Wrap" Width="336" Margin="2,0,5,-1" Text="Canadian director and actor Rebecca Northan directs Alberta Theatre Projects' latest adventure. In Zorro: Family Code, the masked crusader heads to a Spanish town in pursuit of Captán Juan Ramon, who has recently broken out of prison. But along the way, Zorro comes across something unexpected: another &quot;Zorro.&quot;"/>
+                                <TextBlock TextWrapping="Wrap" Width="336" Margin="2,0,5,-1" Text="Charles Dickens' classic tale of redemption focuses on Ebenezer Scrooge, a miserly business owner who abhors Christmas and all measures of sentimentality. But that all starts to change when he is plagued by ghosts and his own memories on Christmas Eve. Theatre Calgary's run of A Christmas Carol includes a special landmark this year: lead actor Stephen Hair is taking on the role of Scrooge for the 25th time."/>
                             </Border>
                             <TextBlock FontSize="20" Margin="10,0,0,0"><Run FontWeight="Bold" Text="Pricing"/><Run Text=":"/></TextBlock>
                             <Grid Margin="34,5,55,10" Background="#FFDDDDDD" OpacityMask="Black" RenderTransformOrigin="0.5,0.5">
@@ -136,7 +137,7 @@
                                     <TextBlock Text=" Front row" Background="#FFE4F4F9"/>
                                 </StackPanel>
                                 <StackPanel Grid.Column="1" Grid.Row="1">
-                                    <TextBlock Text=" $30" Background="#FFE4F4F9"/>
+                                    <TextBlock Text=" $35" Background="#FFE4F4F9"/>
                                     <TextBlock Text=" $50" Background="#FFE4F4F9"/>
                                 </StackPanel>
                             </Grid>
@@ -157,7 +158,7 @@
 
                         </StackPanel>
                     </ScrollViewer>
-                    <Button FontStyle="Italic" Content="Book" HorizontalAlignment="Center" Height="40" Width="105" Background="#FFE4F4F9" Click="Button_Click_1" FontSize="20" Margin="0,5,0,0" Style="{DynamicResource ButtonStyle1}"/>
+                    <Button FontStyle="Italic" Content="Book" HorizontalAlignment="Center" Height="40" Width="105" Background="#FFE4F4F9" Click="Button_Click" FontSize="20" Margin="0,5,0,0" Style="{DynamicResource ButtonStyle1}"/>
                 </StackPanel>
             </Grid>
 
