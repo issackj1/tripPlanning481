@@ -18,9 +18,9 @@ namespace EventScreen1
     /// <summary>
     /// Interaction logic for Page5.xaml
     /// </summary>
-    public partial class Page5 : Page
+    public partial class Routes : Page
     {
-        public Page5()
+        public Routes()
         {
             InitializeComponent();
         }

@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-\\samba.cs.ucalgary.ca\jaydon.fernandes\Documents\EventScreen1 - Copy\EventScreen1\obj\Debug\
+\\samba.cs.ucalgary.ca\jaydon.fernandes\Documents\EventScreen1 - Copy\EventScreen1\obj\Release\
 EventScreen1
 none
 false
-DEBUG;TRACE
+TRACE
 \\samba.cs.ucalgary.ca\jaydon.fernandes\Documents\EventScreen1 - Copy\EventScreen1\App.xaml
 8-224743042
 
-16-1909196234
+122125578065
 131569487696
 BookmarkedWithEvent.xaml;BookmarkedEmpty.xaml;Routes.xaml;Page6.xaml;Upcoming.xaml;MainWindow.xaml;Nearby.xaml;Popular.xaml;
 

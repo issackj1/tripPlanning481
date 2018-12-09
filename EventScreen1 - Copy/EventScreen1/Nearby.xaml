@@ -10,6 +10,12 @@
 
     <Border Padding="20">
         <StackPanel>
+            <Grid>
+                <Rectangle Fill="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}"/>
+                <Label Content="Events" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Background="{x:Null}" Foreground="#FF343434" BorderBrush="#FFAC3737" OpacityMask="#FFF1CBCB"/>
+
+            </Grid>
+
             <Grid >
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -18,32 +24,32 @@
 
 
 
-                <TextBox Margin="0 0 10 20" Grid.Column="0" Height="23" TextWrapping="Wrap" Text="Search" TextSearch.Text="Search"/>
-                <Button Margin="10 0 0 20" Grid.Column="1" Content="Filter"/>
+                <TextBox Margin="0,10,20,20" Grid.Column="0" Height="23" TextWrapping="Wrap" Text="Search" TextSearch.Text="Search"/>
+                <Button Margin="0,10,0,20" Grid.Column="1" Content="Filter" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" Foreground="White"/>
             </Grid>
 
-            <Menu Height="50" HorizontalAlignment="Center" Margin="2,0,2.8,0" Width="360">
-                <MenuItem Height="50" Width="90">
-                    <MenuItem.Header>
-                        <TextBlock Text="Popular" VerticalAlignment="Center"  />
+            <Menu Height="50" HorizontalAlignment="Center" Margin="0,0,2.8,0" Width="360">
+                <MenuItem Height="50" Width="90" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" >
+                    <MenuItem.Header >
+                        <TextBlock Text="Popular"  VerticalAlignment="Center"  Foreground="SkyBlue" FontSize="14" />
                     </MenuItem.Header>
                 </MenuItem>
 
-                <MenuItem Height="50" Width="90">
+                <MenuItem Height="50" Width="90" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}">
                     <MenuItem.Header>
-                        <TextBlock Text="Upcoming" VerticalAlignment="Center" />
+                        <TextBlock Text="Upcoming" Foreground="SkyBlue"  VerticalAlignment="Center" FontWeight="Bold" FontSize="14" />
                     </MenuItem.Header>
                 </MenuItem>
 
-                <MenuItem Height="50" Width="90" Background="#FF4965FA">
+                <MenuItem Height="50" Width="90" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}">
                     <MenuItem.Header>
-                        <TextBlock Text="Nearby" TextDecorations="Underline" VerticalAlignment="Center" />
+                        <TextBlock Text="Nearby"  VerticalAlignment="Center" Foreground="White" FontSize="14"  />
                     </MenuItem.Header>
                 </MenuItem>
 
-                <MenuItem Height="50" Width="90">
+                <MenuItem Height="50" Width="90" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}">
                     <MenuItem.Header>
-                        <TextBlock Text="Bookmarked"  VerticalAlignment="Center" />
+                        <TextBlock Text="Bookmarked"  VerticalAlignment="Center" Foreground="#FF5DCAEB" FontSize="14" FontWeight="Bold" />
                     </MenuItem.Header>
                 </MenuItem>
 

@@ -67,10 +67,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Page6.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Upcoming.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -91,9 +87,6 @@
     </Compile>
     <Compile Include="Routes.xaml.cs">
       <DependentUpon>Routes.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Page6.xaml.cs">
-      <DependentUpon>Page6.xaml</DependentUpon>
     </Compile>
     <Compile Include="Upcoming.xaml.cs">
       <DependentUpon>Upcoming.xaml</DependentUpon>
