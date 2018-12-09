@@ -55,11 +55,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ScheduleJanPage.xaml.cs">
-      <DependentUpon>ScheduleJanPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ScheduleDecPage.xaml.cs">
       <DependentUpon>ScheduleDecPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleJanPage.xaml.cs">
+      <DependentUpon>ScheduleJanPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ScheduleNovPage.xaml.cs">
       <DependentUpon>ScheduleNovPage.xaml</DependentUpon>
@@ -76,13 +76,13 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="ScheduleJanPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="ScheduleDecPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ScheduleJanPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ScheduleNovPage.xaml">
       <SubType>Designer</SubType>

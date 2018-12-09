@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Schedule
 {
     /// <summary>
-    /// Interaction logic for ScheduleNovPage.xaml
+    /// Interaction logic for ScheduleDecPage.xaml
     /// </summary>
-    public partial class ScheduleNovPage : Page
+    public partial class ScheduleDecPage : Page
     {
-        public ScheduleNovPage()
+        public ScheduleDecPage()
         {
             InitializeComponent();
         }

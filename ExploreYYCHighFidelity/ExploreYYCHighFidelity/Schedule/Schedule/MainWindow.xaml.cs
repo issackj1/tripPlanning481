@@ -23,6 +23,7 @@ namespace Schedule
 	public MainWindow()
 	{
 	    InitializeComponent();
+	    Content = new ScheduleNovPage();
 	}
     }
 }

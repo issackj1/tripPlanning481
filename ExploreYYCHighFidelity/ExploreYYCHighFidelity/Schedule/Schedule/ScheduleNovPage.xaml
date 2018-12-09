@@ -384,7 +384,7 @@
             </Grid>
         </ScrollViewer>
         <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Text="Schedule" Margin="0" FontWeight="Bold"/>
-        <ScrollViewer x:Name="Timeslots" Height="460" VerticalAlignment="Center" VerticalScrollBarVisibility="Hidden" Margin="0" RenderTransformOrigin="0.5,0.5">
+        <ScrollViewer x:Name="NovTimeslots" Height="460" VerticalAlignment="Center" VerticalScrollBarVisibility="Hidden" Margin="0" RenderTransformOrigin="0.5,0.5">
             <ScrollViewer.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -393,8 +393,8 @@
                     <TranslateTransform Y="45"/>
                 </TransformGroup>
             </ScrollViewer.RenderTransform>
-            <Grid x:Name="TimeSlotsGrid" VerticalAlignment="Center" Height="654" Width="411">
-                <Rectangle x:Name="blue1" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+            <Grid x:Name="NovTimeSlotsGrid" VerticalAlignment="Center" Height="654" Width="411" Background="White">
+                <Rectangle x:Name="NovBlue1" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleY="0.041666666666667"/>
@@ -404,7 +404,7 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                 </Rectangle>
-                <Rectangle x:Name="blue2" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                <Rectangle x:Name="NovBlue2" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleY="0.041666666666667"/>
@@ -414,7 +414,7 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                 </Rectangle>
-                <Rectangle x:Name="blue3" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                <Rectangle x:Name="NovBlue3" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleY="0.041666666666667"/>
@@ -424,7 +424,7 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                 </Rectangle>
-                <Rectangle x:Name="blue4" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                <Rectangle x:Name="NovBlue4" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleY="0.041666666666667"/>
@@ -434,7 +434,7 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                 </Rectangle>
-                <Rectangle x:Name="blue5" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                <Rectangle x:Name="NovBlue5" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleY="0.041666666666667"/>
@@ -444,7 +444,7 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                 </Rectangle>
-                <Rectangle x:Name="blue6" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                <Rectangle x:Name="NovBlue6" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleY="0.041666666666667"/>
@@ -454,7 +454,7 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                 </Rectangle>
-                <Rectangle x:Name="blue7" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                <Rectangle x:Name="NovBlue7" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleY="0.041666666666667"/>
@@ -464,7 +464,7 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                 </Rectangle>
-                <Rectangle x:Name="blue8" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                <Rectangle x:Name="NovBlue8" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleY="0.041666666666667"/>
@@ -474,7 +474,7 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                 </Rectangle>
-                <Rectangle x:Name="blue9" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                <Rectangle x:Name="NovBlue9" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleY="0.041666666666667"/>
@@ -484,7 +484,7 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                 </Rectangle>
-                <Rectangle x:Name="blue10" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                <Rectangle x:Name="NovBlue10" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleY="0.041666666666667"/>
@@ -494,7 +494,7 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                 </Rectangle>
-                <Rectangle x:Name="blue11" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                <Rectangle x:Name="NovBlue11" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleY="0.041666666666667"/>
@@ -504,7 +504,7 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                 </Rectangle>
-                <Rectangle x:Name="blue12" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                <Rectangle x:Name="NovBlue12" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleY="0.041666666666667"/>
@@ -514,8 +514,8 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                 </Rectangle>
-                <Rectangle x:Name="Time" Fill="#FFFFB054" Stroke="Black" StrokeThickness="0" Opacity="0.2" HorizontalAlignment="Left" Width="71"/>
-                <Rectangle x:Name="AvailableTime" Fill="#FFC0F988" Opacity="0.5" RenderTransformOrigin="0,0" StrokeThickness="2">
+                <Rectangle x:Name="NovTimeHighlight" Fill="#FFFFB054" Stroke="Black" StrokeThickness="0" Opacity="0.2" HorizontalAlignment="Left" Width="71"/>
+                <Rectangle x:Name="NovAvailableTime" Fill="#FFC0F988" Opacity="0.5" RenderTransformOrigin="0,0" StrokeThickness="2">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleY="0.041666666666667"/>
