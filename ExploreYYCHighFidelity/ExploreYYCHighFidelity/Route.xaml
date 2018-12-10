@@ -17,7 +17,6 @@
     </Page.Triggers>
 
     <StackPanel Background="Gray">
-<<<<<<< HEAD
         <Image Source="img/googlemapsphoto.png"/>
         <Canvas Height="633.4" ClipToBounds="True" Background="Coral">
             <Canvas Canvas.ZIndex="99" Height="151" Width="411" Background="Blue" ClipToBounds="True">
@@ -41,8 +40,6 @@
 
 
 
-
-=======
         <StackPanel Height="670.904">
             <Image Source="img/googlemapsphoto.png" Height="734.904" Margin="-126,0,-124,0"/>
         </StackPanel>
@@ -80,7 +77,6 @@
                 </StackPanel>
             </Button>
         </Grid>
->>>>>>> fernando2
 
     </StackPanel>
 

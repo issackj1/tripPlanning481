@@ -4,16 +4,17 @@
 winexe
 C#
 .cs
-\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\
+U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\
 ExploreYYCHighFidelity
 none
 false
 DEBUG;TRACE
-\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\App.xaml
+U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\App.xaml
 26-1003284570
 
 32-1324323776
 131569487696
 BookMarkedEmpty.xaml;BookMarkedWithEvent.xaml;CalendarDecPage.xaml;CalendarJanPage.xaml;CalendarNovPage.xaml;EmptyHomePage.xaml;EmptyPayment.xaml;Event2Page.xaml;Event3Page.xaml;Forgot Page.xaml;HomePage.xaml;EventPage.xaml;Nearby.xaml;Overview.xaml;Payment.xaml;PageTemplate.xaml;Popular.xaml;Review.xaml;Route.xaml;ScheduleDecPage.xaml;SignUp.xaml;MainWindow.xaml;Upcomming.xaml;Welcome Page.xaml;zorroCalendar.xaml;ZorroSchedule.xaml;
 
-True
+False
+
