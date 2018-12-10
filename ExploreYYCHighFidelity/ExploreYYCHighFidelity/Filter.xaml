@@ -18,16 +18,15 @@
             <Grid.RowDefinitions>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Button Content="X" HorizontalAlignment="Left" Height="53.346" Margin="9,5.5,0,0" VerticalAlignment="Top" Width="51" FontSize="36" FontWeight="Bold" BorderBrush="White" Background="White"/>
-            <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="3.379" Margin="-2,64.13,-3,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="416"/>
-            <TextBlock HorizontalAlignment="Left" Height="26" Margin="174,22.346,0,0" TextWrapping="Wrap" Text="Filters" VerticalAlignment="Top" Width="60" FontSize="18" FontWeight="Bold" TextDecorations="{x:Null}"/>
-            <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="3.379" Margin="-2,184.13,-3,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="416"/>
+            <Button Content="X" HorizontalAlignment="Left" Height="53.346" Margin="9,5.5,0,0" VerticalAlignment="Top" Width="51" FontSize="36" FontWeight="Bold" BorderBrush="White" Background="White" Foreground="Red"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="3.379" Margin="-2,64.13,-3,0" Stretch="Fill" Stroke="#FFAEAEAE" VerticalAlignment="Top" Width="416"/>
+            <TextBlock HorizontalAlignment="Left" Height="36.5" Margin="173.001,18.005,0,0" TextWrapping="Wrap" Text="Filters" VerticalAlignment="Top" Width="87" FontSize="26" FontWeight="Bold" TextDecorations="{x:Null}" Foreground="Teal"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FFD1D1D1" HorizontalAlignment="Left" Height="3.379" Margin="-2,184.13,-3,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="416" StrokeThickness="0.5"/>
             <TextBlock HorizontalAlignment="Left" Height="26" Margin="309,22.346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84" FontSize="18" FontWeight="Bold" TextDecorations="Underline"/>
-            <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="3.379" Margin="-2,632.63,-3,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="416"/>
-            <Button Content="Show Events" Height="55" Margin="60,657.346,0,0" Width="280.5" FontSize="18" Background="#FFB7F5FF" VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold">
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="3.379" Margin="-2,632.63,-3,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="416" StrokeThickness="0.5"/>
+            <Button Content="Show Events" Height="55" Margin="60,657.346,0,0" Width="280.5" FontSize="18" Background="Teal" VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold" Foreground="White">
             </Button>
-            <Path Data="M403.60504,195.71396 L816.08348,196.70868" Fill="#FFAEAEAE" Height="2.716" Margin="140,697.13,0,0" Stretch="Fill" Stroke="#FF040405" Width="125" VerticalAlignment="Top" HorizontalAlignment="Left" StrokeThickness="3"/>
-            <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="1" Margin="310.318,41.84,0,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="73" RenderTransformOrigin="0.5,0.5" StrokeThickness="4">
+            <Path Data="M0,195.71396 L411,197.093" Fill="Black" HorizontalAlignment="Left" Height="1" Margin="314.647,46.498,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="73" RenderTransformOrigin="0.5,0.5" StrokeThickness="4">
                 <Path.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleY="-1"/>
@@ -37,7 +36,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="1" Margin="171.318,41.59,0,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="58" RenderTransformOrigin="0.5,0.5" StrokeThickness="4">
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="1" Margin="171.318,47.917,0,0" Stretch="Fill" Stroke="Teal" VerticalAlignment="Top" Width="79.667" RenderTransformOrigin="0.5,0.5" StrokeThickness="4">
                 <Path.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleY="-1"/>
@@ -57,7 +56,7 @@
                     </TransformGroup>
                 </Slider.RenderTransform>
             </Slider>
-            <DatePicker HorizontalAlignment="Left" Height="30.75" Margin="187.125,228.875,0,0" VerticalAlignment="Top" Width="143.25" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Text="b m" BorderBrush="White">
+            <DatePicker HorizontalAlignment="Left" Height="30.75" Margin="187.125,252.875,0,0" VerticalAlignment="Top" Width="143.25" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Text="b m" BorderBrush="White">
                 <DatePicker.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleY="2" ScaleX="2"/>
@@ -67,11 +66,11 @@
                     </TransformGroup>
                 </DatePicker.RenderTransform>
             </DatePicker>
-            <TextBlock HorizontalAlignment="Left" Height="29.837" Margin="10,72.509,0,0" TextWrapping="Wrap" Text="Price Range" VerticalAlignment="Top" Width="120.5" FontSize="20" FontWeight="Bold"/>
-            <TextBlock HorizontalAlignment="Left" Height="29.837" Margin="10,306.509,0,0" TextWrapping="Wrap" Text="To:" VerticalAlignment="Top" Width="50" FontSize="20" FontWeight="Bold"/>
-            <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="3.379" Margin="-2,368.5,-3,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="416"/>
-            <TextBlock HorizontalAlignment="Left" Height="29.837" Margin="10,387.509,0,0" TextWrapping="Wrap" Text="Tags" VerticalAlignment="Top" Width="120.5" FontSize="20" FontWeight="Bold"/>
-            <CheckBox Content="Nightlife" HorizontalAlignment="Left" Height="24.5" Margin="58,437.346,0,0" VerticalAlignment="Top" Width="76" FontSize="10" RenderTransformOrigin="0.5,0.5">
+            <TextBlock HorizontalAlignment="Left" Height="29.837" Margin="10,72.509,0,0" TextWrapping="Wrap" Text="Price Range" VerticalAlignment="Top" Width="120.5" FontSize="20" FontWeight="Bold" Foreground="Teal"/>
+            <TextBlock HorizontalAlignment="Left" Height="29.837" Margin="10,314.009,0,0" TextWrapping="Wrap" Text="To:" VerticalAlignment="Top" Width="50" FontSize="20" FontWeight="Bold" Foreground="Teal"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="3.379" Margin="-2,368.5,-3,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="416" StrokeThickness="0.5"/>
+            <TextBlock HorizontalAlignment="Left" Height="29.837" Margin="10,387.509,0,0" TextWrapping="Wrap" Text="Tags" VerticalAlignment="Top" Width="120.5" FontSize="20" FontWeight="Bold" Foreground="Teal"/>
+            <CheckBox Content="Nightlife" HorizontalAlignment="Left" Height="24.5" Margin="58,441.846,0,0" VerticalAlignment="Top" Width="76" FontSize="10" RenderTransformOrigin="0.5,0.5">
                 <CheckBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -81,7 +80,7 @@
                     </TransformGroup>
                 </CheckBox.RenderTransform>
             </CheckBox>
-            <CheckBox Content="Food" HorizontalAlignment="Left" Height="24.5" Margin="58,482.346,0,0" VerticalAlignment="Top" Width="76" FontSize="10" RenderTransformOrigin="0.5,0.5">
+            <CheckBox Content="Food" HorizontalAlignment="Left" Height="24.5" Margin="58,486.846,0,0" VerticalAlignment="Top" Width="76" FontSize="10" RenderTransformOrigin="0.5,0.5">
                 <CheckBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -91,7 +90,7 @@
                     </TransformGroup>
                 </CheckBox.RenderTransform>
             </CheckBox>
-            <CheckBox Content="Family" HorizontalAlignment="Left" Height="24.5" Margin="58,527.346,0,0" VerticalAlignment="Top" Width="76" FontSize="10" RenderTransformOrigin="0.5,0.5">
+            <CheckBox Content="Family" HorizontalAlignment="Left" Height="24.5" Margin="58,531.846,0,0" VerticalAlignment="Top" Width="76" FontSize="10" RenderTransformOrigin="0.5,0.5">
                 <CheckBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -101,7 +100,7 @@
                     </TransformGroup>
                 </CheckBox.RenderTransform>
             </CheckBox>
-            <CheckBox Content="Entertainment" HorizontalAlignment="Left" Height="24.5" Margin="62.875,567.846,0,0" VerticalAlignment="Top" Width="85.75" FontSize="10" RenderTransformOrigin="0.5,0.5">
+            <CheckBox Content="Entertainment" HorizontalAlignment="Left" Height="24.5" Margin="62.875,572.346,0,0" VerticalAlignment="Top" Width="85.75" FontSize="10" RenderTransformOrigin="0.5,0.5">
                 <CheckBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -111,7 +110,7 @@
                     </TransformGroup>
                 </CheckBox.RenderTransform>
             </CheckBox>
-            <CheckBox Content="Music" HorizontalAlignment="Left" Height="24.5" Margin="283,437.346,0,0" VerticalAlignment="Top" Width="76" FontSize="10" RenderTransformOrigin="0.5,0.5">
+            <CheckBox Content="Music" HorizontalAlignment="Left" Height="24.5" Margin="283,441.846,0,0" VerticalAlignment="Top" Width="76" FontSize="10" RenderTransformOrigin="0.5,0.5">
                 <CheckBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -121,7 +120,7 @@
                     </TransformGroup>
                 </CheckBox.RenderTransform>
             </CheckBox>
-            <CheckBox Content="Seasonal" HorizontalAlignment="Left" Height="24.5" Margin="283,482.346,0,0" VerticalAlignment="Top" Width="76" FontSize="10" RenderTransformOrigin="0.5,0.5">
+            <CheckBox Content="Seasonal" HorizontalAlignment="Left" Height="24.5" Margin="283,486.846,0,0" VerticalAlignment="Top" Width="76" FontSize="10" RenderTransformOrigin="0.5,0.5">
                 <CheckBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -131,7 +130,7 @@
                     </TransformGroup>
                 </CheckBox.RenderTransform>
             </CheckBox>
-            <CheckBox Content="Outdoors" HorizontalAlignment="Left" Height="24.5" Margin="283,527.346,0,0" VerticalAlignment="Top" Width="76" FontSize="10" RenderTransformOrigin="0.5,0.5">
+            <CheckBox Content="Outdoors" HorizontalAlignment="Left" Height="24.5" Margin="283,531.846,0,0" VerticalAlignment="Top" Width="76" FontSize="10" RenderTransformOrigin="0.5,0.5">
                 <CheckBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -141,7 +140,7 @@
                     </TransformGroup>
                 </CheckBox.RenderTransform>
             </CheckBox>
-            <CheckBox Content="Indoors" HorizontalAlignment="Left" Height="24.5" Margin="287.875,567.846,0,0" VerticalAlignment="Top" Width="85.75" FontSize="10" RenderTransformOrigin="0.5,0.5">
+            <CheckBox Content="Indoors" HorizontalAlignment="Left" Height="24.5" Margin="287.875,572.346,0,0" VerticalAlignment="Top" Width="85.75" FontSize="10" RenderTransformOrigin="0.5,0.5">
                 <CheckBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -163,8 +162,8 @@
             </Slider>
             <Rectangle HorizontalAlignment="Left" Height="5.2" Margin="202.985,130.502,0,0" Stroke="#FFD4D4D4" StrokeThickness="5" VerticalAlignment="Top" Width="6.6"/>
             <Rectangle HorizontalAlignment="Left" Height="2.62" Margin="201.672,131.8,0,0" Stroke="#FFEAEAEA" StrokeThickness="5" VerticalAlignment="Top" Width="9.3"/>
-            <TextBlock HorizontalAlignment="Left" Height="29.837" Margin="10,225.509,0,0" TextWrapping="Wrap" Text="From:" VerticalAlignment="Top" Width="75.5" FontSize="20" FontWeight="Bold"/>
-            <DatePicker HorizontalAlignment="Left" Height="30.75" Margin="188.625,308.375,0,0" VerticalAlignment="Top" Width="143.25" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Text="b m" BorderBrush="White">
+            <TextBlock HorizontalAlignment="Left" Height="29.837" Margin="10,249.509,0,0" TextWrapping="Wrap" Text="From:" VerticalAlignment="Top" Width="75.5" FontSize="20" FontWeight="Bold" Foreground="Teal"/>
+            <DatePicker HorizontalAlignment="Left" Height="30.75" Margin="188.625,315.875,0,0" VerticalAlignment="Top" Width="143.25" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Text="b m" BorderBrush="White">
                 <DatePicker.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleY="2" ScaleX="2"/>
@@ -176,7 +175,8 @@
             </DatePicker>
             <TextBlock HorizontalAlignment="Left" Height="24.284" Margin="17.5,139.846,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="21.5" FontSize="16"/>
             <TextBlock HorizontalAlignment="Left" Height="24.284" Margin="354,139.363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39.5" FontSize="16"><Run Text="100"/><LineBreak/><Run/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="29.837" Margin="10,189.509,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="75.5" FontSize="20" FontWeight="Bold" Foreground="Teal"/>
         </Grid>
-        <Button Content="Clear All&#xD;&#xA;" HorizontalAlignment="Left" Height="24.166" Margin="290,17,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="111" FontSize="18" Background="White" BorderBrush="White" FontWeight="Bold"/>
+        <Button Content="Clear All&#xD;&#xA;" HorizontalAlignment="Left" Height="24.166" Margin="294.329,21.658,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="111" FontSize="18" Background="White" BorderBrush="White" FontWeight="Bold" Foreground="Black"/>
     </Grid>
 </Page>

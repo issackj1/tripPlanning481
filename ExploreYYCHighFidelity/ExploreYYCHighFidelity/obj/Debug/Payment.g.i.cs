@@ -41,7 +41,7 @@ namespace ExploreYYCHighFidelity {
     public partial class Payment : System.Windows.Controls.Page, System.Windows.Markup.IComponentConnector {
         
         
-        #line 18 "..\..\Payment.xaml"
+        #line 17 "..\..\Payment.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Grid whiteBackground;
         
@@ -49,7 +49,7 @@ namespace ExploreYYCHighFidelity {
         #line hidden
         
         
-        #line 39 "..\..\Payment.xaml"
+        #line 46 "..\..\Payment.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Grid upperNavBar;
         
