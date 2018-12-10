@@ -21,12 +21,12 @@
                 <TextBlock x:Name="HomeTitle" HorizontalAlignment="Left" Height="68" Margin="130,0,130,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" Width="146" FontSize="48" FontWeight="Bold"/>
             </StackPanel>
             <Image Margin="364,18,10,118" RenderTransformOrigin="0.5,0.5" Source="img/profile_icon.png"/>
-            <Button BorderBrush="{x:Null}" Background="{x:Null}" Margin="53,103,60,16">
-            </Button>
             <Rectangle x:Name="AddEventBox" Fill="#FFE4F4F9" HorizontalAlignment="Left" Height="85" Margin="40,97,0,0" RadiusY="46" RadiusX="46" VerticalAlignment="Top" Width="330" Stroke="#FF0E0E0E"/>
             <TextBlock x:Name="AddEvent" HorizontalAlignment="Left" Height="70" Margin="156,112,0,0" TextWrapping="Wrap" Text="Add Event" VerticalAlignment="Top" Width="207" FontSize="36" FontWeight="Bold"/>
             <Ellipse x:Name="PlusCircle" Fill="#FFDDDDDD" HorizontalAlignment="Left" Height="57" Margin="64,112,0,0" Stroke="#FF0E0E0E" VerticalAlignment="Top" Width="72"/>
             <TextBlock x:Name="PlusSymbol" Height="88" Margin="76,82,0,0" TextWrapping="Wrap" Text="+" Width="51" FontSize="72" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Button BorderBrush="{x:Null}" Background="{x:Null}" Margin="40,97,41,10" Click="Button_Click_1">
+            </Button>
         </Grid>
 
         <Grid Grid.Row="1">
@@ -61,7 +61,7 @@
                     <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                 </StackPanel>
             </Button>
-            <Button Grid.Column="2" x:Name="eventsButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75">
+            <Button Grid.Column="2" x:Name="eventsButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Click="Button_Click_1">
                 <StackPanel HorizontalAlignment="Center">
                     <Image Source="img/event.png" Height="75" Width="75" HorizontalAlignment="Center"/>
                     <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>

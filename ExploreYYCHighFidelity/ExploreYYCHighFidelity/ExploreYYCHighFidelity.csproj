@@ -55,6 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BookMarkedEmpty.xaml.cs">
+      <DependentUpon>BookMarkedEmpty.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BookMarkedWithEvent.xaml.cs">
+      <DependentUpon>BookMarkedWithEvent.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EmptyHomePage.xaml.cs">
       <DependentUpon>EmptyHomePage.xaml</DependentUpon>
     </Compile>
@@ -73,6 +79,9 @@
     <Compile Include="EventPage.xaml.cs">
       <DependentUpon>EventPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Nearby.xaml.cs">
+      <DependentUpon>Nearby.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Overview.xaml.cs">
       <DependentUpon>Overview.xaml</DependentUpon>
     </Compile>
@@ -82,14 +91,31 @@
     <Compile Include="PageTemplate.xaml.cs">
       <DependentUpon>PageTemplate.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Popular.xaml.cs">
+      <DependentUpon>Popular.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Route.xaml.cs">
+      <DependentUpon>Route.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.xaml.cs">
       <DependentUpon>SignUp.xaml</DependentUpon>
     </Compile>
     <Compile Include="Switcher.cs" />
     <Compile Include="SwitchEventArgs.cs" />
+    <Compile Include="Upcomming.xaml.cs">
+      <DependentUpon>Upcomming.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Welcome Page.xaml.cs">
       <DependentUpon>Welcome Page.xaml</DependentUpon>
     </Compile>
+    <Page Include="BookMarkedEmpty.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BookMarkedWithEvent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="EmptyHomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -114,6 +140,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Nearby.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Overview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -123,6 +153,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PageTemplate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Popular.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Route.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -142,6 +180,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Upcomming.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Welcome Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -210,6 +252,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img\Nutcracker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\map2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\googlemapsphoto.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

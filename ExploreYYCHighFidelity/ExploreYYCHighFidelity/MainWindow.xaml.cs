@@ -31,6 +31,7 @@ namespace ExploreYYCHighFidelity
         EventPage eventPage = new EventPage();
         Payment payment = new Payment();
         Overview overview = new Overview();
+        Popular popular = new Popular();
 
 
         public ArrayList logIncredentials = new ArrayList();
@@ -92,6 +93,9 @@ namespace ExploreYYCHighFidelity
                     break;
                 case "Zorro":
                     Switcher.Switch(eventPage);
+                    break;
+                case "popular":
+                    Switcher.Switch(popular);
                     break;
             }
         }

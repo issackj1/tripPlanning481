@@ -1,0 +1,74 @@
+﻿<Page x:Class="ExploreYYCHighFidelity.BookMarkedEmpty"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ExploreYYCHighFidelity"
+      mc:Ignorable="d" 
+      d:DesignHeight="731" d:DesignWidth="411"
+      Title="BookMarkedEmpty" Background="White">
+
+    <Border Padding="20">
+        <StackPanel>
+            <Grid>
+                <Rectangle Fill="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}"/>
+                <Label Content="Events" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Background="{x:Null}" Foreground="#FF343434" BorderBrush="#FFAC3737" OpacityMask="#FFF1CBCB"/>
+
+            </Grid>
+
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+
+                <TextBox Margin="0,10,20,20" Grid.Column="0" Height="23" TextWrapping="Wrap" Text="Search" TextSearch.Text="Search"/>
+                <Button Margin="0,10,0,20" Grid.Column="1" Content="Filter" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" Foreground="White"/>
+            </Grid>
+
+            <Menu Height="50" HorizontalAlignment="Center" Margin="0,0,2.8,0" Width="360">
+                <MenuItem Height="50" Width="90" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" >
+                    <MenuItem.Header >
+                        <TextBlock Text="Popular"  VerticalAlignment="Center"  Foreground="SkyBlue" FontSize="14" />
+                    </MenuItem.Header>
+                </MenuItem>
+
+                <MenuItem Height="50" Width="90" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}">
+                    <MenuItem.Header>
+                        <TextBlock Text="Upcoming" Foreground="SkyBlue"  VerticalAlignment="Center" FontSize="14" />
+                    </MenuItem.Header>
+                </MenuItem>
+
+                <MenuItem Height="50" Width="76.618" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}">
+                    <MenuItem.Header>
+                        <TextBlock Text="Nearby"  VerticalAlignment="Center" Foreground="SkyBlue" FontSize="14"  />
+                    </MenuItem.Header>
+                </MenuItem>
+
+                <MenuItem Height="50" Width="103.382" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}">
+                    <MenuItem.Header>
+                        <TextBlock Text="Bookmarked"  VerticalAlignment="Center" Foreground="White" FontSize="14" FontWeight="Bold" />
+                    </MenuItem.Header>
+                </MenuItem>
+
+
+
+
+            </Menu>
+            <StackPanel Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+
+
+
+
+
+
+            </StackPanel>
+            <Label Content="No events booked yet." HorizontalAlignment="Center" VerticalAlignment="Center" Height="368.746" Margin="120.856,0"/>
+
+
+        </StackPanel>
+
+    </Border>
+</Page>

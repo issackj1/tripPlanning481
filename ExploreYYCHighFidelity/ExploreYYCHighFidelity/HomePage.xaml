@@ -10,8 +10,8 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="101*"/>
-            <RowDefinition Height="527*"/>
+            <RowDefinition Height="95*"/>
+            <RowDefinition Height="532*"/>
             <RowDefinition Height="104*"/>
         </Grid.RowDefinitions>
 
@@ -21,6 +21,8 @@
             <Rectangle x:Name="Header" Fill="White" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="409" Margin="2,23,0,0"/>
             <TextBlock x:Name="HomeTitle" HorizontalAlignment="Left" Height="68" Margin="130,10,130,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" Width="146" FontSize="48" FontWeight="Bold"/>
             <Image Margin="364,18,10,563" RenderTransformOrigin="0.5,0.5" Source="img/profile_icon.png"/>
+            <Button BorderBrush="{x:Null}" Background="{x:Null}" Margin="40,97,41,445">
+            </Button>
             <Rectangle x:Name="AddEventBox" Fill="#FFE4F4F9" HorizontalAlignment="Left" Height="85" Margin="40,97,0,0" RadiusY="46" RadiusX="46" VerticalAlignment="Top" Width="330" Stroke="#FF0E0E0E"/>
             <TextBlock x:Name="AddEvent" HorizontalAlignment="Left" Height="70" Margin="156,112,0,0" TextWrapping="Wrap" Text="Add Event" VerticalAlignment="Top" Width="207" FontSize="36" FontWeight="Bold"/>
             <Ellipse x:Name="PlusCircle" Fill="#FFDDDDDD" HorizontalAlignment="Left" Height="57" Margin="64,112,0,0" Stroke="#FF0E0E0E" VerticalAlignment="Top" Width="72"/>
