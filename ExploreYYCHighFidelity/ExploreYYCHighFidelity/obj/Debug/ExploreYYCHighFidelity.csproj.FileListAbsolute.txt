@@ -153,9 +153,139 @@ U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelit
 U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csproj.CoreCompileInputs.cache
 U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.exe
 U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.pdb
-U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event2Page.g.cs
-U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event3Page.g.cs
-U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event2Page.baml
-U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event3Page.baml
-U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyHomePage.g.cs
-U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyHomePage.baml
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EventPage.g.cs
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Overview.g.cs
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Payment.g.cs
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EventPage.baml
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Overview.baml
+D:\Users\Fernando Bagtas\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Payment.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.exe.config
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.exe
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.pdb
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csprojResolveAssemblyReference.cache
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Forgot Page.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\HomePage.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EventPage.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Overview.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Payment.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\PageTemplate.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\SignUp.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\MainWindow.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Welcome Page.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\App.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity_MarkupCompile.cache
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity_MarkupCompile.lref
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Forgot Page.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\HomePage.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EventPage.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Overview.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Payment.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\PageTemplate.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\SignUp.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\MainWindow.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Welcome Page.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.g.resources
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.Properties.Resources.resources
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csproj.GenerateResource.Cache
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csproj.CoreCompileInputs.cache
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.exe
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.pdb
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyHomePage.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event2Page.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event3Page.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyHomePage.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event2Page.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event3Page.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyPayment.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyPayment.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\CalendarDecPage.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\CalendarJanPage.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\CalendarNovPage.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\CalendarDecPage.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\CalendarJanPage.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\CalendarNovPage.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Review.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Review.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ScheduleDecPage.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\zorroCalendar.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ZorroSchedule.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ScheduleDecPage.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\zorroCalendar.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ZorroSchedule.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\BookMarkedEmpty.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\BookMarkedWithEvent.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Nearby.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Popular.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Route.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Upcomming.g.cs
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\BookMarkedEmpty.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\BookMarkedWithEvent.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Nearby.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Popular.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Route.baml
+C:\Users\fernando.bagtas\source\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Upcomming.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.exe.config
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.exe
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\bin\Debug\ExploreYYCHighFidelity.pdb
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csprojResolveAssemblyReference.cache
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\BookMarkedEmpty.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\BookMarkedWithEvent.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\CalendarDecPage.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\CalendarJanPage.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\CalendarNovPage.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyHomePage.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyPayment.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event2Page.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event3Page.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Forgot Page.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\HomePage.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EventPage.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Nearby.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Overview.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Payment.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\PageTemplate.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Popular.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Review.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Route.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ScheduleDecPage.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\SignUp.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\MainWindow.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Upcomming.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Welcome Page.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\zorroCalendar.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ZorroSchedule.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\App.g.cs
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity_MarkupCompile.cache
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity_MarkupCompile.lref
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\BookMarkedEmpty.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\BookMarkedWithEvent.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\CalendarDecPage.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\CalendarJanPage.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\CalendarNovPage.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyHomePage.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EmptyPayment.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event2Page.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Event3Page.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Forgot Page.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\HomePage.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\EventPage.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Nearby.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Overview.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Payment.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\PageTemplate.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Popular.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Review.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Route.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ScheduleDecPage.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\SignUp.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\MainWindow.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Upcomming.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\Welcome Page.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\zorroCalendar.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ZorroSchedule.baml
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.g.resources
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.Properties.Resources.resources
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csproj.GenerateResource.Cache
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.csproj.CoreCompileInputs.cache
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.exe
+\\samba.cs.ucalgary.ca\fernando.bagtas\Documents\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\ExploreYYCHighFidelity.pdb

@@ -55,8 +55,26 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BookMarkedEmpty.xaml.cs">
+      <DependentUpon>BookMarkedEmpty.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BookMarkedWithEvent.xaml.cs">
+      <DependentUpon>BookMarkedWithEvent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarDecPage.xaml.cs">
+      <DependentUpon>CalendarDecPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarJanPage.xaml.cs">
+      <DependentUpon>CalendarJanPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarNovPage.xaml.cs">
+      <DependentUpon>CalendarNovPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EmptyHomePage.xaml.cs">
       <DependentUpon>EmptyHomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EmptyPayment.xaml.cs">
+      <DependentUpon>EmptyPayment.xaml</DependentUpon>
     </Compile>
     <Compile Include="Event2Page.xaml.cs">
       <DependentUpon>Event2Page.xaml</DependentUpon>
@@ -73,6 +91,9 @@
     <Compile Include="EventPage.xaml.cs">
       <DependentUpon>EventPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Nearby.xaml.cs">
+      <DependentUpon>Nearby.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Overview.xaml.cs">
       <DependentUpon>Overview.xaml</DependentUpon>
     </Compile>
@@ -82,25 +103,70 @@
     <Compile Include="PageTemplate.xaml.cs">
       <DependentUpon>PageTemplate.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Popular.xaml.cs">
+      <DependentUpon>Popular.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Review.xaml.cs">
+      <DependentUpon>Review.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Route.xaml.cs">
+      <DependentUpon>Route.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleDecPage.xaml.cs">
+      <DependentUpon>ScheduleDecPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.xaml.cs">
       <DependentUpon>SignUp.xaml</DependentUpon>
     </Compile>
     <Compile Include="Switcher.cs" />
     <Compile Include="SwitchEventArgs.cs" />
+    <Compile Include="Upcomming.xaml.cs">
+      <DependentUpon>Upcomming.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Welcome Page.xaml.cs">
       <DependentUpon>Welcome Page.xaml</DependentUpon>
     </Compile>
+    <Compile Include="zorroCalendar.xaml.cs">
+      <DependentUpon>zorroCalendar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ZorroSchedule.xaml.cs">
+      <DependentUpon>ZorroSchedule.xaml</DependentUpon>
+    </Compile>
+    <Page Include="BookMarkedEmpty.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="BookMarkedWithEvent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CalendarDecPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CalendarJanPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CalendarNovPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="EmptyHomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="EmptyPayment.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Event2Page.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Event3Page.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Forgot Page.xaml">
       <SubType>Designer</SubType>
@@ -114,6 +180,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Nearby.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Overview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -125,6 +195,22 @@
     <Page Include="PageTemplate.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Popular.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Review.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Route.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ScheduleDecPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="SignUp.xaml">
       <SubType>Designer</SubType>
@@ -142,7 +228,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Upcomming.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Welcome Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="zorroCalendar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ZorroSchedule.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -200,16 +298,22 @@
     <Resource Include="img\zorophoto.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="tower.png" />
+    <Resource Include="img\logo3.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="tower2.png" />
+    <Resource Include="img\tower.png" />
+    <Resource Include="img\tower2.png" />
+    <Resource Include="img\tower3.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img\AChristmasCarol.jpg" />
+    <Resource Include="img\Nutcracker.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="img\Nutcracker.jpg" />
+    <Resource Include="img\googlemapsphoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\map2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

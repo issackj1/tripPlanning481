@@ -9,12 +9,13 @@
       Title="Forgot_Page">
 
     <Grid>
-        <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="0,30,0,0" FontSize="25" Height="39" Click="BackButton_Click"/>
-        <TextBox x:Name="emailBox" HorizontalAlignment="Center" Height="50" Margin="0,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="363" BorderThickness="2" BorderBrush="#000000" Background="#990000" FontSize="35" Foreground="#ffffff"/>
-        <TextBlock x:Name="emailBlock" HorizontalAlignment="Center" Margin="-290,255,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top" FontSize="28" Foreground="#ffffff"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="140" Width="363" Margin="0,130,0,0">
-            <TextBlock x:Name="Title" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Text="Reset Password" FontSize="35" FontWeight="Bold"/>
-            <TextBlock x:Name="Content" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Text="Please enter the email associated with the account and we will send your username and password." FontSize="18" FontWeight="Bold" Margin="0,0,0,0"/>
+        <!--<Button x:Name="backButton" Content="&lt; Back" Margin="0,0,348,5" Click="backButton_Click" Background="{x:Null}" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" />-->
+        <Button x:Name="backButton" Content="&lt; Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="0,30,0,0" FontSize="25" Height="39" Click="BackButton_Click" Background="White" BorderBrush="{x:Null}" Opacity="0.8"/>
+        <TextBox x:Name="emailBox" HorizontalAlignment="Center" Height="50" Margin="0,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="363" BorderThickness="2" BorderBrush="#000000" Background="#FF3BC7F3" FontSize="35" Foreground="#ffffff"/>
+        <TextBlock x:Name="emailBlock" HorizontalAlignment="Center" Margin="-290,255,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top" FontSize="28" Foreground="Black" Background="White" Opacity="0.5"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="140" Width="363" Margin="0,130,0,0" Foreground="{x:Null}">
+            <TextBlock x:Name="Title" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Text="Reset Password" FontSize="35" Foreground="Black" Background="White" Opacity="0.5"/>
+            <TextBlock x:Name="Content" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Text="Please enter the email associated with the account and we will send your username and password." FontSize="18"  Margin="0,0,0,0" Foreground="Black" Background="White" Opacity="0.5"/>
         </TextBlock>
         <Button x:Name="sendButton" Content="Send" HorizontalAlignment="Center" VerticalAlignment="Top" Width="130" Margin="0,370,0,0" FontSize="25" Height="39" Click="SendButton_Click"/>
         <Border x:Name="confirmBlock" HorizontalAlignment="Center" Height="155" VerticalAlignment="Top" Width="364" Margin="24,255,23,0" Background="#660000" BorderThickness="2" BorderBrush="#000000" Visibility="Hidden">
@@ -29,5 +30,17 @@
                 <Button x:Name="errorButton" HorizontalAlignment="Center" Height="40" VerticalAlignment="Top" Width="60" Content="OK" Margin="0,40,0,0" FontSize="25" Click="OkButton_Click"/>
             </StackPanel>
         </Border>
+        <Grid.Background>
+            <ImageBrush x:Name ="background" ImageSource="img/tower3.png" Stretch="Uniform">
+                <ImageBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="2" ScaleY="2"/>
+                        <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                        <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ImageBrush.RelativeTransform>
+            </ImageBrush>
+        </Grid.Background>
     </Grid>
 </Page>
