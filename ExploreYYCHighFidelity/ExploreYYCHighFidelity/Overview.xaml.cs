@@ -21,15 +21,24 @@ namespace ExploreYYCHighFidelity
     public partial class Overview : Page
     {
         public event EventHandler pageSwitchHandler;
+        public static MainWindow pz;
+        private int basic;
+        private int floor;
+        private int VIP;
         public Overview()
         {
             InitializeComponent();
+            pz = this.Parent as MainWindow;
         }
 
         private void nextButton_Click(object sender, RoutedEventArgs e)
         {
             //Makes a new SwitchEventArgs (class in solution) 
             SwitchEventArgs switchArgs = new SwitchEventArgs();
+            //basic = int.Parse(basicBox.Text);
+            //floor = int.Parse(floorBox.Text);
+            //VIP = int.Parse(VIPBox.Text);
+            //pz.getSum(basic, floor, VIP);
             switchArgs.Page = "zorroEmptyPayment";
 
             //if pageSwitchHandler exists, it sends a signal to Page_ButtonClick in MainWindow.xaml.cs that a button is clicked and it needs to switch the page

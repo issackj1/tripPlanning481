@@ -27,7 +27,7 @@ namespace ExploreYYCHighFidelity
         public SignUp()
         {
             InitializeComponent();
-            //pz = this.Parent as MainWindow;
+            pz = this.Parent as MainWindow;
         }
 
         //What happens when back button is clicked
@@ -47,6 +47,7 @@ namespace ExploreYYCHighFidelity
             if(String.Equals(passBox.Text,confirmPassBox.Text) && (passBox.Text != "" || confirmPassBox.Text != ""))
             {
                 pz.AddCredentials(userBox.Text, passBox.Text, emailBox.Text);
+                pz.checkNewUser(true);
 
                 SwitchEventArgs switchArgs = new SwitchEventArgs();
                 switchArgs.Page = "Homepage";

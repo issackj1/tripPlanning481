@@ -27,6 +27,7 @@ namespace ExploreYYCHighFidelity
         SignUp signIn = new SignUp();
         Welcome_Page welcome = new Welcome_Page();
         HomePage home = new HomePage();
+        EmptyHomePage emptyHome = new EmptyHomePage();
         Forgot_Page forgot = new Forgot_Page();
 
         CalendarJanPage calendarJan = new CalendarJanPage();
@@ -59,6 +60,8 @@ namespace ExploreYYCHighFidelity
         public ArrayList emailCredentials = new ArrayList();
         public List<String> backLog = new List<String>();
 
+        protected bool noEvents;
+        private int sum;
         public MainWindow()
         {
             InitializeComponent();
@@ -68,6 +71,7 @@ namespace ExploreYYCHighFidelity
             signIn.pageSwitchHandler += Page_ButtonClick;
             home.pageSwitchHandler += Page_ButtonClick;
             forgot.pageSwitchHandler += Page_ButtonClick;
+            emptyHome.pageSwitchHandler += Page_ButtonClick;
 
             //zorro
             eventPage.pageSwitchHandler += Page_ButtonClick;
@@ -133,7 +137,8 @@ namespace ExploreYYCHighFidelity
                 case "Homepage":
                     //this.background.Opacity = 0;
                     //this.Background = new SolidColorBrush(Colors.White);
-                    Switcher.Switch(home);
+                    if(noEvents == true) Switcher.Switch(emptyHome);
+                    else Switcher.Switch(home);
                     break;
                 case "Forgot":
                     forgot.confirmBlock.Visibility = Visibility.Hidden;
@@ -161,6 +166,7 @@ namespace ExploreYYCHighFidelity
                     Switcher.Switch(emptyPayment);
                     break;
                 case "zorroReview":
+                    //review.setSum(sum);
                     Switcher.Switch(review);
                     break;
 
@@ -206,6 +212,12 @@ namespace ExploreYYCHighFidelity
                     break;
                 case "Nearby":
                     Switcher.Switch(nearbyPage);
+                    break;
+                case "emptyBookmark":
+                    Switcher.Switch(emptybookmark);
+                    break;
+                case "bookmarked":
+                    Switcher.Switch(zorroBookmark);
                     break;
                 
                 case "Routes":
@@ -255,6 +267,16 @@ namespace ExploreYYCHighFidelity
             logIncredentials.Add(login);
             passWordcredentials.Add(pass);
             emailCredentials.Add(email);
+        }
+
+        public void checkNewUser(bool newUser)
+        {
+            noEvents = true;
+        }
+
+        public void getSum(int x, int y, int z)
+        {
+            sum = (x * 10) + (y * 20) + (z * 50);
         }
     }
 }
