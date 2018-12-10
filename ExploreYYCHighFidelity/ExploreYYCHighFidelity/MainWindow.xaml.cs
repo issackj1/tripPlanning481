@@ -30,6 +30,7 @@ namespace ExploreYYCHighFidelity
         Overview overviewPage = new Overview();
         Review reviewPage = new Review();
         Filter filterPage = new Filter();
+        Profile profilePage = new Profile();
 
         public ArrayList logIncredentials = new ArrayList();
         public ArrayList passWordcredentials = new ArrayList();
@@ -47,7 +48,7 @@ namespace ExploreYYCHighFidelity
 
             //connects switcher to this window
             Switcher.pageSwitcher = this;
-            Switcher.Switch(filterPage);
+            Switcher.Switch(profilePage);
 
             welcome.logIns = logIncredentials;
             welcome.passwords = passWordcredentials;

@@ -14,7 +14,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <!--Put everything from here up until and not inluding to </Grid> onto the pages where the 4 main buttons -->
-        <Grid HorizontalAlignment="Left" Height="675.25" VerticalAlignment="Top" Width="411" Background="White" OpacityMask="Black" Grid.RowSpan="2">
+        <Grid HorizontalAlignment="Left" Height="675.25" VerticalAlignment="Top" Width="411" OpacityMask="Black" Grid.RowSpan="2" Background="White">
             <Grid.RowDefinitions>
                 <RowDefinition Height="452*"/>
                 <RowDefinition Height="177*"/>

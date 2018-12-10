@@ -61,6 +61,9 @@
     <Compile Include="Filter.xaml.cs">
       <DependentUpon>Filter.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Profile.xaml.cs">
+      <DependentUpon>Profile.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Review.xaml.cs">
       <DependentUpon>Review.xaml</DependentUpon>
     </Compile>
@@ -86,6 +89,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Filter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Profile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -174,6 +181,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="zorophoto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="default profile icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="naruto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="narutosmile.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="calgary-curtis-block-11.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

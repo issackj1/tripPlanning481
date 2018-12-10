@@ -24,7 +24,8 @@
             <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="3.379" Margin="-2,184.13,-3,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="416"/>
             <TextBlock HorizontalAlignment="Left" Height="26" Margin="309,22.346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84" FontSize="18" FontWeight="Bold" TextDecorations="Underline"/>
             <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="3.379" Margin="-2,632.63,-3,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="416"/>
-            <Button Content="Show 2 events" Height="55" Margin="60,657.346,0,0" Width="280.5" FontSize="18" Background="#FF80EEFF" VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold"/>
+            <Button Content="Show 2 events" Height="55" Margin="60,657.346,0,0" Width="280.5" FontSize="18" Background="#FF80EEFF" VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold">
+            </Button>
             <Path Data="M403.60504,195.71396 L816.08348,196.70868" Fill="#FFAEAEAE" Height="2.716" Margin="140,697.13,0,0" Stretch="Fill" Stroke="#FF040405" Width="125" VerticalAlignment="Top" HorizontalAlignment="Left" StrokeThickness="3"/>
             <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="1" Margin="310.318,41.84,0,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="73" RenderTransformOrigin="0.5,0.5" StrokeThickness="4">
                 <Path.RenderTransform>
