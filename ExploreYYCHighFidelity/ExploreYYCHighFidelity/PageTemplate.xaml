@@ -8,31 +8,39 @@
       d:DesignHeight="731" d:DesignWidth="411"
       Title="PageTemplate">
 
-    <Grid>
+    <Grid Width="411">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
         <!--Put everything from here up until and not inluding to </Grid> onto the pages where the 4 main buttons -->
-        <Button x:Name="calendarButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="-308.25,0,0,0">
+        <Button Grid.Column="0" x:Name="calendarButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="60">
             <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/calendar_2.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <Image Source="img/calendar_2.png" Height="40" Width="40" HorizontalAlignment="Center"/>
                 <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
             </StackPanel>
         </Button>
-        <Button x:Name="homeButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="-102.75,0,0,0">
+        <Button Grid.Column="1" x:Name="homeButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="60" Background="#FF818181">
             <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/house.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <Image Source="img/house.png" Height="40" Width="40" HorizontalAlignment="Center"/>
                 <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
             </StackPanel>
         </Button>
-        <Button x:Name="eventsButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="102.75,0,0,0">
+        <Button Grid.Column="2" x:Name="eventsButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="60">
             <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/event.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <Image Source="img/event.png" Height="40" Width="40" HorizontalAlignment="Center"/>
                 <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
             </StackPanel>
         </Button>
-        <Button x:Name="routesButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="102.75" Margin="308.25,0,0,0">
+        <Button Grid.Column="3" x:Name="routesButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="102.75" Height="60">
             <StackPanel HorizontalAlignment="Center">
-                <Image Source="img/Map.png" Height="75" Width="75" HorizontalAlignment="Center"/>
+                <Image Source="img/Map.png" Height="40" Width="40" HorizontalAlignment="Center"/>
                 <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
             </StackPanel>
         </Button>
+
     </Grid>
 </Page>

@@ -1,0 +1,49 @@
+﻿<Page x:Class="ExploreYYCHighFidelity.Review"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ExploreYYCHighFidelity"
+      mc:Ignorable="d" 
+      d:DesignHeight="731" d:DesignWidth="411"
+      Title="Review">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="692*"/>
+            <RowDefinition Height="39*"/>
+        </Grid.RowDefinitions>
+        <!--Put everything from here up until and not inluding to </Grid> onto the pages where the 4 main buttons -->
+        <Grid x:Name="whiteBackground" HorizontalAlignment="Left" Height="665.583" VerticalAlignment="Top" Width="411" Background="White" OpacityMask="Black" Margin="0,-3.346,0,0" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button x:Name="backButton" Content="&lt; Back" HorizontalAlignment="Left" Height="33.456" Margin="15.067,45.163,0,0" VerticalAlignment="Top" Width="81.947" BorderBrush="White" Background="White" FontSize="20" FontWeight="Bold" Click="backButton_Click"/>
+            <Button Content=" Place Order &gt;" HorizontalAlignment="Left" Margin="-2,640.605,-2.5,-70.023" Width="415.5" FontSize="36" FontWeight="Bold" BorderBrush="Black" Background="#FFF9F9F9" BorderThickness="1,3" Height="95"/>
+            <TextBlock HorizontalAlignment="Left" Height="61.285" Margin="116.883,150.061,0,0" TextWrapping="Wrap" Text="Order Details" VerticalAlignment="Top" Width="191.117" FontSize="30"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2,205.13,-3,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
+            <TextBlock HorizontalAlignment="Left" Height="46.5" Margin="10,214.846,0,0" TextWrapping="Wrap" Text="Zorro: Family Code" VerticalAlignment="Top" Width="206" FontSize="18" TextDecorations="Underline" FontWeight="Bold"/>
+            <TextBlock HorizontalAlignment="Left" Height="37.5" Margin="10,252.846,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103.514"><Run FontSize="14" Text="Quantity"/><Run Text=":    "/><Run FontWeight="Bold" FontSize="16" Text="2" TextDecorations="Underline"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="33" Margin="216,217.846,0,0" TextWrapping="Wrap" Text="Date: December 14, 2018" VerticalAlignment="Top" Width="185" FontSize="16"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2,286.967,-3,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
+            <TextBlock HorizontalAlignment="Left" Height="38" Margin="113.514,441.856,0,0" TextWrapping="Wrap" Text="Order Summary" VerticalAlignment="Top" Width="178.5" FontSize="22" TextDecorations="Underline" FontWeight="Bold"/>
+            <TextBlock HorizontalAlignment="Left" Height="39" Margin="8.514,479.856,0,0" TextWrapping="Wrap" Text="Promo Code" VerticalAlignment="Top" Width="105" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="39" Margin="172,479.856,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219.5" FontSize="16"><Run Text="Item Total:         "/><Run FontWeight="Bold" Text="$100.00"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="39" Margin="172,518.856,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219.5" FontSize="16"><Run Text="Sales Tax:           "/><Run FontWeight="Bold" Text="$15.00"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="39" Margin="172,557.856,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219.5" FontSize="16"><Run Text="Promo Code:     "/><Run FontWeight="Bold" Text="$115.00"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="79.5" Margin="10,378.696,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262.5" FontSize="18"><Run Text="123 4th Street SW, Calgary, AB"/><LineBreak/><Run Text="A1B 2C3"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="30.335" Margin="10,352.796,0,0" TextWrapping="Wrap" Text="John Smith" VerticalAlignment="Top" Width="183.5" FontSize="24" FontWeight="Bold"/>
+            <Button Content="Change" HorizontalAlignment="Left" Height="30.335" Margin="294.5,352.796,0,0" VerticalAlignment="Top" Width="106.5" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="32.855" Margin="83.514,295.346,0,0" TextWrapping="Wrap" Text="Current Billing Address" VerticalAlignment="Top" Width="246" FontSize="22" TextDecorations="Underline" FontWeight="Bold"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-5,433.477,-3,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="419"/>
+        </Grid>
+        <Grid x:Name="upperNavBar" HorizontalAlignment="Left" Height="108.73" Margin="0,60.17,-27.266,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="438.266">
+            <Button Content="Review" HorizontalAlignment="Left" Height="56.874" Margin="309.433,21.732,0,0" VerticalAlignment="Top" Width="94.913" FontSize="24" Background="White" BorderBrush="White" FontWeight="Bold" Foreground="#FF00C912"/>
+            <Button Content="Payment" HorizontalAlignment="Left" Height="56.874" Margin="162.25,21.732,0,0" VerticalAlignment="Top" Width="110.402" FontSize="24" Background="White" BorderBrush="White"/>
+            <Button Content="Overview  " HorizontalAlignment="Left" Height="35.138" Margin="11.707,31.769,0,0" VerticalAlignment="Top" Width="110.402" FontSize="24" Background="White" BorderBrush="White"/>
+            <TextBlock HorizontalAlignment="Left" Height="80" Margin="128.796,16.713,0,0" TextWrapping="Wrap" Text="&gt;" VerticalAlignment="Top" Width="38.473" FontSize="48" FontStretch="UltraExpanded" FontWeight="Bold"/>
+            <TextBlock HorizontalAlignment="Left" Height="80" Margin="276.02,16.713,0,0" TextWrapping="Wrap" Text="&gt;" VerticalAlignment="Top" Width="38.473" FontSize="48" FontStretch="UltraExpanded" FontWeight="Bold"/>
+        </Grid>
+    </Grid>
+</Page>

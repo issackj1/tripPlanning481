@@ -17,6 +17,7 @@
     </Page.Triggers>
 
     <StackPanel Background="Gray">
+<<<<<<< HEAD
         <Image Source="img/googlemapsphoto.png"/>
         <Canvas Height="633.4" ClipToBounds="True" Background="Coral">
             <Canvas Canvas.ZIndex="99" Height="151" Width="411" Background="Blue" ClipToBounds="True">
@@ -41,6 +42,45 @@
 
 
 
+=======
+        <StackPanel Height="670.904">
+            <Image Source="img/googlemapsphoto.png" Height="734.904" Margin="-126,0,-124,0"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Width="411">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" x:Name="calendarButton" Click="calendarButton_Click">
+                <StackPanel HorizontalAlignment="Center">
+                    <Image Source="img/calendar_2.png" Height="40" Width="40" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Column="1" x:Name="homeButton" Click="homeButton_Click">
+                <StackPanel>
+                    <Image Source="img/house.png" Height="40" Width="40" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Column="2" x:Name="eventsButton" Click="eventsButton_Click">
+                <StackPanel HorizontalAlignment="Center">
+                    <Image Source="img/event.png" Height="40" Width="40" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Column="3" x:Name="routesButton" Click="routesButton_Click" Background="#FF818181">
+                <StackPanel HorizontalAlignment="Center">
+                    <Image Source="img/Map.png" Height="40" Width="40" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+>>>>>>> fernando2
 
     </StackPanel>
 

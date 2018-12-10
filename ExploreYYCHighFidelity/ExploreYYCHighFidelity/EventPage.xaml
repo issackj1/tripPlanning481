@@ -78,17 +78,17 @@
         <Grid Height="731">
             <Grid.RowDefinitions>
                 <RowDefinition Height="628*"/>
-                <RowDefinition Height="100*"/>
+                <RowDefinition Height="60*"/>
             </Grid.RowDefinitions>
 
             <Grid Grid.Row="0" Margin="0,0,0,5">
                 <StackPanel>
                     <Rectangle Height="20" Fill="#FFE4F4F9" VerticalAlignment="Top"/>
                     <Button Content="&lt; Back" Margin="0,0,348,5" Click="Button_Click" Background="{x:Null}" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" />
-                    <TextBlock Text="Zorro" Margin="10,5,0,5" FontSize="20" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock Text="★★★✰✰" FontSize="10" Foreground="Black" Margin="10,0,0,0"/>
+                    <TextBlock Text="Zorro: Family Code" Margin="10,5,0,5" FontSize="20" Foreground="Black" FontWeight="Bold"/>
+                    <TextBlock Text="4.5/5 stars" FontSize="10" Foreground="Black" Margin="10,0,0,0"/>
                     <TextBlock Margin="10,0,0,10" FontSize="14" TextDecorations="{x:Null}" Text="Event type - Paid"/>
-                    <ScrollViewer CanContentScroll="True" Height="444" VerticalScrollBarVisibility="Disabled">
+                    <ScrollViewer CanContentScroll="True" Height="484" VerticalScrollBarVisibility="Hidden">
                         <StackPanel>
                             <Border Width="354" BorderThickness="1" BorderBrush="Black" CornerRadius="2">
                                 <Border.Background>
@@ -103,12 +103,12 @@
                                     </Image.Source>
                                 </Image>
                             </Border>
-                            <TextBlock FontSize="20" Margin="10,0,0,0"><Run FontWeight="Bold" Text="Date"/><Run Text=": Dec 11"/></TextBlock>
-                            <TextBlock FontSize="16" Margin="10,0,0,0" Width="378"><Run FontWeight="Bold" Text="Time"/><Run Text=": 6:30 P.M. - 8:30 P.M."/></TextBlock>
-                            <TextBlock FontSize="16" Margin="10,0,0,0" Width="378"><Run FontWeight="Bold" Text="Location"/><Run Text=": 205 8 Ave. S.E. Calgary, AB"/></TextBlock>
+                            <TextBlock FontSize="20" Margin="10,0,0,0" Width="415"><Run FontWeight="Bold" Text="Date"/><Run Text=": Nov. 27, 2018 - Dec. 30, 2018"/></TextBlock>
+                            <TextBlock FontSize="16" Margin="10,0,0,10" Width="399.333"><Run FontWeight="Bold" Text="Time"/><Run Text=": 1PM - 3:20PM, 6:30PM - 8:50PM "/></TextBlock>
+
                             <TextBlock Text="Description:" FontSize="20" Margin="10,0,0,5" FontWeight="Bold"/>
                             <Border BorderBrush="Black" CornerRadius="5" Height="110" Margin="31,0,50,5" BorderThickness="0" Width="339">
-                                <TextBlock TextWrapping="Wrap" Width="336" Margin="2,0,5,-1" Text="Canadian director and actor Rebecca Northan directs Alberta Theatre Projects' latest adventure. In Zorro: Family Code, the masked crusader heads to a Spanish town in pursuit of Captán Juan Ramon, who has recently broken out of prison. But along the way, Zorro comes across something unexpected: another &quot;Zorro.&quot;"/>
+                                <TextBlock TextWrapping="Wrap" Width="336" Margin="2,0,5,-1"><Run Text="Canadian director and actor Rebecca Northan directs Alberta Theatre Projects' latest adventure. In Zorro: Family Code, the masked crusader heads to a Spanish town in pursuit of Captán Juan Ramon, who has recently broken out of prison. But along the way, Zorro comes across something unexpected: another &quot;Zorro.&quot;"/><LineBreak/><Run FontWeight="Bold" Text="Duration"/><Run Text=": 2 Hours 20 Minutes"/></TextBlock>
                             </Border>
                             <TextBlock FontSize="20" Margin="10,0,0,0"><Run FontWeight="Bold" Text="Pricing"/><Run Text=":"/></TextBlock>
                             <Grid Margin="34,5,55,10" Background="#FFDDDDDD" OpacityMask="Black" RenderTransformOrigin="0.5,0.5">
@@ -170,27 +170,27 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Button Grid.Column="0" x:Name="calendarButton">
+                <Button Grid.Column="0" x:Name="calendarButton" Click="calendarButton_Click">
                     <StackPanel HorizontalAlignment="Center">
-                        <Image Source="img/calendar_2.png" Height="60" Width="60" HorizontalAlignment="Center"/>
+                        <Image Source="img/calendar_2.png" Height="40" Width="40" HorizontalAlignment="Center"/>
                         <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
-                <Button Grid.Column="1" x:Name="homeButton">
+                <Button Grid.Column="1" x:Name="homeButton" Click="homeButton_Click">
                     <StackPanel>
-                        <Image Source="img/house.png" Height="60" Width="60" HorizontalAlignment="Center"/>
+                        <Image Source="img/house.png" Height="40" Width="40" HorizontalAlignment="Center"/>
                         <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
-                <Button Grid.Column="2" x:Name="eventsButton" >
+                <Button Grid.Column="2" x:Name="eventsButton" Click="eventsButton_Click">
                     <StackPanel HorizontalAlignment="Center">
-                        <Image Source="img/event.png" Height="60" Width="60" HorizontalAlignment="Center"/>
+                        <Image Source="img/event.png" Height="40" Width="40" HorizontalAlignment="Center"/>
                         <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
-                <Button Grid.Column="3" x:Name="routesButton">
+                <Button Grid.Column="3" x:Name="routesButton" Click="routesButton_Click">
                     <StackPanel HorizontalAlignment="Center">
-                        <Image Source="img/Map.png" Height="60" Width="60" HorizontalAlignment="Center"/>
+                        <Image Source="img/Map.png" Height="40" Width="40" HorizontalAlignment="Center"/>
                         <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
