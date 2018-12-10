@@ -113,7 +113,7 @@ namespace ExploreYYCHighFidelity
 
             //connects switcher to this window
             Switcher.pageSwitcher = this;
-            Switcher.Switch(welcome);
+            Switcher.Switch(filterPage);
 
             welcome.logIns = logIncredentials;
             welcome.passwords = passWordcredentials;

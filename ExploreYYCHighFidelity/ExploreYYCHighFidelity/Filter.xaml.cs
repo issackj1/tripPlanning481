@@ -25,11 +25,11 @@ namespace ExploreYYCHighFidelity
             InitializeComponent();
         }
 
-        
+
 
         private void closeFilterButtom_Click(object sender, RoutedEventArgs e)
         {
-            //Makes a new SwitchEventArgs (class in solution) 
+            //Makes a new SwitchEventArgs (class in solution)
             SwitchEventArgs switchArgs = new SwitchEventArgs();
             switchArgs.Page = "Back";
 

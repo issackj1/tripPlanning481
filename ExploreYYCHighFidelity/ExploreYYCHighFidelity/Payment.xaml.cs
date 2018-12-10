@@ -27,7 +27,7 @@ namespace ExploreYYCHighFidelity
 
         private void backButton_Click(object sender, RoutedEventArgs e)
         {
-            //Makes a new SwitchEventArgs (class in solution) 
+            //Makes a new SwitchEventArgs (class in solution)
             SwitchEventArgs switchArgs = new SwitchEventArgs();
             switchArgs.Page = "Back";
 
@@ -39,7 +39,7 @@ namespace ExploreYYCHighFidelity
 
         private void nextButton_Click(object sender, RoutedEventArgs e)
         {
-            //Makes a new SwitchEventArgs (class in solution) 
+            //Makes a new SwitchEventArgs (class in solution)
             SwitchEventArgs switchArgs = new SwitchEventArgs();
             switchArgs.Page = "zorroReview";
 

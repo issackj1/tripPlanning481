@@ -22,7 +22,7 @@ namespace ExploreYYCHighFidelity
     {
         public PageTemplate()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
     }
 }

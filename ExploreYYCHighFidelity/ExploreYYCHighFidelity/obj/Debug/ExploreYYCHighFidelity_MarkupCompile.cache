@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿ExploreYYCHighFidelity
 
 
@@ -18,3 +19,25 @@ BookMarkedEmpty.xaml;BookMarkedWithEvent.xaml;CalendarDecPage.xaml;CalendarJanPa
 
 False
 
+=======
+﻿ExploreYYCHighFidelity
+
+
+winexe
+C#
+.cs
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\
+ExploreYYCHighFidelity
+none
+false
+DEBUG;TRACE
+\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\App.xaml
+10-1887677310
+
+16-964489951
+131569487696
+HomePage.xaml;Filter.xaml;Profile.xaml;Review.xaml;PageTemplate.xaml;SignUp.xaml;MainWindow.xaml;Welcome Page.xaml;Overview.xaml;Payment.xaml;
+
+False
+
+>>>>>>> origin/nathanbranch

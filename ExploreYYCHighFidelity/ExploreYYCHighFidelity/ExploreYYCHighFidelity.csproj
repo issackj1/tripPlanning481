@@ -109,6 +109,9 @@
     <Compile Include="Payment.xaml.cs">
       <DependentUpon>Payment.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Filter.xaml.cs">
+      <DependentUpon>Filter.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PageTemplate.xaml.cs">
       <DependentUpon>PageTemplate.xaml</DependentUpon>
     </Compile>
@@ -138,6 +141,7 @@
     <Compile Include="Welcome Page.xaml.cs">
       <DependentUpon>Welcome Page.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="zorroCalendar.xaml.cs">
       <DependentUpon>zorroCalendar.xaml</DependentUpon>
     </Compile>
@@ -191,6 +195,12 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Compile Include="Overview.xaml.cs">
+      <DependentUpon>Overview.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.xaml.cs">
+      <DependentUpon>Payment.xaml</DependentUpon>
+    </Compile>
     <Page Include="HomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -212,6 +222,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Overview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Filter.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -275,6 +289,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Overview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Payment.xaml"></page>
     <Page Include="ZorroSchedule.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -327,6 +346,7 @@
     <Resource Include="img\event.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Resource Include="img\profile_icon.png" />
   </ItemGroup>
   <ItemGroup>
@@ -356,6 +376,28 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img\bookmark-white.png" />
+    <Resource Include="zorophoto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="default profile icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="naruto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="narutosmile.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="calgary-curtis-block-11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\airplaneteal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\airplanewhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="airplanewhite.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
