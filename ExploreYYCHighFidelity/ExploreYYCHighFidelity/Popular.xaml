@@ -58,6 +58,19 @@
         </Menu>
         <StackPanel Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Height="508.667">
 
+            <Grid>
+                <Button x:Name="nutcrackerButton"  Margin="10,10,10,10" Width="320" FontStyle="Italic" Click="nutcrackerButton_Click">
+                    <Button.Background >
+                        <ImageBrush ImageSource="img/Nutcracker.jpg" Stretch="UniformToFill"/>
+                    </Button.Background>
+                    <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
+                        <Run Text=".                                The Nutcracker"/><LineBreak/>
+                        <Run Text=".                                ★★★★☆(2) - Play"/><LineBreak/>
+                        <Run Text="                                 Dec. 10 - Dec. 17"/><LineBreak/>
+                        <Run Text="          Southern Alberta Jubilee Auditorium, 1415 14 Ave N.W. Calgary, AB"/></TextBlock>
+                </Button>
+                <Rectangle Height="50" Width="50"/>
+            </Grid>
 
             <Grid>
                 <Button x:Name="zorroButton" Margin="10,10,10,10" Width="320" FontStyle="Italic" Click="zorroButton_Click" >
@@ -91,24 +104,12 @@
                 <Rectangle Height="50" Width="50"/>
             </Grid>
 
-            <Grid>
-                <Button x:Name="nutcrackerButton"  Margin="10,10,10,10" Width="320" FontStyle="Italic" Click="nutcrackerButton_Click">
-                    <Button.Background >
-                        <ImageBrush ImageSource="img/Nutcracker.jpg" Stretch="UniformToFill"/>
-                    </Button.Background>
-                    <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
-                        <Run Text=".                                The Nutcracker"/><LineBreak/>
-                        <Run Text=".                                ★★★★☆(2) - Play"/><LineBreak/>
-                        <Run Text="                                 Dec. 10 - Dec. 17"/><LineBreak/>
-                        <Run Text="          Southern Alberta Jubilee Auditorium, 1415 14 Ave N.W. Calgary, AB"/></TextBlock>
-                </Button>
-                <Rectangle Height="50" Width="50"/>
-            </Grid>
+            
 
             <Grid>
                 <Button Margin="10,10,10,10" Width="320" FontStyle="Italic" >
                     <Button.Background >
-                        <ImageBrush ImageSource="img/sehaj.jpg" Stretch="UniformToFill"/>
+                        <ImageBrush ImageSource="img/spiritInTheMountain.jpeg" Stretch="UniformToFill"/>
                     </Button.Background>
                     <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
                         <Run Text=".                                Spirit in the Mountain"/><LineBreak/>

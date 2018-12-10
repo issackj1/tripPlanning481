@@ -114,7 +114,7 @@
             <Grid>
                 <Button Margin="10,10,10,10" Width="320" FontStyle="Italic" >
                     <Button.Background >
-                        <ImageBrush ImageSource="img/sehaj.jpg" Stretch="UniformToFill"/>
+                        <ImageBrush ImageSource="img/spiritInTheMountain.jpeg" Stretch="UniformToFill"/>
                     </Button.Background>
                     <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
                         <Run Text=".                                Spirit in the Mountain"/><LineBreak/>

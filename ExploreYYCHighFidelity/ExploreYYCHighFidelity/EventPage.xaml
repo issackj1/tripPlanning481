@@ -91,7 +91,7 @@
                         <ImageBrush ImageSource="img/bookmark-white.png" Stretch="UniformToFill"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="backButton" Margin="8,20,341,0" Click="backButton_Click" Background="{x:Null}" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" VerticalAlignment="Top" />
+                <Button x:Name="backButton" Margin="8,20,341,0" Click="backButton_Click" Background="White" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" VerticalAlignment="Top" Opacity="0" />
                 <StackPanel>
 
                     <TextBlock Text="Zorro: Family Code" Margin="10,60,0,5" FontSize="20" Foreground="Black" FontWeight="Bold"/>
