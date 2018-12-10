@@ -14,7 +14,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <!--Put everything from here up until and not inluding to </Grid> onto the pages where the 4 main buttons -->
-        <Grid HorizontalAlignment="Left" Height="675.25" VerticalAlignment="Top" Width="411" OpacityMask="Black" Grid.RowSpan="2" Background="White">
+        <Grid HorizontalAlignment="Left" Height="731" VerticalAlignment="Top" Width="411" OpacityMask="Black" Grid.RowSpan="2" Background="White">
             <Grid.RowDefinitions>
                 <RowDefinition Height="452*"/>
                 <RowDefinition Height="177*"/>
@@ -37,7 +37,7 @@
             <Image Source="img/event.png" Width="28.163" HorizontalAlignment="Center" Margin="373.919,260.275,8.918,167.954"/>
             <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2,386.63,-3,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
             <TextBlock HorizontalAlignment="Left" Height="46.838" Margin="60,403.491,0,0" TextWrapping="Wrap" Text="Ticket Information" VerticalAlignment="Top" Width="300.624" FontSize="36"/>
-            <Button Content="NEXT &gt;" HorizontalAlignment="Left" Height="85.904" Margin="-1.5,144.885,0,-54" Grid.Row="1" VerticalAlignment="Top" Width="412.5" FontSize="36" FontWeight="Bold" BorderBrush="Black" Background="#FFF9F9F9" BorderThickness="1,3"/>
+            <Button Content="NEXT &gt;" HorizontalAlignment="Left" Height="75.904" Margin="109.5,119.799,0,0" Grid.Row="1" VerticalAlignment="Top" Width="192" FontSize="36" FontWeight="Bold" BorderBrush="Black" Background="#FFB7F5FF" BorderThickness="1,3"/>
             <TextBlock HorizontalAlignment="Left" Height="63.151" Margin="102,262.846,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280.082" FontSize="16" Foreground="Black"><Run Text="Martha Cohen Theatre, Arts Commons"/><LineBreak/><Run Text="205 8 Ave. S.E."/><LineBreak/><Run Text="Calgary, AB"/></TextBlock>
             <TextBlock HorizontalAlignment="Left" Height="22.651" Margin="99.5,348.846,0,0" TextWrapping="Wrap" Text="3 Hours 45 Minutes" VerticalAlignment="Top" Width="160.5" FontSize="16" Foreground="Black"/>
         </Grid>
