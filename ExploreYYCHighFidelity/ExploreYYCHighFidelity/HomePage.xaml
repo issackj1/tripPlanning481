@@ -43,50 +43,54 @@
                 <StackPanel Height="432" Width="401" Margin="10 0 0 0">
                     <TextBlock x:Name="YourEvents" HorizontalAlignment="Left" Height="30" Margin="0,0,0,5" TextWrapping="Wrap" Text="Your Events" VerticalAlignment="Top" Width="188" FontSize="24" FontWeight="Bold"/>
                     <TextBlock x:Name="Today" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" Text="Today" VerticalAlignment="Top" Width="178" FontSize="20"/>
-                    <Button x:Name="christmasButton" BorderBrush="{x:Null}" Background="{x:Null}" Margin="33,0,61,0" Click="christmasButton_Click">
-                        <StackPanel>
-                            <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" BorderThickness="1" Width="297">
-                                <StackPanel HorizontalAlignment="Center">
-                                    <TextBlock Text="A Christmas Carol" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
-                                    <TextBlock Text="★★★★✰" FontSize="10" HorizontalAlignment="Center"/>
-                                    <TextBlock Text="Max Bell Theatre, Arts Commons" HorizontalAlignment="Center" FontSize="10"/>
-                                    <TextBlock Text="220 9 Ave. S.E. Calgary, AB" HorizontalAlignment="Center"/>
-                                    <TextBlock Text="Dec 11       7:30 P.M. - 8:30 P.M." HorizontalAlignment="Center" FontSize="10"/>
-                                </StackPanel>
-                            </Border>
-                        </StackPanel>
+                    <Button x:Name="christmasButton" Margin="10,10,10,10" Width="320" FontStyle="Italic" Click="christmasButton_Click" Background="{x:Null}" BorderBrush="{x:Null}">
+                        <Border  BorderBrush="Black" CornerRadius="20" Height="94" BorderThickness="2" Width="312">
+                            <Border.Background>
+                                <ImageBrush Stretch="UniformToFill" ImageSource="img/AChristmasCarol.jpg"/>
+                            </Border.Background>
+                            <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
+                        <Run Text=".                                A Christmas Carol"/><LineBreak/>
+                        <Run Text=".                                ★★★★☆(2) - Play"/><LineBreak/>
+                        <Run Text="                                 Dec. 1 - Dec. 12"/><LineBreak/>
+                        <Run Text="          Max Bell Theater, 220 9 Ave. S.E. Calgary AB"/></TextBlock>
+                        </Border>
+                        
                     </Button>
                     <TextBlock x:Name="ThisWeek" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="20" Grid.ColumnSpan="3"><Run Text="This Week"/><LineBreak/><Run/></TextBlock>
-                    <Button x:Name="zorroButton" BorderBrush="{x:Null}" Background="{x:Null}" Margin="33,0,61,0" Click="zorroButton_Click">
-                        <StackPanel>
-                            <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" BorderThickness="1" Width="297">
-                                <StackPanel HorizontalAlignment="Center">
-                                    <StackPanel.Background>
-                                        <ImageBrush/>
-                                    </StackPanel.Background>
-                                    <TextBlock Text="Zorro: Family Code" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
-                                    <TextBlock Text="★★★✰✰" FontSize="10" HorizontalAlignment="Center"/>
-                                    <TextBlock Text="Martha Cohen Theatre, Arts Commons" HorizontalAlignment="Center" FontSize="10"/>
-                                    <TextBlock Text="205 8 Ave. S.E. Calgary, AB" HorizontalAlignment="Center"/>
-                                    <TextBlock Text="Dec 14       6:30 P.M. - 8:50 P.M." HorizontalAlignment="Center" FontSize="10"/>
-                                </StackPanel>
-                            </Border>
-                        </StackPanel>
+                    <Button x:Name="zorroButton" Margin="10,10,10,10" Width="320" FontStyle="Italic" Click="zorroButton_Click" Background="{x:Null}" BorderBrush="{x:Null}" >
+                        <Border  BorderBrush="Black" CornerRadius="20" Height="94" BorderThickness="2" Width="312">
+                            <Border.Background>
+                                <ImageBrush ImageSource="img/zorophoto.jpg" Stretch="UniformToFill"/>
+                            </Border.Background>
+                            <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
+                            <Run Text=".                                Zorro: Family Code"/><LineBreak/>
+                            <Run Text=".                                ★★★☆☆(2) - Play"/><LineBreak/>
+                            <Run Text="                                  Nov. 27 - Dec. 30"/><LineBreak/>
+                            <Run Text="          Martha Cohen Theater, 205 8 Ave. S.E. Calgary AB"/>
+                            </TextBlock>
+                        </Border>
                     </Button>
                     <TextBlock x:Name="FutureEvents" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="20" Grid.ColumnSpan="3"><Run Text="Future events"/><LineBreak/><Run/></TextBlock>
                     <StackPanel>
-                        <Button x:Name="nutcrackerButton" BorderBrush="{x:Null}" Background="{x:Null}" Margin="33,0,61,10" Click="nutcrackerButton_Click">
-                            <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" BorderThickness="1" Width="297" Margin="0">
-                                <StackPanel HorizontalAlignment="Center">
-                                    <TextBlock Text="The Nutcracker" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
-                                    <TextBlock FontSize="10" HorizontalAlignment="Center" Text="★★★★✰"/>
-                                    <TextBlock Text="Southern Alberta Jubilee Auditorium" HorizontalAlignment="Center" FontSize="10"/>
-                                    <TextBlock Text="1415 14 Ave N.W. Calgary, AB" HorizontalAlignment="Center"/>
-                                    <TextBlock Text="Dec 17       4:30 P.M. - 6:30 P.M." HorizontalAlignment="Center" FontSize="10"/>
-                                </StackPanel>
+
+                        <Button x:Name="nutcrackerButton"  Margin="10,10,10,10" Width="320" FontStyle="Italic" Click="nutcrackerButton_Click" Background="{x:Null}" BorderBrush="{x:Null}">
+                            <Border  BorderBrush="Black" CornerRadius="20" Height="94" BorderThickness="2" Width="312">
+                                <Border.Background>
+                                    <ImageBrush ImageSource="img/Nutcracker.jpg" Stretch="UniformToFill"/>
+                                </Border.Background>
+
+                                <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
+                            <Run Text=".                                The Nutcracker"/><LineBreak/>
+                            <Run Text=".                                ★★★★☆(2) - Play"/><LineBreak/>
+                            <Run Text="                                 Dec. 10 - Dec. 17"/><LineBreak/>
+                            <Run Text="          Southern Alberta Jubilee Auditorium, 1415 14 Ave N.W. Calgary, AB"/></TextBlock>
+
                             </Border>
                         </Button>
-                        <Border Background="#FFE4F4F9" BorderBrush="Black" CornerRadius="20" Height="94" Margin="38,0,66,0" BorderThickness="1">
+                        <Border BorderBrush="Black" CornerRadius="20" Height="94" Margin="38,0,66,0" BorderThickness="1">
+                            <Border.Background>
+                                <ImageBrush ImageSource="img/AChristmasCarol.jpg"/>
+                            </Border.Background>
                             <StackPanel HorizontalAlignment="Center">
                                 <TextBlock Text="Spirit in the Mountain" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
                                 <TextBlock Text="★★★★✰" FontSize="10" HorizontalAlignment="Center"/>

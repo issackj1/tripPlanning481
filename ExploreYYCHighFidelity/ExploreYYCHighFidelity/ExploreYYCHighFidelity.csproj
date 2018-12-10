@@ -82,6 +82,9 @@
     <Compile Include="Event3Page.xaml.cs">
       <DependentUpon>Event3Page.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Filter.xaml.cs">
+      <DependentUpon>Filter.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Forgot Page.xaml.cs">
       <DependentUpon>Forgot Page.xaml</DependentUpon>
     </Compile>
@@ -90,6 +93,12 @@
     </Compile>
     <Compile Include="EventPage.xaml.cs">
       <DependentUpon>EventPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage1Event.xaml.cs">
+      <DependentUpon>HomePage1Event.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage3Events.xaml.cs">
+      <DependentUpon>HomePage3Events.xaml</DependentUpon>
     </Compile>
     <Compile Include="Nearby.xaml.cs">
       <DependentUpon>Nearby.xaml</DependentUpon>
@@ -105,6 +114,9 @@
     </Compile>
     <Compile Include="Popular.xaml.cs">
       <DependentUpon>Popular.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.xaml.cs">
+      <DependentUpon>Profile.xaml</DependentUpon>
     </Compile>
     <Compile Include="Review.xaml.cs">
       <DependentUpon>Review.xaml</DependentUpon>
@@ -128,6 +140,9 @@
     </Compile>
     <Compile Include="zorroCalendar.xaml.cs">
       <DependentUpon>zorroCalendar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ZorroRemove.xaml.cs">
+      <DependentUpon>ZorroRemove.xaml</DependentUpon>
     </Compile>
     <Compile Include="ZorroSchedule.xaml.cs">
       <DependentUpon>ZorroSchedule.xaml</DependentUpon>
@@ -168,6 +183,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Filter.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Forgot Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -177,6 +196,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="EventPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HomePage1Event.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HomePage3Events.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -197,6 +224,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Popular.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Profile.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -237,6 +268,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="zorroCalendar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ZorroRemove.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -316,10 +351,11 @@
     <Resource Include="img\map2.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="img\map2.png" />
+    <Resource Include="img\calgary-curtis-block-11.jpg" />
+    <Resource Include="img\narutosmile.gif" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="img\googlemapsphoto.png" />
+    <Resource Include="img\bookmark-white.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

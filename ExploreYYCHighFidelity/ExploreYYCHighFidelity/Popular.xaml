@@ -24,7 +24,7 @@
 
 
                 <TextBox Margin="0,10,20,20" Grid.Column="0" Height="23" TextWrapping="Wrap" Text="Search" TextSearch.Text="Search"/>
-                <Button Margin="0,10,0,20" Grid.Column="1" Content="Filter" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" Foreground="White"/>
+                <Button x:Name="filterButton" Margin="0,10,0,20" Grid.Column="1" Content="Filter" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" Foreground="White" Click="filterButton_Click"/>
             </Grid>
 
         <Menu Height="50" HorizontalAlignment="Center" Width="411">
@@ -50,20 +50,21 @@
                     <TextBlock Text="Bookmarked"  VerticalAlignment="Center" Foreground="SkyBlue" FontSize="14" />
                 </MenuItem.Header>
             </MenuItem>
-
-
-
-
         </Menu>
         <StackPanel Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Height="508.667">
 
 
             <Grid>
-                <Button Margin="10,10,10,10" Width="320" FontStyle="Italic" >
+                <Button x:Name="zorroButton" Margin="10,10,10,10" Width="320" FontStyle="Italic" Click="zorroButton_Click" >
                     <Button.Background >
                         <ImageBrush ImageSource="img/zorophoto.jpg" Stretch="UniformToFill"/>
                     </Button.Background>
-                    <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" ><Run Text=".                                Zorro: Family Code"/><LineBreak/><Run Text=".                                ★★★☆☆(2) - Play"/><LineBreak/><Run Text="                             Dec 11 6:30pm - 8:30pm"/><LineBreak/><Run Text="          Martha Cohen Theater, 205 8 Ave. S.E. Calgary AB"/></TextBlock>
+                    <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
+                        <Run Text=".                                Zorro: Family Code"/><LineBreak/>
+                        <Run Text=".                                ★★★☆☆(2) - Play"/><LineBreak/>
+                        <Run Text="                                  Nov. 27 - Dec. 30"/><LineBreak/>
+                        <Run Text="          Martha Cohen Theater, 205 8 Ave. S.E. Calgary AB"/>
+                    </TextBlock>
                 </Button>
                 <Rectangle Height="50" Width="50"/>
             </Grid>
@@ -72,28 +73,28 @@
 
 
             <Grid>
-                <Button Margin="10,10,10,10" Width="320" FontStyle="Italic" >
+                <Button x:Name="christmasButton" Margin="10,10,10,10" Width="320" FontStyle="Italic" Click="christmasButton_Click">
                     <Button.Background >
                         <ImageBrush ImageSource="img/AChristmasCarol.jpg" Stretch="UniformToFill"/>
                     </Button.Background>
                     <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
                         <Run Text=".                                A Christmas Carol"/><LineBreak/>
                         <Run Text=".                                ★★★★☆(2) - Play"/><LineBreak/>
-                        <Run Text="                             Dec 12 7:30pm - 8:30pm"/><LineBreak/>
+                        <Run Text="                                 Dec. 1 - Dec. 12"/><LineBreak/>
                         <Run Text="          Max Bell Theater, 220 9 Ave. S.E. Calgary AB"/></TextBlock>
                 </Button>
                 <Rectangle Height="50" Width="50"/>
             </Grid>
 
             <Grid>
-                <Button Margin="10,10,10,10" Width="320" FontStyle="Italic" >
+                <Button x:Name="nutcrackerButton"  Margin="10,10,10,10" Width="320" FontStyle="Italic" Click="nutcrackerButton_Click">
                     <Button.Background >
                         <ImageBrush ImageSource="img/Nutcracker.jpg" Stretch="UniformToFill"/>
                     </Button.Background>
                     <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
                         <Run Text=".                                The Nutcracker"/><LineBreak/>
                         <Run Text=".                                ★★★★☆(2) - Play"/><LineBreak/>
-                        <Run Text="                             Dec 17  4:30pm - 6:30pm"/><LineBreak/>
+                        <Run Text="                                 Dec. 10 - Dec. 17"/><LineBreak/>
                         <Run Text="          Southern Alberta Jubilee Auditorium, 1415 14 Ave N.W. Calgary, AB"/></TextBlock>
                 </Button>
                 <Rectangle Height="50" Width="50"/>
@@ -107,7 +108,7 @@
                     <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
                         <Run Text=".                                Spirit in the Mountain"/><LineBreak/>
                         <Run Text=".                                ★★★★☆(2) - Play"/><LineBreak/>
-                        <Run Text="                             Dec 17  8:30pm - 9:30pm"/><LineBreak/>
+                        <Run Text="                                 Dec. 17 - Dec. 30"/><LineBreak/>
                         <Run Text="          Canmore Cave Tour, 202, 129 Bow Meadows Cres. Canmore, AB"/></TextBlock>
                 </Button>
                 <Rectangle Height="50" Width="50"/>

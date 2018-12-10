@@ -82,6 +82,12 @@
             </Grid.RowDefinitions>
 
             <Grid Grid.Row="0" Margin="0,0,0,5">
+
+                <Button Margin="341,40,23,576" BorderBrush="{x:Null}">
+                    <Button.Background >
+                        <ImageBrush ImageSource="img/bookmark-white.png" Stretch="UniformToFill"/>
+                    </Button.Background>
+                </Button>
                 <StackPanel>
                     <Rectangle Height="20" Fill="#FFE4F4F9" VerticalAlignment="Top"/>
                     <Button Content="&lt; Back" Margin="0,0,348,5" Click="Button_Click" Background="{x:Null}" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" />

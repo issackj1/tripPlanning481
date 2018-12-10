@@ -8,4 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img/map2.png")
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img/bookmark-white.png")]
+
+
