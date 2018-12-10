@@ -194,5 +194,14 @@
   <ItemGroup>
     <Resource Include="calgary-curtis-block-11.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\airplaneteal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\airplanewhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="airplanewhite.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
