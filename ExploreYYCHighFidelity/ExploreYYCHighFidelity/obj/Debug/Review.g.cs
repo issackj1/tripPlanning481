@@ -33,55 +33,55 @@ using System.Windows.Shell;
 
 
 namespace ExploreYYCHighFidelity {
-    
-    
+
+
     /// <summary>
     /// Review
     /// </summary>
     public partial class Review : System.Windows.Controls.Page, System.Windows.Markup.IComponentConnector {
-        
-        
+
+
         #line 18 "..\..\Review.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Grid whiteBackground;
-        
+
         #line default
         #line hidden
-        
-        
+
+
         #line 22 "..\..\Review.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button backButton;
-        
+
         #line default
         #line hidden
-        
-        
+
+
         #line 23 "..\..\Review.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button placeOrderButton;
-        
+
         #line default
         #line hidden
-        
-        
+
+
         #line 32 "..\..\Review.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBlock sumBlock;
-        
+
         #line default
         #line hidden
-        
-        
+
+
         #line 41 "..\..\Review.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Grid upperNavBar;
-        
+
         #line default
         #line hidden
-        
+
         private bool _contentLoaded;
-        
+
         /// <summary>
         /// InitializeComponent
         /// </summary>
@@ -93,14 +93,14 @@ namespace ExploreYYCHighFidelity {
             }
             _contentLoaded = true;
             System.Uri resourceLocater = new System.Uri("/ExploreYYCHighFidelity;component/review.xaml", System.UriKind.Relative);
-            
+
             #line 1 "..\..\Review.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
-            
+
             #line default
             #line hidden
         }
-        
+
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
@@ -115,19 +115,19 @@ namespace ExploreYYCHighFidelity {
             return;
             case 2:
             this.backButton = ((System.Windows.Controls.Button)(target));
-            
+
             #line 22 "..\..\Review.xaml"
             this.backButton.Click += new System.Windows.RoutedEventHandler(this.backButton_Click);
-            
+
             #line default
             #line hidden
             return;
             case 3:
             this.placeOrderButton = ((System.Windows.Controls.Button)(target));
-            
+
             #line 23 "..\..\Review.xaml"
             this.placeOrderButton.Click += new System.Windows.RoutedEventHandler(this.placeOrderButton_Click);
-            
+
             #line default
             #line hidden
             return;
@@ -142,4 +142,3 @@ namespace ExploreYYCHighFidelity {
         }
     }
 }
-
