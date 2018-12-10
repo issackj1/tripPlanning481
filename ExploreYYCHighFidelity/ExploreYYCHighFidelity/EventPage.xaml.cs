@@ -26,7 +26,7 @@ namespace ExploreYYCHighFidelity
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void backButton_Click(object sender, RoutedEventArgs e)
         {
             //Makes a new SwitchEventArgs (class in solution) 
             SwitchEventArgs switchArgs = new SwitchEventArgs();
@@ -93,5 +93,6 @@ namespace ExploreYYCHighFidelity
             if (this.pageSwitchHandler != null)
                 this.pageSwitchHandler(this, switchArgs);
         }
+
     }
 }

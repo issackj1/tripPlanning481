@@ -27,6 +27,7 @@ namespace ExploreYYCHighFidelity
 
         public ArrayList logIns;
         public ArrayList passwords;
+        public static MainWindow pz;
 
         public Welcome_Page()
         {
@@ -53,6 +54,7 @@ namespace ExploreYYCHighFidelity
                 failBlock.Visibility = Visibility.Visible;
             } else
             {
+                pz.checkNewUser(false);
                 //Makes a new SwitchEventArgs (class in solution) 
                 SwitchEventArgs switchArgs = new SwitchEventArgs();
                 switchArgs.Page = "Homepage";

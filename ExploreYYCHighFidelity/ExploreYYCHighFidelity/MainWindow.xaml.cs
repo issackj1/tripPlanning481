@@ -31,10 +31,12 @@ namespace ExploreYYCHighFidelity
         EmptyHomePage emptyHome = new EmptyHomePage();
         Forgot_Page forgot = new Forgot_Page();
         Profile profile_page = new Profile();
+        HomePage3Events homePage3 = new HomePage3Events();
 
         CalendarJanPage calendarJan = new CalendarJanPage();
         CalendarNovPage calendarNov = new CalendarNovPage();
         CalendarDecPage calendarDec = new CalendarDecPage();
+        CalendarEvents calendarEvents = new CalendarEvents();
 
         EventPage eventPage = new EventPage(); //zorro
         Event2Page event2Page = new Event2Page(); //christmas carol
@@ -77,6 +79,7 @@ namespace ExploreYYCHighFidelity
             home1E.pageSwitchHandler += Page_ButtonClick;
             forgot.pageSwitchHandler += Page_ButtonClick;
             emptyHome.pageSwitchHandler += Page_ButtonClick;
+            homePage3.pageSwitchHandler += Page_ButtonClick;
 
             //zorro
             eventPage.pageSwitchHandler += Page_ButtonClick;
@@ -92,6 +95,7 @@ namespace ExploreYYCHighFidelity
             calendarJan.pageSwitchHandler += Page_ButtonClick;
             calendarNov.pageSwitchHandler += Page_ButtonClick;
             calendarDec.pageSwitchHandler += Page_ButtonClick;
+            calendarEvents.pageSwitchHandler += Page_ButtonClick;
 
             //other event pages
             event2Page.pageSwitchHandler += Page_ButtonClick;
@@ -113,13 +117,15 @@ namespace ExploreYYCHighFidelity
 
             //connects switcher to this window
             Switcher.pageSwitcher = this;
-            Switcher.Switch(filterPage);
+            Switcher.Switch(welcome);
 
             welcome.logIns = logIncredentials;
             welcome.passwords = passWordcredentials;
             forgot.emails = emailCredentials;
 
             SignUp.pz = this;
+            Profile.pz = this;
+            Welcome_Page.pz = this;
 
             logIncredentials.Add("JohnDoe");
             passWordcredentials.Add("12345");
@@ -146,7 +152,7 @@ namespace ExploreYYCHighFidelity
                     //this.background.Opacity = 0;
                     //this.Background = new SolidColorBrush(Colors.White);
                     if(noEvents == true) Switcher.Switch(emptyHome);
-                    else Switcher.Switch(home);
+                    else if (noEvents == false) Switcher.Switch(home);
                     break;
                 case "Forgot":
                     forgot.confirmBlock.Visibility = Visibility.Hidden;
@@ -186,7 +192,7 @@ namespace ExploreYYCHighFidelity
                     Switcher.Switch(event3page);
                     break;
                 case "removeZorroCheck":
-                    Switcher.Switch(emptyHome);
+                    Switcher.Switch(homePage3);
                     break;
                 case "ZorroRemove":
                     Switcher.Switch(zorroRemove);
@@ -246,6 +252,10 @@ namespace ExploreYYCHighFidelity
                 case "Filter":
                     Switcher.Switch(filterPage);
                     break;
+                case "CalendarEvents":
+                    Switcher.Switch(calendarEvents);
+                    break;
+                    
 
                 case "Back":
                     //MessageBox.Show(backLog[backLog.Count - 1] + ","+ backLog[backLog.Count - 2] + "," + backLog[backLog.Count - 3]);
@@ -294,7 +304,7 @@ namespace ExploreYYCHighFidelity
 
         public void checkNewUser(bool newUser)
         {
-            noEvents = true;
+            noEvents = newUser;
         }
 
         public void getSum(int x, int y, int z)

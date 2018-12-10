@@ -26,10 +26,10 @@ namespace ExploreYYCHighFidelity
             InitializeComponent();
         }
 
-        public void setSum(int z)
+        /*public void setSum(int z)
         {
             sumBlock.Text = "Item Total:         " + z.ToString();
-        }
+        }*/
 
         private void backButton_Click(object sender, RoutedEventArgs e)
         {
@@ -42,7 +42,7 @@ namespace ExploreYYCHighFidelity
                 this.pageSwitchHandler(this, switchArgs);
         }
 
-        private void placeOrderButton_Click(object sender, RoutedEventArgs e)
+        private void bookButton_Click(object sender, RoutedEventArgs e)
         {
             //Makes a new SwitchEventArgs (class in solution)
             SwitchEventArgs switchArgs = new SwitchEventArgs();

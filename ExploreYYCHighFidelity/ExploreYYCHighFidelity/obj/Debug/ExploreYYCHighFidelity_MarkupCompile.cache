@@ -1,43 +1,20 @@
-<<<<<<< HEAD
 ﻿ExploreYYCHighFidelity
 
 
 winexe
 C#
 .cs
-U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\
+\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\
 ExploreYYCHighFidelity
 none
 false
 DEBUG;TRACE
-U:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\App.xaml
-3187577394
+\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\App.xaml
+32-1690275402
 
-371631536048
+38759005694
 131569487696
-BookMarkedEmpty.xaml;BookMarkedWithEvent.xaml;CalendarDecPage.xaml;CalendarJanPage.xaml;CalendarNovPage.xaml;EmptyHomePage.xaml;EmptyPayment.xaml;Event2Page.xaml;Event3Page.xaml;Filter.xaml;Forgot Page.xaml;HomePage.xaml;EventPage.xaml;HomePage1Event.xaml;HomePage3Events.xaml;Nearby.xaml;Overview.xaml;Payment.xaml;PageTemplate.xaml;Popular.xaml;Profile.xaml;Review.xaml;Route.xaml;ScheduleDecPage.xaml;SignUp.xaml;MainWindow.xaml;Upcomming.xaml;Welcome Page.xaml;zorroCalendar.xaml;ZorroRemove.xaml;ZorroSchedule.xaml;
+BookMarkedEmpty.xaml;BookMarkedWithEvent.xaml;CalendarDecPage.xaml;CalendarEvents.xaml;CalendarJanPage.xaml;CalendarNovPage.xaml;EmptyHomePage.xaml;EmptyPayment.xaml;Event2Page.xaml;Event3Page.xaml;Filter.xaml;Forgot Page.xaml;HomePage.xaml;EventPage.xaml;HomePage1Event.xaml;HomePage3Events.xaml;Nearby.xaml;Overview.xaml;PageTemplate.xaml;Payment.xaml;Popular.xaml;Profile.xaml;Review.xaml;Route.xaml;ScheduleDecPage.xaml;SignUp.xaml;MainWindow.xaml;Upcomming.xaml;Welcome Page.xaml;zorroCalendar.xaml;ZorroRemove.xaml;ZorroSchedule.xaml;
 
 False
 
-=======
-﻿ExploreYYCHighFidelity
-
-
-winexe
-C#
-.cs
-\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\obj\Debug\
-ExploreYYCHighFidelity
-none
-false
-DEBUG;TRACE
-\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\App.xaml
-10-1887677310
-
-16-964489951
-131569487696
-HomePage.xaml;Filter.xaml;Profile.xaml;Review.xaml;PageTemplate.xaml;SignUp.xaml;MainWindow.xaml;Welcome Page.xaml;Overview.xaml;Payment.xaml;
-
-False
-
->>>>>>> origin/nathanbranch

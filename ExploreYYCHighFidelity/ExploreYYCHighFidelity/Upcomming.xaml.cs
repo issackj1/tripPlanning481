@@ -146,5 +146,7 @@ namespace ExploreYYCHighFidelity
             if (this.pageSwitchHandler != null)
                 this.pageSwitchHandler(this, switchArgs);
         }
+
+
     }
 }

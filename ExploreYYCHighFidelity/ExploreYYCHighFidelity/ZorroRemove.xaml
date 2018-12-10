@@ -82,28 +82,32 @@
             </Grid.RowDefinitions>
 
             <Grid Grid.Row="0" Margin="0,0,0,5">
-
-                <Button Margin="341,40,23,576" BorderBrush="{x:Null}">
+                <Rectangle Margin="0,0,0,603.126" Fill="Teal"/>
+                <TextBlock HorizontalAlignment="Center" Height="39.124" TextWrapping="Wrap" VerticalAlignment="Top" Width="167" FontSize="30" FontWeight="Bold" Foreground="White" Text="Event Page" Margin="0,12,0,0"/>
+                <TextBlock HorizontalAlignment="Left" Height="39.124" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontWeight="Bold" Foreground="White" Text="&lt; Back" FontSize="18" Margin="8,20,0,0" />
+                <Button x:Name="backButton" Margin="8,20,341,0" Click="backButton_Click" Background="White" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" VerticalAlignment="Top" Opacity="0" />
+                <Button Margin="343,74.5,21,541.5" BorderBrush="{x:Null}">
                     <Button.Background >
                         <ImageBrush ImageSource="img/bookmark-white.png" Stretch="UniformToFill"/>
                     </Button.Background>
                 </Button>
                 <StackPanel>
-                    <Rectangle Height="20" Fill="#FFE4F4F9" VerticalAlignment="Top"/>
-                    <Button Content="&lt; Back" Margin="0,0,348,5" Click="Button_Click" Background="{x:Null}" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" />
-                    <TextBlock Text="Zorro: Family Code" Margin="10,5,0,5" FontSize="20" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock Text="4.5/5 stars" FontSize="10" Foreground="Black" Margin="10,0,0,0"/>
+                    <TextBlock Text="Zorro: Family Code" Margin="10,65,0,5" FontSize="20" Foreground="Black" FontWeight="Bold"/>
+                    <TextBlock Text="★★★☆☆" FontSize="10" Foreground="Black" Margin="10,0,0,0"/>
                     <TextBlock Margin="10,0,0,10" FontSize="14" TextDecorations="{x:Null}" Text="Event type - Paid"/>
                     <ScrollViewer CanContentScroll="True" Height="484" VerticalScrollBarVisibility="Hidden">
                         <StackPanel>
                             <Border Width="354" BorderThickness="1" BorderBrush="Black" CornerRadius="2">
                                 <Border.Background>
                                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                        <GradientStop Color="#FF85AAB6" Offset="0"/>
+                                        <GradientStop Color="Teal" Offset="0"/>
                                         <GradientStop Color="#FFE4F4F9" Offset="1"/>
                                     </LinearGradientBrush>
                                 </Border.Background>
                                 <Image Width="300" Margin="0,1">
+                                    <Image.OpacityMask>
+                                        <ImageBrush ImageSource="zorophoto.jpg"/>
+                                    </Image.OpacityMask>
                                     <Image.Source>
                                         <ImageSource>img/zorophoto.jpg</ImageSource>
                                     </Image.Source>
@@ -151,13 +155,11 @@
                             <ScrollViewer CanContentScroll="True" VerticalScrollBarVisibility="Disabled">
                                 <StackPanel HorizontalAlignment="Left">
                                     <TextBlock Text="Issack John" Margin="10,0,0,0" FontWeight="Bold"/>
-                                    <TextBlock Text="Jan 2017 5 stars" Margin="15,0,0,0" FontWeight="Bold"/>
-                                    <TextBlock TextWrapping="Wrap" Width="200" Text="A wonderful show, went with my wife and we all enjoyed it!" Margin="15,2,0,0" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-                                    <TextBlock Text="5 stars"/>
-                                    <TextBlock Text="5 stars"/>
-                                    <TextBlock Text="5 stars"/>
-                                    <TextBlock Text="5 stars"/>
-                                    <TextBlock Text="5 stars"/>
+                                    <TextBlock Text="★★★☆☆" Margin="10,0,0,0"/>
+                                    <TextBlock Text="Wonderful! Me and my family had a great time" Margin="10 0 10 0"/>
+                                    <TextBlock Text="Anthony Phillips" Margin="10,0,0,0" FontWeight="Bold"/>
+                                    <TextBlock Text="★★★☆☆" Margin="10,0,0,0"/>
+                                    <TextBlock Text="good show" Margin="10,0,0,0" />
                                 </StackPanel>
                             </ScrollViewer>
                             <Button Content="Write a review &gt;" Margin="10,0,301,0"/>
@@ -165,6 +167,13 @@
                         </StackPanel>
                     </ScrollViewer>
                     <Button FontStyle="Italic" Content="Remove" HorizontalAlignment="Center" Height="40" Width="105" Background="#FFE4F4F9" Click="Button_Click_1" FontSize="20" Margin="0,5,0,0" Style="{DynamicResource ButtonStyle1}"/>
+                    <TextBlock HorizontalAlignment="Left" Height="39.124" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontWeight="Bold" Foreground="White" Text="&lt; Back" FontSize="18"/>
+                    <Grid HorizontalAlignment="Left" Height="35.342" VerticalAlignment="Top" Width="44" Margin="320.696,0,0,0">
+                        <Grid.Background>
+                            <ImageBrush ImageSource="airplanewhite.png"/>
+                        </Grid.Background>
+                    </Grid>
+                    <TextBlock HorizontalAlignment="Left" Height="39.124" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="30" FontWeight="Bold" Foreground="White" Text="My Profile" Margin="121.353,0,0,0"/>
                 </StackPanel>
             </Grid>
 
@@ -201,6 +210,13 @@
                     </StackPanel>
                 </Button>
             </Grid>
+
+            <Grid HorizontalAlignment="Left" Height="35.342" VerticalAlignment="Top" Width="44" Margin="342,14,0,0">
+                <Grid.Background>
+                    <ImageBrush ImageSource="airplanewhite.png"/>
+                </Grid.Background>
+            </Grid>
+
 
         </Grid>
 

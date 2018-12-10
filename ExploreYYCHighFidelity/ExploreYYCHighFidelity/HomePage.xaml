@@ -10,36 +10,22 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="100*"/>
-            <RowDefinition Height="528*"/>
-            <RowDefinition Height="60*"/>
+            <RowDefinition Height="72*"/>
+            <RowDefinition Height="595*"/>
+            <RowDefinition Height="64*"/>
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0" Grid.RowSpan="2">
             <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="731" VerticalAlignment="Top" Width="412" Margin="0,0,-1,-103.858"/>
-            <Rectangle Margin="0,-3,-1,480.25" >
-                <Rectangle.Fill>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="White" Offset="0.109"/>
-                        <GradientStop Color="#FF47AAC9" Offset="0.527"/>
-                        <GradientStop Color="#FF47AAC9"/>
-                        <GradientStop Color="White" Offset="0.439"/>
-                        <GradientStop Color="White" Offset="1"/>
-                    </LinearGradientBrush>
-                </Rectangle.Fill>
-            </Rectangle>
             <Rectangle x:Name="Header" Fill="White" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="409" Margin="2,23,0,0"/>
-            <TextBlock x:Name="HomeTitle" HorizontalAlignment="Center" Height="68" Margin="0,10,0,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" Width="146" FontSize="48" FontWeight="Bold"/>
-            <Image Margin="364,18,10,563" RenderTransformOrigin="0.5,0.5" Source="img/profile_icon.png"/>
-            <Button BorderBrush="{x:Null}" Background="{x:Null}" Margin="40,97,41,445">
-            </Button>
-            <Rectangle x:Name="AddEventBox" Fill="#FFE4F4F9" HorizontalAlignment="Left" Height="85" Margin="40,97,0,0" RadiusY="46" RadiusX="46" VerticalAlignment="Top" Width="330" Stroke="#FF0E0E0E"/>
-            <TextBlock x:Name="AddEvent" HorizontalAlignment="Left" Height="70" Margin="156,112,0,0" TextWrapping="Wrap" Text="Add Event" VerticalAlignment="Top" Width="207" FontSize="36" FontWeight="Bold"/>
-            <Ellipse x:Name="PlusCircle" Fill="#FFDDDDDD" HorizontalAlignment="Left" Height="57" Margin="64,112,0,0" Stroke="#FF0E0E0E" VerticalAlignment="Top" Width="72"/>
-            <TextBlock x:Name="PlusSymbol" Height="88" Margin="76,82,0,0" TextWrapping="Wrap" Text="+" Width="51" FontSize="72" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <Button x:Name="newEventButton" Margin="40,97,41,485.25" Background="#FFA24F4F" BorderBrush="{x:Null}" Opacity="0" Foreground="{x:Null}" Click="eventsButton_Click"/>
+            <Button BorderBrush="{x:Null}" Background="{x:Null}" Margin="40,97,41,445"/>
+            <Rectangle x:Name="AddEventBox" Fill="Teal" HorizontalAlignment="Left" Height="85" Margin="40,97,0,0" RadiusY="46" RadiusX="46" VerticalAlignment="Top" Width="330" Stroke="#FF0E0E0E" Opacity="0.5"/>
+            <TextBlock x:Name="AddEvent" HorizontalAlignment="Left" Height="70" Margin="156,112,0,0" TextWrapping="Wrap" Text="Add Event" VerticalAlignment="Top" Width="207" FontSize="36" FontWeight="Bold" Foreground="White"/>
+            <Ellipse x:Name="PlusCircle" Fill="Teal" HorizontalAlignment="Left" Height="57" Margin="64,112,0,0" Stroke="#FF0E0E0E" VerticalAlignment="Top" Width="72" Opacity="0.8"/>
+            <TextBlock x:Name="PlusSymbol" Height="88" Margin="76,82,0,0" TextWrapping="Wrap" Text="+" Width="51" FontSize="72" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground=" white"/>
+            <Button x:Name="newEventButton" Margin="40,97,41,485.25" Background="Teal" BorderBrush="{x:Null}" Opacity="0" Foreground="{x:Null}" Click="eventsButton_Click"/>
 
-            <ScrollViewer Margin="0,187,0,-6" CanContentScroll="True" VerticalScrollBarVisibility="Disabled" Background="White">
+            <ScrollViewer Margin="0,187,0,0" CanContentScroll="True" VerticalScrollBarVisibility="Disabled" Background="White">
                 <StackPanel Height="432" Width="401" Margin="10 0 0 0">
                     <TextBlock x:Name="YourEvents" HorizontalAlignment="Left" Height="30" Margin="0,0,0,5" TextWrapping="Wrap" Text="Your Events" VerticalAlignment="Top" Width="188" FontSize="24" FontWeight="Bold"/>
                     <TextBlock x:Name="Today" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" Text="Today" VerticalAlignment="Top" Width="178" FontSize="20"/>
@@ -48,13 +34,9 @@
                             <Border.Background>
                                 <ImageBrush Stretch="UniformToFill" ImageSource="img/AChristmasCarol.jpg"/>
                             </Border.Background>
-                            <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
-                        <Run Text=".                                A Christmas Carol"/><LineBreak/>
-                        <Run Text=".                                ★★★★☆(2) - Play"/><LineBreak/>
-                        <Run Text="                                 Dec. 1 - Dec. 12"/><LineBreak/>
-                        <Run Text="          Max Bell Theater, 220 9 Ave. S.E. Calgary AB"/></TextBlock>
+                            <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" FontWeight="Bold" ><Run Text=".                                A Christmas Carol"/><LineBreak/><Run Text=".                                ★★★★☆(2) - Play"/><LineBreak/><Run Text="                                      Dec. 12"/><LineBreak/><Run Text="          Max Bell Theater, 220 9 Ave. S.E. Calgary AB"/></TextBlock>
                         </Border>
-                        
+
                     </Button>
                     <TextBlock x:Name="ThisWeek" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="20" Grid.ColumnSpan="3"><Run Text="This Week"/><LineBreak/><Run/></TextBlock>
                     <Button x:Name="zorroButton" Margin="10,10,10,10" Width="320" FontStyle="Italic" Click="zorroButton_Click" Background="{x:Null}" BorderBrush="{x:Null}" >
@@ -62,12 +44,7 @@
                             <Border.Background>
                                 <ImageBrush ImageSource="img/zorophoto.jpg" Stretch="UniformToFill"/>
                             </Border.Background>
-                            <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
-                            <Run Text=".                                Zorro: Family Code"/><LineBreak/>
-                            <Run Text=".                                ★★★☆☆(2) - Play"/><LineBreak/>
-                            <Run Text="                                  Nov. 27 - Dec. 30"/><LineBreak/>
-                            <Run Text="          Martha Cohen Theater, 205 8 Ave. S.E. Calgary AB"/>
-                            </TextBlock>
+                            <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" FontWeight="Bold" ><Run Text=".                                Zorro: Family Code"/><LineBreak/><Run Text=".                                ★★★☆☆(2) - Play"/><LineBreak/><Run Text="                                       Dec. 14"/><LineBreak/><Run Text="          Martha Cohen Theater, 205 8 Ave. S.E. Calgary AB"/></TextBlock>
                         </Border>
                     </Button>
                     <TextBlock x:Name="FutureEvents" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="20" Grid.ColumnSpan="3"><Run Text="Future events"/><LineBreak/><Run/></TextBlock>
@@ -79,25 +56,15 @@
                                     <ImageBrush ImageSource="img/Nutcracker.jpg" Stretch="UniformToFill"/>
                                 </Border.Background>
 
-                                <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" >
-                            <Run Text=".                                The Nutcracker"/><LineBreak/>
-                            <Run Text=".                                ★★★★☆(2) - Play"/><LineBreak/>
-                            <Run Text="                                 Dec. 10 - Dec. 17"/><LineBreak/>
-                            <Run Text="          Southern Alberta Jubilee Auditorium, 1415 14 Ave N.W. Calgary, AB"/></TextBlock>
+                                <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318" FontWeight="Bold" ><Run Text=".                                The Nutcracker"/><LineBreak/><Run Text=".                                ★★★★☆(2) - Play"/><LineBreak/><Run Text="                                      Dec. 17"/><LineBreak/><Run Text="        Southern Alberta Jubilee Auditorium, 1415 14 Ave N.W. Calgary, AB"/></TextBlock>
 
                             </Border>
                         </Button>
-                        <Border BorderBrush="Black" CornerRadius="20" Height="94" Margin="38,0,66,0" BorderThickness="1">
+                        <Border BorderBrush="Black" CornerRadius="20" Height="94" Margin="38,0,41,0" BorderThickness="1">
                             <Border.Background>
-                                <ImageBrush ImageSource="img/AChristmasCarol.jpg"/>
+                                <ImageBrush ImageSource="img/spiritInTheMountain.jpeg" Stretch="UniformToFill"/>
                             </Border.Background>
-                            <StackPanel HorizontalAlignment="Center">
-                                <TextBlock Text="Spirit in the Mountain" Margin="0 5" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
-                                <TextBlock Text="★★★★✰" FontSize="10" HorizontalAlignment="Center"/>
-                                <TextBlock Text="Canmore Cave Tours" HorizontalAlignment="Center" FontSize="10"/>
-                                <TextBlock Text="202, 129 Bow Meadows Cres. Canmore, AB" HorizontalAlignment="Center"/>
-                                <TextBlock Text="Dec 17       8:30 P.M. - 9:30 P.M." HorizontalAlignment="Center" FontSize="10"/>
-                            </StackPanel>
+                            <TextBlock Foreground="White" HorizontalAlignment="Center" Width="318"><Run Text=".                                Spirit in the Mountain"/><LineBreak/><Run Text=".                                ★★★★☆(2) - Play"/><LineBreak/><Run Text="                                       Dec 20"/><LineBreak/><Run Text="       Cave Tours, 202, 129 Bow Meadows Cres. Canmore, AB"/></TextBlock>
                         </Border>
                     </StackPanel>
                 </StackPanel>
@@ -105,7 +72,7 @@
 
         </Grid>
 
-        <Grid Grid.Row="2" Width="411">
+        <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -140,6 +107,9 @@
             </Button>
 
         </Grid>
+        <Rectangle HorizontalAlignment="Left" Margin="0,-2.667,0,10" Width="411" Fill="Teal"/>
+        <TextBlock HorizontalAlignment="Center" Height="39.124" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="30" FontWeight="Bold" Foreground="White" Text="Home" Margin="0,9.333,0,0"/>
+        <Image Margin="361,-11,13,592" RenderTransformOrigin="0.5,0.5" Source="img/profile_icon.png" Grid.RowSpan="2"/>
 
     </Grid>
 </Page>

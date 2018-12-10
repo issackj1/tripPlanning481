@@ -17,25 +17,14 @@
 
         <Grid Grid.Row="0" Grid.RowSpan="2">
             <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="731" VerticalAlignment="Top" Width="412" Margin="0,0,-1,-103.858"/>
-            <Rectangle Margin="0,-3,-1,480.25" >
-                <Rectangle.Fill>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="White" Offset="0.109"/>
-                        <GradientStop Color="#FF47AAC9" Offset="0.527"/>
-                        <GradientStop Color="#FF47AAC9"/>
-                        <GradientStop Color="White" Offset="0.439"/>
-                        <GradientStop Color="White" Offset="1"/>
-                    </LinearGradientBrush>
-                </Rectangle.Fill>
-            </Rectangle>
-            <Rectangle x:Name="Header" Fill="White" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="409" Margin="2,23,0,0"/>
-            <TextBlock x:Name="HomeTitle" HorizontalAlignment="Center" Height="68" Margin="0,10,0,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" Width="146" FontSize="48" FontWeight="Bold"/>
-            <Image Margin="364,18,10,563" RenderTransformOrigin="0.5,0.5" Source="img/profile_icon.png"/>
-            <Rectangle x:Name="AddEventBox" Fill="#FFE4F4F9" HorizontalAlignment="Left" Height="85" Margin="40,97,0,0" RadiusY="46" RadiusX="46" VerticalAlignment="Top" Width="330" Stroke="#FF0E0E0E"/>
-            <TextBlock x:Name="AddEvent" HorizontalAlignment="Left" Height="70" Margin="156,112,0,0" TextWrapping="Wrap" Text="Add Event" VerticalAlignment="Top" Width="207" FontSize="36" FontWeight="Bold"/>
-            <Ellipse x:Name="PlusCircle" Fill="#FFDDDDDD" HorizontalAlignment="Left" Height="57" Margin="64,112,0,0" Stroke="#FF0E0E0E" VerticalAlignment="Top" Width="72"/>
-            <TextBlock x:Name="PlusSymbol" Height="88" Margin="76,82,0,0" TextWrapping="Wrap" Text="+" Width="51" FontSize="72" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <Button x:Name="newEventButton" Margin="40,97,41,485.25" Background="#FFA24F4F" BorderBrush="{x:Null}" Opacity="0" Foreground="{x:Null}" Click="eventsButton_Click"/>
+            <Rectangle Margin="0,-3,-1,602.24" Fill="Teal" />
+            <TextBlock HorizontalAlignment="Center" Height="39.124" TextWrapping="Wrap" VerticalAlignment="Top" Width="87" FontSize="30" FontWeight="Bold" Foreground="White" Text="Home" Margin="0,9.333,0,0"/>
+            <Image Margin="350.56,-12.24,23.44,593.24" RenderTransformOrigin="0.5,0.5" Source="img/profile_icon.png"/>
+            <Rectangle x:Name="AddEventBox" Fill="Teal" HorizontalAlignment="Left" Height="85" Margin="40,97,0,0" RadiusY="46" RadiusX="46" VerticalAlignment="Top" Width="330" Stroke="#FF0E0E0E" Opacity="0.5"/>
+            <TextBlock x:Name="AddEvent" HorizontalAlignment="Left" Height="70" Margin="156,112,0,0" TextWrapping="Wrap" Text="Add Event" VerticalAlignment="Top" Width="207" FontSize="36" FontWeight="Bold" Foreground="White"/>
+            <Ellipse x:Name="PlusCircle" Fill="Teal" HorizontalAlignment="Left" Height="57" Margin="64,112,0,0" Stroke="#FF0E0E0E" VerticalAlignment="Top" Width="72" Opacity="0.8"/>
+            <TextBlock x:Name="PlusSymbol" Height="88" Margin="76,82,0,0" TextWrapping="Wrap" Text="+" Width="51" FontSize="72" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground=" white"/>
+            <Button x:Name="newEventButton" Margin="40,97,41,485.25" Background="Teal" BorderBrush="{x:Null}" Opacity="0" Foreground="{x:Null}" Click="eventsButton_Click"/>
 
             <ScrollViewer Margin="0,187,0,-6" CanContentScroll="True" VerticalScrollBarVisibility="Disabled" Background="White">
                 <StackPanel Height="432" Width="401" Margin="10 0 0 0">
@@ -55,7 +44,7 @@
 
                     </Button>
                     <TextBlock x:Name="ThisWeek" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="20" Grid.ColumnSpan="3"><Run Text="This Week"/><LineBreak/><Run/></TextBlock>
-                    
+
                     <TextBlock x:Name="FutureEvents" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="20" Grid.ColumnSpan="3"><Run Text="Future events"/><LineBreak/><Run/></TextBlock>
                     <StackPanel>
 

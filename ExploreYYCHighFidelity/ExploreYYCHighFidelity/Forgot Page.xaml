@@ -11,7 +11,7 @@
     <Grid>
         <!--<Button x:Name="backButton" Content="&lt; Back" Margin="0,0,348,5" Click="backButton_Click" Background="{x:Null}" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" />-->
         <Button x:Name="backButton" Content="&lt; Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="0,30,0,0" FontSize="25" Height="39" Click="BackButton_Click" Background="White" BorderBrush="{x:Null}" Opacity="0.8"/>
-        <TextBox x:Name="emailBox" HorizontalAlignment="Center" Height="50" Margin="0,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="363" BorderThickness="2" BorderBrush="#000000" Background="#FF3BC7F3" FontSize="35" Foreground="#ffffff"/>
+        <TextBox x:Name="emailBox" HorizontalAlignment="Center" Height="50" Margin="0,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="363" BorderThickness="2" BorderBrush="#000000" Background="Teal" FontSize="35" Foreground="#ffffff" Opacity="0.7"/>
         <TextBlock x:Name="emailBlock" HorizontalAlignment="Center" Margin="-290,255,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top" FontSize="28" Foreground="Black" Background="White" Opacity="0.5"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="140" Width="363" Margin="0,130,0,0" Foreground="{x:Null}">
             <TextBlock x:Name="Title" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Text="Reset Password" FontSize="35" Foreground="Black" Background="White" Opacity="0.5"/>

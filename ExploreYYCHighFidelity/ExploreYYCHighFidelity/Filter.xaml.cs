@@ -37,5 +37,10 @@ namespace ExploreYYCHighFidelity
             if (this.pageSwitchHandler != null)
                 this.pageSwitchHandler(this, switchArgs);
         }
+
+        private void closeFilterButtom_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

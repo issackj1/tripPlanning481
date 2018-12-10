@@ -13,7 +13,7 @@
     </Page.Resources>
 
     <Grid x:Name="DecemberGrid" Background="White">
-        <Button x:Name="backButton" Content="&lt; Back" Margin="0,0,348,708" Click="backButton_Click" Background="{x:Null}" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" />
+        <Button x:Name="backButton" Content="&lt; Back" Margin="8.835,20.165,333.333,680.668" Click="backButton_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" />
         <Grid x:Name="DecDatesGrid" Width="{StaticResource WIDTH}" VerticalAlignment="Center" ShowGridLines="True" RenderTransformOrigin="0.5,0.5" Margin="0" Height="{StaticResource WIDTH}" HorizontalAlignment="Left" OpacityMask="Black">
             <Grid.RenderTransform>
                 <TransformGroup>
@@ -851,7 +851,7 @@
                     <TranslateTransform Y="86"/>
                 </TransformGroup>
             </Grid.RenderTransform>
-            <TextBlock VerticalAlignment="Center" Text="December" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" Margin="42.463,0,42.463,-22.667" HorizontalAlignment="Center" FontSize="72" Foreground="White">
+            <TextBlock VerticalAlignment="Center" Text="    December" TextWrapping="Wrap" RenderTransformOrigin="0.4,0.4" Margin="0,9.242,0,-17.242" HorizontalAlignment="Left" FontSize="60" Foreground="Black" Height="81" Width="411" Background="White">
                 <TextBlock.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -861,10 +861,18 @@
                     </TransformGroup>
                 </TextBlock.RenderTransform>
             </TextBlock>
-            <Button x:Name="leftButton" Content="&lt;" VerticalContentAlignment="Top" FontSize="48" FontWeight="Bold" Margin="0,1.134,368.537,-1.134" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="leftButton_Click"/>
-            <Button x:Name="rightButton"  Content="&gt;" VerticalContentAlignment="Top" FontSize="48" FontWeight="Bold" Margin="368.537,1.134,0,-1.134" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="rightButton_Click"/>
+            <Button x:Name="leftButton" Content="&lt;" VerticalContentAlignment="Top" FontSize="48" FontWeight="Bold" Margin="0,1.134,368.537,-1.134" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" Click="leftButton_Click"/>
+            <Button x:Name="rightButton"  Content="&gt;" VerticalContentAlignment="Top" FontSize="48" FontWeight="Bold" Margin="368.537,1.134,0,-1.134" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" Click="rightButton_Click"/>
         </Grid>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Text="Schedule" Margin="0" FontWeight="Bold"/>
+        <Rectangle Margin="0,-0.009,-1.667,667.509" Fill="Teal"/>
+        <TextBlock HorizontalAlignment="Center" Height="39.667" Margin="142.5,12.165,118.5,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="30" FontWeight="Bold" Foreground="White" Text="Schedule"/>
+        <TextBlock HorizontalAlignment="Left" Height="39.667" Margin="8.835,20.165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontWeight="Bold" Foreground="White" Text="&lt; Back" FontSize="18"/>
+
+        <Grid HorizontalAlignment="Left" Height="35.832" Margin="344.5,14.5,0,0" VerticalAlignment="Top" Width="44">
+            <Grid.Background>
+                <ImageBrush ImageSource="airplanewhite.png"/>
+            </Grid.Background>
+        </Grid>
         <Grid x:Name="DaysOfWeekGrid" Height="71" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <Grid.RenderTransform>
                 <TransformGroup>

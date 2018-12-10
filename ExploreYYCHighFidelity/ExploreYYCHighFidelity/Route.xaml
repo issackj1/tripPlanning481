@@ -17,29 +17,6 @@
     </Page.Triggers>
 
     <StackPanel Background="Gray">
-        <Image Source="img/googlemapsphoto.png"/>
-        <Canvas Height="633.4" ClipToBounds="True" Background="Coral">
-            <Canvas Canvas.ZIndex="99" Height="151" Width="411" Background="Blue" ClipToBounds="True">
-                <Label Content="First Event" Background="White" Canvas.Left="84.025" Canvas.Top="30.573" Width="233.222"/>
-                <Label Content="Last Event" Background="White" Canvas.Left="84.025" Canvas.Top="90.68" Width="233.222"/>
-                <Button Content="" Width="43.941" Canvas.Left="343.748" Canvas.Top="30.573" Height="22.96"/>
-                <StackPanel Background="White" Height="421.1" Canvas.Left="23.2" Canvas.Top="153.3" Width="364.489">
-                    <TextBlock TextWrapping="Wrap" Text="TextBlock" Height="66.36"></TextBlock>
-                    <TextBlock TextWrapping="Wrap" Text="TextBlock" Height="66.36"></TextBlock>
-                    <TextBlock TextWrapping="Wrap" Text="TextBlock" Height="66.36"></TextBlock>
-                    <TextBlock TextWrapping="Wrap" Text="TextBlock" Height="66.36"/>
-
-                </StackPanel>
-                <Button Content="V" Width="43.941" Canvas.Left="179.348" Canvas.Top="121.64" Height="22.96" Background="Transparent"/>
-                <Button Content="^" Width="43.941" Canvas.Left="179.348" Canvas.Top="589.44" Height="22.96" Background="Transparent"/>
-
-            </Canvas>
-
-        </Canvas>
-
-
-
-
         <StackPanel Height="670.904">
             <Image Source="img/googlemapsphoto.png" Height="734.904" Margin="-126,0,-124,0"/>
         </StackPanel>

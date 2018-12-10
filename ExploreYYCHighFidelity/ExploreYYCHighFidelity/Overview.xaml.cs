@@ -39,7 +39,7 @@ namespace ExploreYYCHighFidelity
             //floor = int.Parse(floorBox.Text);
             //VIP = int.Parse(VIPBox.Text);
             //pz.getSum(basic, floor, VIP);
-            switchArgs.Page = "zorroEmptyPayment";
+            switchArgs.Page = "zorroPayment";
 
             //if pageSwitchHandler exists, it sends a signal to Page_ButtonClick in MainWindow.xaml.cs that a button is clicked and it needs to switch the page
             if (this.pageSwitchHandler != null)

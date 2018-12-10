@@ -47,7 +47,7 @@
             <TextBlock HorizontalAlignment="Left" Height="80" Margin="128.796,16.713,0,0" TextWrapping="Wrap" Text="&gt;" VerticalAlignment="Top" Width="38.473" FontSize="48" FontStretch="UltraExpanded" FontWeight="Bold"/>
             <TextBlock HorizontalAlignment="Left" Height="80" Margin="276.02,16.713,0,0" TextWrapping="Wrap" Text="&gt;" VerticalAlignment="Top" Width="38.473" FontSize="48" FontStretch="UltraExpanded" FontWeight="Bold"/>
         </Grid>
-        <Button HorizontalAlignment="Left" Height="90.571" Margin="108.5,629.929,0,0" VerticalAlignment="Top" Width="192" FontSize="36" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="1,3" Foreground = "White" Grid.Row="1">
+        <Button x:Name="nextButton" HorizontalAlignment="Left" Height="90.571" Margin="108.5,629.929,0,0" VerticalAlignment="Top" Width="192" FontSize="36" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="1,3" Foreground = "White" Grid.Row="1" Click="nextButton_Click">
             <Border CornerRadius="25" Background="Teal" Width="182" Height="65.216" Padding="0,6,0,0" BorderBrush="Black" BorderThickness="2">
                 <TextBlock Text="   NEXT &gt;" Margin="1.5,-1.5,-1.5,1.5"/>
             </Border>
@@ -86,9 +86,9 @@
 
             <StackPanel Grid.Column="2" Grid.Row="1">
 
-                <TextBlock Text="0" Margin="50,0" FontSize="18" Height="28.607" />
-                <TextBlock Text="0" Margin="50,0" FontSize="18" Height="33.273"/>
-                <TextBlock Text="2" Margin="50,0" FontSize="18"/>
+                <TextBox Text="0" Margin="50,0" FontSize="18" Height="28.607" Background="{x:Null}" BorderBrush="{x:Null}" />
+                <TextBox Text="0" Margin="50,0" FontSize="18" Height="33.273" BorderBrush="{x:Null}"/>
+                <TextBox Text="0" Margin="50,0" FontSize="18" BorderBrush="{x:Null}"/>
 
             </StackPanel>
 
@@ -97,7 +97,7 @@
         </Grid>
         <Rectangle Margin="-3.333,-0.009,-1.668,661.509" Fill="Teal" Width="416" Grid.RowSpan="2"/>
         <TextBlock HorizontalAlignment="Left" Height="39.667" Margin="135.835,12.165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="30" FontWeight="Bold" Foreground="White" Text="Overview" Grid.RowSpan="2"/>
-        <TextBlock HorizontalAlignment="Left" Height="39.667" Margin="8.835,20.165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontWeight="Bold" Foreground="White" Text="&lt; Back" FontSize="18" Grid.RowSpan="2"/>
+        <Button x:Name="backButton" HorizontalAlignment="Left" Height="39.667" Margin="0,14,0,0" VerticalAlignment="Top" Width="100" FontWeight="Bold" Foreground="White" Content="&lt; Back" FontSize="18" Grid.RowSpan="2" Background="Teal" Click="backButton_Click"/>
         <Grid HorizontalAlignment="Left" Height="35.832" Margin="341.5,16,0,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2">
             <Grid.Background>
                 <ImageBrush ImageSource="airplanewhite.png"/>

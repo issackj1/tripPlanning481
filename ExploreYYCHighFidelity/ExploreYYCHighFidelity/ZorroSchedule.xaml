@@ -9,8 +9,8 @@
       Title="ZorroSchedule" Width="411" Height="731" Background="White">
 
     <Grid x:Name="DecScheduleGrid">
+        
         <Button x:Name="backButton" Content="&lt; Back" Margin="0,0,348,708" Click="backButton_Click" Background="{x:Null}" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" />
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Text="Schedule" Margin="0" FontWeight="Bold"/>
         <ScrollViewer x:Name="Timeslots" Height="554" VerticalAlignment="Center" VerticalScrollBarVisibility="Hidden" Margin="0" RenderTransformOrigin="0,0">
             <ScrollViewer.RenderTransform>
                 <TransformGroup>
@@ -31,6 +31,7 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                 </Rectangle>
+                
                 <Rectangle x:Name="DecBlue2" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
@@ -774,6 +775,7 @@
                     <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Sa"/>
                     <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="29" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
                 </Grid>
+                
                 <Grid x:Name="Day30" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
                     <Grid.RenderTransform>
                         <TransformGroup>
@@ -783,8 +785,6 @@
                             <TranslateTransform X="1160"/>
                         </TransformGroup>
                     </Grid.RenderTransform>
-                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Su"/>
-                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="30" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
                 </Grid>
                 <Grid x:Name="Day31" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
                     <Grid.RenderTransform>
@@ -801,6 +801,14 @@
 
             </Grid>
         </ScrollViewer>
+        <Rectangle Margin="0,-0.009,-1.667,667.509" Fill="Teal"/>
+        <TextBlock HorizontalAlignment="Center" Height="39.667" Margin="142.5,12.165,118.5,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="30" FontWeight="Bold" Foreground="White" Text="Schedule"/>
+        <TextBlock HorizontalAlignment="Left" Height="39.667" Margin="8.835,20.165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontWeight="Bold" Foreground="White" Text="&lt; Back" FontSize="18"/>
+        <Grid HorizontalAlignment="Left" Height="35.832" Margin="344.5,14.5,0,0" VerticalAlignment="Top" Width="44">
+            <Grid.Background>
+                <ImageBrush ImageSource="airplanewhite.png"/>
+            </Grid.Background>
+        </Grid>
 
     </Grid>
 </Page>

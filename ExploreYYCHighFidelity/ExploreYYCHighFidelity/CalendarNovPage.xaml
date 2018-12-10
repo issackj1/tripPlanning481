@@ -831,7 +831,7 @@
                     <TranslateTransform Y="86"/>
                 </TransformGroup>
             </Grid.RenderTransform>
-            <TextBlock VerticalAlignment="Bottom" Text="November" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" Margin="0" HorizontalAlignment="Center" FontSize="72" Foreground="White">
+            <TextBlock VerticalAlignment="Center" Text="    November" TextWrapping="Wrap" RenderTransformOrigin="0.4,0.4" Margin="2.242,-16.468,-2.242,8.468" HorizontalAlignment="Left" FontSize="60" Foreground="Black" Height="81" Width="411" Background="White">
                 <TextBlock.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -841,11 +841,16 @@
                     </TransformGroup>
                 </TextBlock.RenderTransform>
             </TextBlock>
-            <Button x:Name="leftButton" Content="&lt;" VerticalContentAlignment="Top" FontSize="48" FontWeight="Bold" Margin="0,1.134,368.537,-1.134" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" />
-            <Button x:Name="rightButton"  Content="&gt;" VerticalContentAlignment="Top" FontSize="48" FontWeight="Bold" Margin="373.107,1.134,0,-1.134" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="rightButton_Click"/>
+            <Button x:Name="leftButton" Content="&lt;" VerticalContentAlignment="Top" FontSize="48" FontWeight="Bold" Margin="0,1.134,368.537,-1.134" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" />
+            <Button x:Name="rightButton"  Content="&gt;" VerticalContentAlignment="Top" FontSize="48" FontWeight="Bold" Margin="373.107,1.134,0,-1.134" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" Click="rightButton_Click"/>
         </Grid>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Text="Schedule" Margin="0" FontWeight="Bold"/>
-        <Grid x:Name="DaysOfWeekGrid" Height="71" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+        <Rectangle Margin="0,-0.009,-1.667,667.509" Fill="Teal"/>
+        <TextBlock HorizontalAlignment="Center" Height="39.667" Margin="142.5,12.165,118.5,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="30" FontWeight="Bold" Foreground="White" Text="Calendar"/>
+        <Grid HorizontalAlignment="Left" Height="35.832" Margin="344.5,14.5,0,0" VerticalAlignment="Top" Width="44">
+            <Grid.Background>
+                <ImageBrush ImageSource="airplanewhite.png"/>
+            </Grid.Background>
+        </Grid>        <Grid x:Name="DaysOfWeekGrid" Height="71" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <Grid.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

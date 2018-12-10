@@ -9,9 +9,14 @@
       Title="ScheduleDecPage" Width="411" Height="731" Background="White">
 
     <Grid x:Name="DecScheduleGrid">
-        <Button x:Name="backButton" Content="&lt; Back" Margin="0,0,348,708" Click="backButton_Click" Background="{x:Null}" Height="23" BorderBrush="{x:Null}" FontWeight="Bold" FontSize="14" />
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Text="Schedule" Margin="0" FontWeight="Bold"/>
-        <ScrollViewer x:Name="Timeslots" Height="490.333" VerticalAlignment="Center" VerticalScrollBarVisibility="Hidden" Margin="0,120,0,120.667" RenderTransformOrigin="0,0">
+        <Rectangle Margin="0,-0.009,-1.667,667.509" Fill="Teal"/>
+        <TextBlock HorizontalAlignment="Center" Height="39.667" Margin="142.5,12.165,118.5,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="30" FontWeight="Bold" Foreground="White" Text="Schedule"/>
+        <TextBlock HorizontalAlignment="Left" Height="39.667" Margin="8.835,20.165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontWeight="Bold" Foreground="White" Text="&lt; Back" FontSize="18"/>
+        <Grid HorizontalAlignment="Left" Height="35.832" Margin="344.5,14.5,0,0" VerticalAlignment="Top" Width="44">
+            <Grid.Background>
+                <ImageBrush ImageSource="airplanewhite.png"/>
+            </Grid.Background>
+        </Grid>        <ScrollViewer x:Name="Timeslots" Height="490.333" VerticalAlignment="Center" VerticalScrollBarVisibility="Hidden" Margin="0,120,0,120.667" RenderTransformOrigin="0,0">
             <ScrollViewer.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -414,7 +419,7 @@
                 </TransformGroup>
             </ScrollViewer.RenderTransform>
             <Grid x:Name="DecDaysGrid" Width="1240">
-                <Rectangle x:Name="DaysOfMonthBG" Margin="0">
+                <Rectangle x:Name="DaysOfMonthBG">
                     <Rectangle.Fill>
                         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                             <GradientStop Color="#FF82C4ED" Offset="0"/>

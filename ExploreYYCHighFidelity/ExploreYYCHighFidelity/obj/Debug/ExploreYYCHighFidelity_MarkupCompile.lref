@@ -1,50 +1,35 @@
-<<<<<<< HEAD
 ﻿
 
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\BookMarkedEmpty.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\BookMarkedWithEvent.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\CalendarDecPage.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\CalendarJanPage.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\CalendarNovPage.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\EmptyHomePage.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\EmptyPayment.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Event2Page.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Event3Page.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Filter.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Forgot Page.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\HomePage.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\EventPage.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\HomePage1Event.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\HomePage3Events.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Nearby.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Overview.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Payment.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\PageTemplate.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Popular.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Profile.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Review.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Route.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\ScheduleDecPage.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\SignUp.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\MainWindow.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Upcomming.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Welcome Page.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\zorroCalendar.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\ZorroRemove.xaml;;
-FU:\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\ZorroSchedule.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\BookMarkedEmpty.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\BookMarkedWithEvent.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\CalendarDecPage.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\CalendarEvents.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\CalendarJanPage.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\CalendarNovPage.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\EmptyHomePage.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\EmptyPayment.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Event2Page.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Event3Page.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Filter.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Forgot Page.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\HomePage.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\EventPage.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\HomePage1Event.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\HomePage3Events.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Nearby.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Overview.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\PageTemplate.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Payment.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Popular.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Profile.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Review.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Route.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\ScheduleDecPage.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\SignUp.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\MainWindow.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Upcomming.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Welcome Page.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\zorroCalendar.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\ZorroRemove.xaml;;
+F\\samba.cs.ucalgary.ca\issack.john1\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\ZorroSchedule.xaml;;
 
-=======
-﻿
-
-F\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\HomePage.xaml;;
-F\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Filter.xaml;;
-F\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Profile.xaml;;
-F\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Review.xaml;;
-F\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\PageTemplate.xaml;;
-F\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\SignUp.xaml;;
-F\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\MainWindow.xaml;;
-F\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Welcome Page.xaml;;
-F\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Overview.xaml;;
-F\\samba.cs.ucalgary.ca\nkyou\Documents\GitHub\tripPlanning481\ExploreYYCHighFidelity\ExploreYYCHighFidelity\Payment.xaml;;
-
->>>>>>> origin/nathanbranch

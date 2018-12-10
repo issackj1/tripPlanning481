@@ -12,8 +12,13 @@
 
 
         <Grid>
-            <Rectangle Fill="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}"/>
-            <Label Content="Events" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Background="{x:Null}" Foreground="#FF343434" BorderBrush="#FFAC3737" OpacityMask="#FFF1CBCB"/>
+            <Rectangle Fill="Teal"/>
+            <Label Content="Events" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Background="{x:Null}" Foreground="White" BorderBrush="#FFAC3737" OpacityMask="White"/>
+            <Grid HorizontalAlignment="Left" Height="35.832" Margin="342.5,12,0,0" VerticalAlignment="Top" Width="44">
+                <Grid.Background>
+                    <ImageBrush ImageSource="airplanewhite.png"/>
+                </Grid.Background>
+            </Grid>
 
         </Grid>
 
@@ -42,7 +47,7 @@
                 </MenuItem.Header>
             </MenuItem>
 
-            <MenuItem x:Name="nearbyTab" Height="50" Width="102.75" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" Click="nearbyTab_Click">
+            <MenuItem x:Name="nearbyTab" Height="50" Width="102.75" Background="#FF0066CC" Click="nearbyTab_Click">
                 <MenuItem.Header>
                     <TextBlock Text="Nearby"  VerticalAlignment="Center" Foreground="SkyBlue" FontSize="14"  />
                 </MenuItem.Header>

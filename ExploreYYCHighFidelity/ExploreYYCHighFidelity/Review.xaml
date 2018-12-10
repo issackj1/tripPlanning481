@@ -30,9 +30,9 @@
             <TextBlock HorizontalAlignment="Left" Height="39" Margin="154,429.346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219.5" FontSize="16"><Run Text="Item Total:         "/><Run FontWeight="Bold" Text="$100.00"/></TextBlock>
             <TextBlock HorizontalAlignment="Left" Height="39" Margin="154,462.346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219.5" FontSize="16"><Run Text="Sales Tax:           "/><Run FontWeight="Bold" Text="$15.00"/></TextBlock>
             <TextBlock HorizontalAlignment="Left" Height="39" Margin="154,494.837,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219.5" FontSize="16"><Run Text="Total:                  "/><Run FontWeight="Bold" Text="$115.00"/></TextBlock>
-            <Button HorizontalAlignment="Left" Height="90.571" Margin="108.5,602.929,0,0" VerticalAlignment="Top" Width="192" FontSize="36" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="1,3" Foreground = "White" Grid.Row="1">
+            <Button x:Name="bookButton" HorizontalAlignment="Left" Height="90.571" Margin="108.5,602.929,0,0" VerticalAlignment="Top" Width="192" FontSize="36" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="1,3" Foreground = "White" Grid.Row="1" Click="bookButton_Click">
                 <Border CornerRadius="25" Background="Teal" Width="182" Height="65.216" Padding="0,6,0,0" BorderBrush="Black" BorderThickness="2">
-                    <TextBlock Text="   NEXT &gt;"/>
+                    <TextBlock Text="     Book"/>
                 </Border>
             </Button>
             <Border BorderBrush="#FFB4B4B4" BorderThickness="1" HorizontalAlignment="Left" Height="45" Margin="10,445.846,0,0" VerticalAlignment="Top" Width="105"/>
@@ -48,6 +48,7 @@
         <Rectangle Margin="-2.333,-4.009,-2.668,665.509" Fill="Teal" Width="416" Grid.RowSpan="2"/>
         <TextBlock HorizontalAlignment="Left" Height="39.667" Margin="151.335,8.165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112.5" FontSize="30" FontWeight="Bold" Foreground="White" Text="Review" Grid.RowSpan="2"/>
         <TextBlock HorizontalAlignment="Left" Height="39.667" Margin="9.835,16.165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontWeight="Bold" Foreground="White" Text="&lt; Back" FontSize="18" Grid.RowSpan="2"/>
+        <Button x:Name="backButton" Content="     " HorizontalAlignment="Left" Height="31.667" Margin="10,16.165,0,0" VerticalAlignment="Top" Width="56" Background="{x:Null}" Click="backButton_Click" Opacity="0"/>
         <Grid HorizontalAlignment="Left" Height="35.832" Margin="342.5,12,0,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2">
             <Grid.Background>
                 <ImageBrush ImageSource="airplanewhite.png"/>

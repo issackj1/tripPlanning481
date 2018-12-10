@@ -28,7 +28,7 @@ namespace ExploreYYCHighFidelity
 
         private void calendarButton_Click(object sender, RoutedEventArgs e)
         {
-            //Makes a new SwitchEventArgs (class in solution)
+            //Makes a new SwitchEventArgs (class in solution) 
             SwitchEventArgs switchArgs = new SwitchEventArgs();
             switchArgs.Page = "DecemberCalendar";
 
@@ -39,7 +39,7 @@ namespace ExploreYYCHighFidelity
 
         private void homeButton_Click(object sender, RoutedEventArgs e)
         {
-            //Makes a new SwitchEventArgs (class in solution)
+            //Makes a new SwitchEventArgs (class in solution) 
             SwitchEventArgs switchArgs = new SwitchEventArgs();
             switchArgs.Page = "Homepage";
 
@@ -50,7 +50,7 @@ namespace ExploreYYCHighFidelity
 
         private void eventsButton_Click(object sender, RoutedEventArgs e)
         {
-            //Makes a new SwitchEventArgs (class in solution)
+            //Makes a new SwitchEventArgs (class in solution) 
             SwitchEventArgs switchArgs = new SwitchEventArgs();
             switchArgs.Page = "popularEvent";
 
@@ -61,7 +61,7 @@ namespace ExploreYYCHighFidelity
 
         private void routesButton_Click(object sender, RoutedEventArgs e)
         {
-            //Makes a new SwitchEventArgs (class in solution)
+            //Makes a new SwitchEventArgs (class in solution) 
             SwitchEventArgs switchArgs = new SwitchEventArgs();
             switchArgs.Page = "Routes";
 
