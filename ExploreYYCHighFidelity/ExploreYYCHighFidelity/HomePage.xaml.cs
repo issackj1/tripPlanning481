@@ -32,7 +32,7 @@ namespace ExploreYYCHighFidelity
         {
             //Makes a new SwitchEventArgs (class in solution) 
             SwitchEventArgs switchArgs = new SwitchEventArgs();
-            switchArgs.Page = "Zorro";
+            switchArgs.Page = "ZorroRemove";
 
             //if pageSwitchHandler exists, it sends a signal to Page_ButtonClick in MainWindow.xaml.cs that a button is clicked and it needs to switch the page
             if (this.pageSwitchHandler != null)

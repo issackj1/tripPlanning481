@@ -27,8 +27,10 @@ namespace ExploreYYCHighFidelity
         SignUp signIn = new SignUp();
         Welcome_Page welcome = new Welcome_Page();
         HomePage home = new HomePage();
+        HomePage1Event home1E = new HomePage1Event();
         EmptyHomePage emptyHome = new EmptyHomePage();
         Forgot_Page forgot = new Forgot_Page();
+        Profile profile_page = new Profile();
 
         CalendarJanPage calendarJan = new CalendarJanPage();
         CalendarNovPage calendarNov = new CalendarNovPage();
@@ -37,6 +39,7 @@ namespace ExploreYYCHighFidelity
         EventPage eventPage = new EventPage(); //zorro
         Event2Page event2Page = new Event2Page(); //christmas carol
         Event3Page event3page = new Event3Page(); //nutcracker
+        ZorroRemove zorroRemove = new ZorroRemove();
 
         //zorro payment pages
         zorroCalendar zorroCal = new zorroCalendar();
@@ -54,6 +57,7 @@ namespace ExploreYYCHighFidelity
         BookMarkedWithEvent zorroBookmark = new BookMarkedWithEvent();
 
         Route routePage = new Route();
+        Filter filterPage = new Filter();
 
         public ArrayList logIncredentials = new ArrayList();
         public ArrayList passWordcredentials = new ArrayList();
@@ -70,6 +74,7 @@ namespace ExploreYYCHighFidelity
             welcome.pageSwitchHandler += Page_ButtonClick;
             signIn.pageSwitchHandler += Page_ButtonClick;
             home.pageSwitchHandler += Page_ButtonClick;
+            home1E.pageSwitchHandler += Page_ButtonClick;
             forgot.pageSwitchHandler += Page_ButtonClick;
             emptyHome.pageSwitchHandler += Page_ButtonClick;
 
@@ -81,6 +86,7 @@ namespace ExploreYYCHighFidelity
             payment.pageSwitchHandler += Page_ButtonClick;
             emptyPayment.pageSwitchHandler += Page_ButtonClick;
             review.pageSwitchHandler += Page_ButtonClick;
+            profile_page.pageSwitchHandler += Page_ButtonClick;
 
             //calendars
             calendarJan.pageSwitchHandler += Page_ButtonClick;
@@ -90,6 +96,7 @@ namespace ExploreYYCHighFidelity
             //other event pages
             event2Page.pageSwitchHandler += Page_ButtonClick;
             event3page.pageSwitchHandler += Page_ButtonClick;
+            zorroRemove.pageSwitchHandler += Page_ButtonClick;
 
             //event search pages
             popularPage.pageSwitchHandler += Page_ButtonClick;
@@ -99,6 +106,7 @@ namespace ExploreYYCHighFidelity
             zorroBookmark.pageSwitchHandler += Page_ButtonClick;
 
             routePage.pageSwitchHandler += Page_ButtonClick;
+            filterPage.pageSwitchHandler += Page_ButtonClick;
 
             this.backbutton += Page_ButtonClick;
 
@@ -177,6 +185,15 @@ namespace ExploreYYCHighFidelity
                 case "Nutcracker":
                     Switcher.Switch(event3page);
                     break;
+                case "removeZorroCheck":
+                    Switcher.Switch(emptyHome);
+                    break;
+                case "ZorroRemove":
+                    Switcher.Switch(zorroRemove);
+                    break;
+                case "Profile":
+                    Switcher.Switch(profile_page);
+                    break;
 
 
                 case "DecemberCalendar":
@@ -222,6 +239,12 @@ namespace ExploreYYCHighFidelity
                 
                 case "Routes":
                     Switcher.Switch(routePage);
+                    break;
+                case "HomePage1Event":
+                    Switcher.Switch(home1E);
+                    break;
+                case "Filter":
+                    Switcher.Switch(filterPage);
                     break;
 
                 case "Back":

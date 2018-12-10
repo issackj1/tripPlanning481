@@ -18,7 +18,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Button Content="X" HorizontalAlignment="Left" Height="53.346" Margin="9,5.5,0,0" VerticalAlignment="Top" Width="51" FontSize="36" FontWeight="Bold" BorderBrush="White" Background="White" Foreground="Red"/>
+            <Button x:Name="closeFilterButtom" Content="X" HorizontalAlignment="Left" Height="53.346" Margin="9,5.5,0,0" VerticalAlignment="Top" Width="51" FontSize="36" FontWeight="Bold" BorderBrush="White" Background="White" Foreground="Red" Click="closeFilterButtom_Click"/>
             <Path Data="M0,195.71396 L411,197.093" Fill="#FFAEAEAE" HorizontalAlignment="Left" Height="3.379" Margin="-2,64.13,-3,0" Stretch="Fill" Stroke="#FFAEAEAE" VerticalAlignment="Top" Width="416"/>
             <TextBlock HorizontalAlignment="Left" Height="36.5" Margin="173.001,18.005,0,0" TextWrapping="Wrap" Text="Filters" VerticalAlignment="Top" Width="87" FontSize="26" FontWeight="Bold" TextDecorations="{x:Null}" Foreground="Teal"/>
             <Path Data="M0,195.71396 L411,197.093" Fill="#FFD1D1D1" HorizontalAlignment="Left" Height="3.379" Margin="-2,184.13,-3,0" Stretch="Fill" Stroke="#FF040405" VerticalAlignment="Top" Width="416" StrokeThickness="0.5"/>

@@ -841,7 +841,7 @@
                     <TranslateTransform Y="86"/>
                 </TransformGroup>
             </Grid.RenderTransform>
-            <TextBlock VerticalAlignment="Center" Text="December" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" Margin="42.463,0,42.463,-22.667" HorizontalAlignment="Center" FontSize="72" Foreground="White">
+            <TextBlock VerticalAlignment="Center" Text="December" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" Margin="47,0,27,-71" HorizontalAlignment="Center" FontSize="72" Foreground="White" Height="144" Width="337">
                 <TextBlock.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>

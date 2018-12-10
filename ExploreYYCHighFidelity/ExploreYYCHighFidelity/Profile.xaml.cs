@@ -20,6 +20,7 @@ namespace ExploreYYCHighFidelity
     /// </summary>
     public partial class Profile : Page
     {
+        public event EventHandler pageSwitchHandler;
         public Profile()
         {
             InitializeComponent();

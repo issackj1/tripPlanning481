@@ -94,6 +94,12 @@
     <Compile Include="EventPage.xaml.cs">
       <DependentUpon>EventPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="HomePage1Event.xaml.cs">
+      <DependentUpon>HomePage1Event.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage3Events.xaml.cs">
+      <DependentUpon>HomePage3Events.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Nearby.xaml.cs">
       <DependentUpon>Nearby.xaml</DependentUpon>
     </Compile>
@@ -134,6 +140,9 @@
     </Compile>
     <Compile Include="zorroCalendar.xaml.cs">
       <DependentUpon>zorroCalendar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ZorroRemove.xaml.cs">
+      <DependentUpon>ZorroRemove.xaml</DependentUpon>
     </Compile>
     <Compile Include="ZorroSchedule.xaml.cs">
       <DependentUpon>ZorroSchedule.xaml</DependentUpon>
@@ -187,6 +196,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="EventPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HomePage1Event.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HomePage3Events.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -251,6 +268,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="zorroCalendar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ZorroRemove.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -332,6 +353,9 @@
   <ItemGroup>
     <Resource Include="img\calgary-curtis-block-11.jpg" />
     <Resource Include="img\narutosmile.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\bookmark-white.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

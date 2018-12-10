@@ -20,7 +20,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <Button x:Name="backButton" Content="&lt; Back" HorizontalAlignment="Left" Height="33.456" Margin="15.067,45.163,0,0" VerticalAlignment="Top" Width="81.947" BorderBrush="White" Background="White" FontSize="20" FontWeight="Bold" Click="backButton_Click"/>
-            <Button Content=" Place Order &gt;" HorizontalAlignment="Left" Margin="-2,640.605,-2.5,-70.023" Width="415.5" FontSize="36" FontWeight="Bold" BorderBrush="Black" Background="#FFF9F9F9" BorderThickness="1,3" Height="95"/>
+            <Button x:Name="placeOrderButton" Content=" Place Order &gt;" HorizontalAlignment="Left" Margin="-2,640.605,-2.5,-70.023" Width="415.5" FontSize="36" FontWeight="Bold" BorderBrush="Black" Background="#FFF9F9F9" BorderThickness="1,3" Height="95" Click="placeOrderButton_Click"/>
             <TextBlock HorizontalAlignment="Left" Height="61.285" Margin="116.883,150.061,0,0" TextWrapping="Wrap" Text="Order Details" VerticalAlignment="Top" Width="191.117" FontSize="30"/>
             <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2,205.13,-3,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
             <TextBlock HorizontalAlignment="Left" Height="46.5" Margin="10,214.846,0,0" TextWrapping="Wrap" Text="Zorro: Family Code" VerticalAlignment="Top" Width="206" FontSize="18" TextDecorations="Underline" FontWeight="Bold"/>

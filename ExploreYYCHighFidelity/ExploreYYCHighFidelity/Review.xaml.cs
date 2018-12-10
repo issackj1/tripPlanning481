@@ -41,5 +41,16 @@ namespace ExploreYYCHighFidelity
             if (this.pageSwitchHandler != null)
                 this.pageSwitchHandler(this, switchArgs);
         }
+
+        private void placeOrderButton_Click(object sender, RoutedEventArgs e)
+        {
+            //Makes a new SwitchEventArgs (class in solution) 
+            SwitchEventArgs switchArgs = new SwitchEventArgs();
+            switchArgs.Page = "HomePage1Event";
+
+            //if pageSwitchHandler exists, it sends a signal to Page_ButtonClick in MainWindow.xaml.cs that a button is clicked and it needs to switch the page
+            if (this.pageSwitchHandler != null)
+                this.pageSwitchHandler(this, switchArgs);
+        }
     }
 }
