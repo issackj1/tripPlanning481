@@ -43,7 +43,7 @@
                     </Grid.Background>
                 </Grid>
             </Grid>
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Naru To" VerticalAlignment="Top" FontSize="24" Margin="154.5,228,0,0" FontWeight="Bold" Foreground="Teal"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="John Doe" VerticalAlignment="Top" FontSize="24" Margin="154.5,228,0,0" FontWeight="Bold" Foreground="Teal"/>
             <Button Content="Change" HorizontalAlignment="Left" Height="55.5" Margin="248.083,219.037,0,0" VerticalAlignment="Top" Width="105" FontSize="14" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF0023FF" FontStyle="Italic"/>
             <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" FontSize="20" Margin="30,280.5,0,0" FontWeight="Bold" Foreground="Teal"/>
             <Button Content="Change" HorizontalAlignment="Left" Height="55.5" Margin="257.083,265.537,0,0" VerticalAlignment="Top" Width="105" FontSize="14" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF0023FF" FontStyle="Italic"/>
