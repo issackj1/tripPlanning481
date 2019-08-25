@@ -1,72 +1,71 @@
 ﻿<Page x:Class="ExploreYYCHighFidelity.Payment"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:local="clr-namespace:ExploreYYCHighFidelity"
-      mc:Ignorable="d" 
+      mc:Ignorable="d"
       d:DesignHeight="731" d:DesignWidth="411"
       Title="Payment">
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="0*"/>
-            <RowDefinition Height="588*"/>
-            <RowDefinition Height="143*"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         <!--Put everything from here up until and not inluding to </Grid> onto the pages where the 4 main buttons -->
-        <Grid x:Name="whiteBackground" HorizontalAlignment="Left" Height="642.25" VerticalAlignment="Top" Width="411" Background="White" OpacityMask="Black" Margin="0,-1.846,0,0" Grid.RowSpan="3">
+        <Grid x:Name="whiteBackground" HorizontalAlignment="Left" Height="734.346" VerticalAlignment="Top" Width="411" Background="White" OpacityMask="Black" Margin="0,-3.346,0,0" Grid.RowSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="491*"/>
                 <RowDefinition Height="137*"/>
             </Grid.RowDefinitions>
-            <!--<Button Content="Back" HorizontalAlignment="Left" Height="33.456" Margin="38.468,46.836,0,0" VerticalAlignment="Top" Width="58.546" BorderBrush="White" Background="White" FontSize="18"/>-->
-            <Button x:Name="backButton" Content="&lt; Back" HorizontalAlignment="Left" Height="33.456" Margin="15.067,46.996,0,0" VerticalAlignment="Top" Width="81.947" BorderBrush="White" Background="White" FontSize="20" FontWeight="Bold" Click="backButton_Click"/>
-            <TextBlock HorizontalAlignment="Left" Height="56.855" Margin="15.067,434.34,0,0" TextWrapping="Wrap" Text="Current Billing Address" VerticalAlignment="Top" Width="374" FontSize="37"/>
-            <Button Content="NEXT &gt;" HorizontalAlignment="Left" Height="95" Margin="-2,137.055,0,-106.904" VerticalAlignment="Top" Width="413" FontSize="36" FontWeight="Bold" BorderBrush="Black" Background="#FFF9F9F9" BorderThickness="1,3" Grid.Row="1"/>
-            <TextBlock HorizontalAlignment="Left" Height="61.285" Margin="15.067,190.561,0,0" TextWrapping="Wrap" Text="Payment Information" VerticalAlignment="Top" Width="354.532" FontSize="37"/>
-            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-41,307.468,-56.667,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="508.667" RenderTransformOrigin="0.5,0.5">
-                <Path.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform ScaleY="-1"/>
-                        <SkewTransform/>
-                        <RotateTransform/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Path.RenderTransform>
-            </Path>
-            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-5.5,354.963,-3,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="419.5"/>
-            <Path Data="M163.5,205.846 L163.5,263.63" Fill="#FF040405" HorizontalAlignment="Left" Height="62.784" Margin="92.014,352.963,0,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="5"/>
-            <Path Data="M163.5,205.846 L163.5,263.63" Fill="#FF040405" HorizontalAlignment="Left" Height="62.784" Margin="189.847,354.963,0,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="5"/>
-            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="0,309.513,0,0" TextWrapping="Wrap" Text="Credit Card Number:" VerticalAlignment="Top" Width="148.5"/>
-            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="0,358.342,0,0" TextWrapping="Wrap" Text="Expiration:" VerticalAlignment="Top" Width="61.5"/>
-            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="97.014,358.342,0,0" TextWrapping="Wrap" Text="CVV:" VerticalAlignment="Top" Width="61.5"/>
-            <TextBlock HorizontalAlignment="Left" Height="30.335" Margin="10,17.22,0,0" TextWrapping="Wrap" Text="John Smith" VerticalAlignment="Top" Width="183.5" FontSize="24" FontWeight="Bold" Grid.Row="1"/>
-            <Button Content="Change" HorizontalAlignment="Left" Height="30.335" Margin="277.5,17.22,0,0" VerticalAlignment="Top" Width="106.5" FontSize="16" Grid.Row="1"/>
-            <TextBlock HorizontalAlignment="Left" Height="79.5" Margin="10,47.555,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262.5" FontSize="18" Grid.Row="1"><Run Text="123 4th Street SW, Calgary, AB"/><LineBreak/><Run Text="A1B 2C3"/></TextBlock>
-            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2,412.368,-3,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
-            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="0,256.846,0,0" TextWrapping="Wrap" Text="Name on Card:" VerticalAlignment="Top" Width="148.5"/>
-            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-37.667,252.134,-60,0" Stretch="Fill" Stroke="#FF040405" StrokeThickness="5" VerticalAlignment="Top" Width="508.667" RenderTransformOrigin="0.5,0.5">
-                <Path.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform ScaleY="-1"/>
-                        <SkewTransform/>
-                        <RotateTransform/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Path.RenderTransform>
-            </Path>
-            <TextBox x:Name="cardNameBox" HorizontalAlignment="Left" Height="34.334" Margin="0,275.179,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="410.5" Background="{x:Null}" BorderBrush="{x:Null}"/>
-            <TextBox x:Name="cardNumberBox"  HorizontalAlignment="Left" Height="23.95" Margin="0.5,331.013,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="410.5" Background="{x:Null}" BorderBrush="{x:Null}"/>
-            <TextBox x:Name="expirationDateBox" HorizontalAlignment="Left" Height="34.334" Margin="0.5,374.842,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="87.833" Background="{x:Null}" BorderBrush="{x:Null}"/>
-            <TextBox HorizontalAlignment="Left" Height="34.334" Margin="97.014,374.842,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="87.833" Background="{x:Null}" BorderBrush="{x:Null}"/>
+            <Button Content="&lt;" HorizontalAlignment="Left" Height="33.456" Margin="15.067,45.163,0,0" VerticalAlignment="Top" Width="23.418" BorderBrush="White" Background="White" FontSize="20" FontWeight="Bold" Foreground="Teal"/>
+            <TextBlock HorizontalAlignment="Left" Height="54.338" Margin="19,324.491,0,0" TextWrapping="Wrap" Text="Current Billing Address" VerticalAlignment="Top" Width="374" FontSize="36" Foreground="Teal"/>
+            <TextBlock HorizontalAlignment="Left" Height="61.285" Margin="63.968,171.192,0,0" TextWrapping="Wrap" Text="Payment Information" VerticalAlignment="Top" Width="284.117" FontSize="30" Foreground="Teal"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="Teal" HorizontalAlignment="Left" Height="3.379" Margin="-2,230.476,-3,0" Stretch="Fill" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2,288.976,-3,0" Stretch="Fill" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
+            <Path Data="M163.5,205.846 L163.5,263.63" Fill="Teal" HorizontalAlignment="Left" Height="62.784" Margin="203.5,229.192,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="5"/>
+            <Path Data="M163.5,205.846 L163.5,263.63" Fill="#FF040405" HorizontalAlignment="Left" Height="62.784" Margin="313,229.192,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="5"/>
+            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="0,234.192,0,0" TextWrapping="Wrap" Text="Credit Card Number:" VerticalAlignment="Top" Width="148.5" Foreground="Teal"/>
+            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="210,234.192,0,0" TextWrapping="Wrap" Text="Expiration:" VerticalAlignment="Top" Width="61.5" Foreground="Teal"/>
+            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="322.5,234.192,0,0" TextWrapping="Wrap" Text="CVV:" VerticalAlignment="Top" Width="61.5" Foreground="Teal"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="Teal" HorizontalAlignment="Left" Height="3.379" Margin="-2,377.883,-3,0" Stretch="Fill" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2,436.383,-3,0" Stretch="Fill" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
+            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="4,382.262,0,0" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top" Width="148.5" Foreground="Teal"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="Teal" HorizontalAlignment="Left" Height="3.379" Margin="0,436.55,-5,0" Stretch="Fill" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2.001,495.05,-2.999,0" Stretch="Fill" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
+            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="6,439.929,0,0" TextWrapping="Wrap" Text="Address:" VerticalAlignment="Top" Width="148.5" Foreground="Teal"/>
+            <Path Data="M0,195.71396 L411,197.093" Fill="#FF040405" HorizontalAlignment="Left" Height="3.379" Margin="-2.999,551.717,-2.001,0" Stretch="Fill" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="416"/>
+            <Path Data="M163.5,205.846 L163.5,263.63" Fill="Teal" HorizontalAlignment="Left" Height="57.334" Margin="173.153,495.383,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="2" VerticalAlignment="Top" Width="5.667"/>
+            <Path Data="M163.5,205.846 L163.5,263.63" Fill="Teal" HorizontalAlignment="Left" Height="57.334" Margin="282.833,495.383,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="2" VerticalAlignment="Top" Width="5.667"/>
+            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="5,498.429,0,0" TextWrapping="Wrap" Text="City:" VerticalAlignment="Top" Width="148.5" Foreground="Teal"/>
+            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="178.82,498.429,0,0" TextWrapping="Wrap" Text="Region:" VerticalAlignment="Top" Width="61.5" Foreground="Teal"/>
+            <TextBlock HorizontalAlignment="Left" Height="16.5" Margin="289.5,498.429,0,0" TextWrapping="Wrap" Text="Postal Code:" VerticalAlignment="Top" Width="90.5" Foreground="Teal"/>
+        </Grid>
+        <Rectangle Margin="-3.333,-2.165,-1.668,663.665" Fill="Teal" Width="416" Grid.RowSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Height="39.667" Margin="142.303,12.165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="30" FontWeight="Bold" Foreground="White" Text="Payment" Grid.RowSpan="2"/>
+        <Button x:Name="backButton" HorizontalAlignment="Left" Height="39.667" Margin="0,14,0,0" VerticalAlignment="Top" Width="100" FontWeight="Bold" Foreground="White" Content="&lt; Back" FontSize="18" Grid.RowSpan="2" Background="Teal" Click="backButton_Click"/>
+        <Grid HorizontalAlignment="Left" Height="35.832" Margin="341.5,16,0,0" VerticalAlignment="Top" Width="44" Grid.RowSpan="2">
+            <Grid.Background>
+                <ImageBrush ImageSource="airplanewhite.png"/>
+            </Grid.Background>
         </Grid>
         <Grid x:Name="upperNavBar" HorizontalAlignment="Left" Height="108.73" Margin="0,60.17,-27.266,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="438.266">
-            <Button Content="Review" HorizontalAlignment="Left" Height="56.874" Margin="309.433,26.232,0,0" VerticalAlignment="Top" Width="94.913" FontSize="22" Background="{x:Null}" BorderBrush="White"/>
-            <Button Content="Payment" HorizontalAlignment="Left" Height="56.874" Margin="160.75,24.732,0,0" VerticalAlignment="Top" Width="110.402" FontSize="26" Background="{x:Null}" BorderBrush="White" FontWeight="Bold" Foreground="#FF00C912"/>
-            <Button Content="Overview&#xD;&#xA;" HorizontalAlignment="Left" Height="35.138" Margin="8.707,37.769,0,0" VerticalAlignment="Top" Width="110.402" FontSize="22" Background="{x:Null}" BorderBrush="White"/>
-            <TextBlock HorizontalAlignment="Left" Height="80" Margin="118.296,19.713,0,0" TextWrapping="Wrap" Text="&gt;" VerticalAlignment="Top" Width="38.473" FontSize="48" FontStretch="UltraExpanded" FontWeight="Bold"/>
-            <TextBlock HorizontalAlignment="Left" Height="80" Margin="282.02,19.713,0,0" TextWrapping="Wrap" Text="&gt;" VerticalAlignment="Top" Width="38.473" FontSize="48" FontStretch="UltraExpanded" FontWeight="Bold"/>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="22*"/>
+                <ColumnDefinition Width="417*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Review" HorizontalAlignment="Left" Height="56.874" Margin="287.874,21.732,0,0" VerticalAlignment="Top" Width="94.913" FontSize="24" Background="White" BorderBrush="White" Grid.Column="1"/>
+            <Button Content="Payment" HorizontalAlignment="Left" Height="56.874" Margin="140.691,21.732,0,0" VerticalAlignment="Top" Width="110.402" FontSize="24" Background="White" BorderBrush="White" FontWeight="Bold" Foreground="Teal" Grid.Column="1"/>
+            <Path Data="M46.837529,232.51487 L194.04119,232.51487" Fill="Red" HorizontalAlignment="Left" Height="2" Margin="145.835,66.888,0,0" Stretch="Fill" Stroke="Teal" VerticalAlignment="Top" Width="100" StrokeThickness="5" Grid.Column="1"/>
+            <Button Content="Overview  " HorizontalAlignment="Left" Height="35.138" Margin="11.707,31.769,0,0" VerticalAlignment="Top" Width="110.402" FontSize="24" Background="White" BorderBrush="White" Grid.ColumnSpan="2"/>
+            <TextBlock HorizontalAlignment="Left" Height="80" Margin="107.237,16.713,0,0" TextWrapping="Wrap" Text="&gt;" VerticalAlignment="Top" Width="38.473" FontSize="48" FontStretch="UltraExpanded" FontWeight="Bold" Grid.Column="1"/>
+            <TextBlock HorizontalAlignment="Left" Height="80" Margin="254.461,16.713,0,0" TextWrapping="Wrap" Text="&gt;" VerticalAlignment="Top" Width="38.473" FontSize="48" FontStretch="UltraExpanded" FontWeight="Bold" Grid.Column="1"/>
         </Grid>
+        <Button x:Name="nextButton" HorizontalAlignment="Left" Height="90.571" Margin="108.5,602.929,0,0" VerticalAlignment="Top" Width="192" FontSize="36" FontWeight="Bold" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="1,3" Foreground = "White" Grid.Row="1" Click="nextButton_Click">
+            <Border CornerRadius="25" Background="Teal" Width="182" Height="65.216" Padding="0,6,0,0" BorderBrush="Black" BorderThickness="2">
+                <TextBlock Text="   NEXT &gt;"/>
+            </Border>
+        </Button>
     </Grid>
 </Page>

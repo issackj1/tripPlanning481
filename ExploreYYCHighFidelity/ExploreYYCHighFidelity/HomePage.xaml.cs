@@ -32,7 +32,62 @@ namespace ExploreYYCHighFidelity
         {
             //Makes a new SwitchEventArgs (class in solution) 
             SwitchEventArgs switchArgs = new SwitchEventArgs();
-            switchArgs.Page = "Zorro";
+            switchArgs.Page = "ZorroRemove";
+
+            //if pageSwitchHandler exists, it sends a signal to Page_ButtonClick in MainWindow.xaml.cs that a button is clicked and it needs to switch the page
+            if (this.pageSwitchHandler != null)
+                this.pageSwitchHandler(this, switchArgs);
+        }
+
+        private void christmasButton_Click(object sender, RoutedEventArgs e)
+        {
+            //Makes a new SwitchEventArgs (class in solution) 
+            SwitchEventArgs switchArgs = new SwitchEventArgs();
+            switchArgs.Page = "Christmas";
+
+            //if pageSwitchHandler exists, it sends a signal to Page_ButtonClick in MainWindow.xaml.cs that a button is clicked and it needs to switch the page
+            if (this.pageSwitchHandler != null)
+                this.pageSwitchHandler(this, switchArgs);
+        }
+
+        private void nutcrackerButton_Click(object sender, RoutedEventArgs e)
+        {
+            //Makes a new SwitchEventArgs (class in solution) 
+            SwitchEventArgs switchArgs = new SwitchEventArgs();
+            switchArgs.Page = "Nutcracker";
+
+            //if pageSwitchHandler exists, it sends a signal to Page_ButtonClick in MainWindow.xaml.cs that a button is clicked and it needs to switch the page
+            if (this.pageSwitchHandler != null)
+                this.pageSwitchHandler(this, switchArgs);
+        }
+
+        private void calendarButton_Click(object sender, RoutedEventArgs e)
+        {
+            //Makes a new SwitchEventArgs (class in solution) 
+            SwitchEventArgs switchArgs = new SwitchEventArgs();
+            switchArgs.Page = "CalendarEvents";
+
+            //if pageSwitchHandler exists, it sends a signal to Page_ButtonClick in MainWindow.xaml.cs that a button is clicked and it needs to switch the page
+            if (this.pageSwitchHandler != null)
+                this.pageSwitchHandler(this, switchArgs);
+        }
+
+        private void eventsButton_Click(object sender, RoutedEventArgs e)
+        {
+            //Makes a new SwitchEventArgs (class in solution) 
+            SwitchEventArgs switchArgs = new SwitchEventArgs();
+            switchArgs.Page = "popularEvent";
+
+            //if pageSwitchHandler exists, it sends a signal to Page_ButtonClick in MainWindow.xaml.cs that a button is clicked and it needs to switch the page
+            if (this.pageSwitchHandler != null)
+                this.pageSwitchHandler(this, switchArgs);
+        }
+
+        private void routesButton_Click(object sender, RoutedEventArgs e)
+        {
+            //Makes a new SwitchEventArgs (class in solution) 
+            SwitchEventArgs switchArgs = new SwitchEventArgs();
+            switchArgs.Page = "Routes";
 
             //if pageSwitchHandler exists, it sends a signal to Page_ButtonClick in MainWindow.xaml.cs that a button is clicked and it needs to switch the page
             if (this.pageSwitchHandler != null)

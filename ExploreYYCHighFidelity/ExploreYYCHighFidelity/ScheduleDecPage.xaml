@@ -1,0 +1,844 @@
+﻿<Page x:Class="ExploreYYCHighFidelity.ScheduleDecPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ExploreYYCHighFidelity"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ScheduleDecPage" Width="411" Height="731" Background="White">
+
+    <Grid x:Name="DecScheduleGrid">
+        <Rectangle Margin="0,-0.009,-1.667,667.509" Fill="Teal"/>
+        <TextBlock HorizontalAlignment="Center" Height="39.667" Margin="142.5,12.165,118.5,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="30" FontWeight="Bold" Foreground="White" Text="Schedule"/>
+        <TextBlock HorizontalAlignment="Left" Height="39.667" Margin="8.835,20.165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontWeight="Bold" Foreground="White" Text="&lt; Back" FontSize="18"/>
+        <Grid HorizontalAlignment="Left" Height="35.832" Margin="344.5,14.5,0,0" VerticalAlignment="Top" Width="44">
+            <Grid.Background>
+                <ImageBrush ImageSource="airplanewhite.png"/>
+            </Grid.Background>
+        </Grid>        <ScrollViewer x:Name="Timeslots" Height="490.333" VerticalAlignment="Center" VerticalScrollBarVisibility="Hidden" Margin="0,120,0,120.667" RenderTransformOrigin="0,0">
+            <ScrollViewer.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="60"/>
+                </TransformGroup>
+            </ScrollViewer.RenderTransform>
+            <Grid x:Name="TimeSlotsGrid" VerticalAlignment="Center" Height="654" Width="411">
+                <Rectangle x:Name="DecBlue1" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.041666666666667"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="DecBlue2" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.041666666666667"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="54.5"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="DecBlue3" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.041666666666667"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="109"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="DecBlue4" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.041666666666667"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="163.5"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="DecBlue5" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.041666666666667"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="218"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="DecBlue6" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.041666666666667"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="272.5"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="DecBlue7" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.041666666666667"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="327"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="DecBlue9" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0" Margin="0,1.333,0,33.461">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.042"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="436"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="DecBlue10" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.041666666666667"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="490.5"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="DecBlue11" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.041666666666667"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="545"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="DecBlue12" Fill="#FF82C4ED" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.041666666666667"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="599.5"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="DecBlue9_Copy" Fill="#FF199BEC" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0" Margin="-1.333,-83.334,-0.667,-977.11">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.042"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="436"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="DecTimeHighlight" Fill="#FFFFB054" Stroke="Black" StrokeThickness="0" Opacity="0.2" HorizontalAlignment="Left" Width="71"/>
+                <Rectangle x:Name="DecAvailableTime" Fill="#FFC0F988" Opacity="0.5" RenderTransformOrigin="0,0" StrokeThickness="2">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.041666666666667"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="DecBlue8_Copy" Fill="#FF2EFF00" Stroke="Black" RenderTransformOrigin="0,0" StrokeThickness="0" Margin="0.667,120.001,-0.667,-1076.954">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="0.042"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="381.5"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="12:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="2.5"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="1:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="29.75"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="2:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="57"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="3:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="84.25"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="4:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="111.5"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="5:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="138.75"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="6:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="166"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="7:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="193.25"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="8:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="220.5"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="9:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="247.75"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="10:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="275"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="11:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="302.25"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="12:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="329.5"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="1:00 PM   Zorro: Family Code" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5" Width="411">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="356.75"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="2:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="384"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="3:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="411.25"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="4:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="438.5"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="5:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="465.75"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="6:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="493"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="7:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="520.25"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="8:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="547.5"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="9:00 AM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="574.75"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="10:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="602"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="11:00 PM" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="629.25"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+            </Grid>
+        </ScrollViewer>
+        <ScrollViewer x:Name="DecDaysMonthScroller" Height="90" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Visible" Margin="0">
+            <ScrollViewer.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="90"/>
+                </TransformGroup>
+            </ScrollViewer.RenderTransform>
+            <Grid x:Name="DecDaysGrid" Width="1240">
+                <Rectangle x:Name="DaysOfMonthBG">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF82C4ED" Offset="0"/>
+                            <GradientStop Color="White" Offset="1"/>
+                            <GradientStop Color="#FF82C4ED" Offset="0.441"/>
+                            <GradientStop Color="White" Offset="0.605"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle x:Name="CurrentDay" HorizontalAlignment="Left" Width="40" Opacity="0.8" RenderTransformOrigin="0.5,0.5" Stroke="#FF5EB122" StrokeThickness="5" Fill="#FFC0F988">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="400"/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Grid x:Name="Day1" Width="40" HorizontalAlignment="Left">
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Sa"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="1" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day2" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="40"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="M"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="2" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day3" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="80"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Tu"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="3" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day4" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="120"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="W"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="4" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day5" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="160"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Th"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="5" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day6" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="200"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="F"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="6" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day7" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="240"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Su"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="7" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day8" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="280"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Sa"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="8" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day9" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="320"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="M"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="9" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day10" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="360"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Tu"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="10" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day11" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="400"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="W"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="11" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day12" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="440"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Th"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="12" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day13" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="480"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="F"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="13" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day14" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="520"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Su"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="14" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day15" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="560"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Sa"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="15" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day16" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="600"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="M"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="16" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day17" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="640"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Tu"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="17" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day18" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="680"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="W"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="18" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day19" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="720"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Th"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="19" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day20" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="760"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="F"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="20" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day21" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="800"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Su"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="21" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day22" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="840"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Sa"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="22" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day23" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="880"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Su"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="23" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day24" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="920"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="M"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="24" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day25" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="960"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Tu"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="25" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day26" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="1000"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="W"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="26" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day27" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="1040"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Th"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="27" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day28" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="1080"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="F"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="28" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day29" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="1120"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Sa"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="29" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day30" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="1160"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="Su"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="30" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+                <Grid x:Name="Day31" Width="40" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="1200"/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Text="M"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="31" Margin="0" FontSize="24" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                </Grid>
+
+            </Grid>
+        </ScrollViewer>
+        <Grid Width="411" Height="60" VerticalAlignment="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" x:Name="calendarButton" Click="calendarButton_Click">
+                <StackPanel HorizontalAlignment="Center">
+                    <Image Source="img/calendar_2.png" Height="40" Width="40" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Column="1" x:Name="homeButton" Click="homeButton_Click">
+                <StackPanel>
+                    <Image Source="img/house.png" Height="40" Width="40" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Column="2" x:Name="eventsButton" Click="eventsButton_Click">
+                <StackPanel HorizontalAlignment="Center">
+                    <Image Source="img/event.png" Height="40" Width="40" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Column="3" x:Name="routesButton" Click="routesButton_Click">
+                <StackPanel HorizontalAlignment="Center">
+                    <Image Source="img/Map.png" Height="40" Width="40" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+
+    </Grid>
+</Page>

@@ -78,7 +78,7 @@
         <Grid Height="731">
             <Grid.RowDefinitions>
                 <RowDefinition Height="628*"/>
-                <RowDefinition Height="100*"/>
+                <RowDefinition Height="60*"/>
             </Grid.RowDefinitions>
 
             <Grid Grid.Row="0" Margin="0,0,0,5">
@@ -88,7 +88,7 @@
                     <TextBlock Margin="10,5,0,5" FontSize="20" Foreground="Black" FontWeight="Bold" Text="The Nutcracker"/>
                     <TextBlock FontSize="10" Foreground="Black" Margin="10,0,0,0" Text="★★★★✰"/>
                     <TextBlock Margin="10,0,0,10" FontSize="14" TextDecorations="{x:Null}" Text="Event type - Paid"/>
-                    <ScrollViewer CanContentScroll="True" Height="444" VerticalScrollBarVisibility="Disabled">
+                    <ScrollViewer CanContentScroll="True" Height="484" VerticalScrollBarVisibility="Disabled">
                         <StackPanel>
                             <Border Width="354" BorderThickness="1" BorderBrush="Black" CornerRadius="2">
                                 <Border.Background>
@@ -174,25 +174,21 @@
 
                 <Button Grid.Column="0" x:Name="calendarButton" Click="calendarButton_Click">
                     <StackPanel HorizontalAlignment="Center">
-                        <Image Source="img/calendar_2.png" Height="60" Width="60" HorizontalAlignment="Center"/>
+                        <Image Source="img/calendar_2.png" Height="40" Width="40" HorizontalAlignment="Center"/>
                         <TextBlock Text="Schedule" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
                 <Button Grid.Column="1" x:Name="homeButton" Click="homeButton_Click">
                     <StackPanel>
-                        <Image Source="img/house.png" Height="60" Width="60" HorizontalAlignment="Center"/>
                         <TextBlock Text="Home" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
-                    </StackPanel>
-                </Button>
-                <Button Grid.Column="2" x:Name="eventsButton" Click="eventsButton_Click">
                     <StackPanel HorizontalAlignment="Center">
-                        <Image Source="img/event.png" Height="60" Width="60" HorizontalAlignment="Center"/>
+                        <Image Source="img/event.png" Height="40" Width="40" HorizontalAlignment="Center"/>
                         <TextBlock Text="Events" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
                 <Button Grid.Column="3" x:Name="routesButton" Click="routesButton_Click">
                     <StackPanel HorizontalAlignment="Center">
-                        <Image Source="img/Map.png" Height="60" Width="60" HorizontalAlignment="Center"/>
+                        <Image Source="img/Map.png" Height="40" Width="40" HorizontalAlignment="Center"/>
                         <TextBlock Text="Route Navigator" HorizontalAlignment="Center" FontSize="13" FontStyle="Italic"/>
                     </StackPanel>
                 </Button>
